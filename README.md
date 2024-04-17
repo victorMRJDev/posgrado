@@ -1,8 +1,7 @@
-# React + Vite
+# Frontend del sitio web de la maestría del ITCH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para descargar el proyecto ejecute: git clone https://github.com/victorMRJDev/posgrado.git
 
-Currently, two official plugins are available:
+Cuando se descargue el proyecto coloquese en la raiz del proyecto y ejecute para instalar las dependencias: npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para visualizar el proyecto en el navegador ejecute: npm run dev

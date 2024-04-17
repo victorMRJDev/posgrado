@@ -3,8 +3,8 @@
 Para descargar el proyecto ejecute:  
          ```git clone https://github.com/victorMRJDev/posgrado.git```
 
-Cuando se descargue el proyecto coloquese en la raiz del proyecto y ejecute para instalar las dependencias: 
+Cuando se descargue el proyecto coloquese en la raiz del proyecto y ejecute para instalar las dependencias:  
          ```npm install```
 
-Para visualizar el proyecto en el navegador ejecute: 
+Para visualizar el proyecto en el navegador ejecute:   
          ```npm run dev```

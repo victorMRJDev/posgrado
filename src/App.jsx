@@ -5,29 +5,19 @@ import './App.css'
 import NavbarM from './components/Navbar/Navbar'
 import Carousel from './components/Carrusel/Carrusel'
 import { Home } from './pages/Home/Home'
+import Objetivos from './pages/Objetivos/Objetivos'
+import PerfIngreso from './pages/Perfiles/PerfIngreso'
+import PerfilEgreso from './pages/Perfiles/PerfilEgreso'
+import { BrowserRouter } from 'react-router-dom'
+import AppRouter from './router/AppRouter'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-    <Home />
-    {/* <NavbarM />
-    <Carousel /> */}
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-    <div className='h-80'></div>
-
-
-    </>
+   <BrowserRouter>
+    <AppRouter />
+   </BrowserRouter>
   )
 }
 

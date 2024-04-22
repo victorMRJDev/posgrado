@@ -37,19 +37,19 @@ function NavbarM() {
             </div>
             <div className="bg-blue-950 flex h-11"></div> 
 
-            <header className="sticky overflow-hidden top-0 z-20 flex justify-between items-center">
+            <header className="sticky overflow-hidden top-0 z-20 flex justify-between items-center shadow-2xl">
                 <nav>
-                    <div className="w-screen bg-white">
+                    <div className="w-screen bg-white shadow-2xl">
                         <div className="flex mx-auto justify-center shadow-2xl">
                             {/* Primary menu and logo */}
                             <div className="flex items-center gap-16 my-4">
                                 {/* primary */}
                                 <div className="hidden lg:flex gap-8 content-center">
-                                    <a href="#" className="text-blue-950 text-2xl">
+                                    <a href="/" className="text-blue-950 text-2xl">
                                         Inicio
                                     </a>
-                                    <a href="#" className="text-blue-950 text-2xl text-center">Objetivos</a>
-                                    <a href="#" className="text-blue-950 text-2xl">Perfiles</a>
+                                    <a href="/objetivos" className="text-blue-950 text-2xl text-center">Objetivos</a>
+                                    <a href="/perfiles" className="text-blue-950 text-2xl">Perfiles</a>
                                     <a href="#" className="text-blue-950 text-2xl">Estudiantes</a>
                                     <a href="#" className="text-blue-950 text-2xl">NAB</a>
                                     <a href="#" className="text-blue-950 text-2xl">Plan de Estudios</a>
@@ -87,9 +87,9 @@ function NavbarM() {
                     >
                     <div className="px-8">
                         <div className="flex flex-col items-center gap-8 font-bold tracking-wider">
-                            <a href="#" className="text-blue-950 text-2xl"> Inicio</a>
-                            <a href="#" className="text-blue-950 text-2xl text-center">Objetivos</a>
-                            <a href="#" className="text-blue-950 text-2xl">Perfiles</a>
+                            <a href="/" className="text-blue-950 text-2xl"> Inicio</a>
+                            <a href="/objetivos" className="text-blue-950 text-2xl text-center">Objetivos</a>
+                            <a href="/perfiles" className="text-blue-950 text-2xl">Perfiles</a>
                             <a href="#" className="text-blue-950 text-2xl">Estudiantes</a>
                             <a href="#" className="text-blue-950 text-2xl">NAB</a>
                             <a href="#" className="text-blue-950 text-2xl">Plan de Estudios</a>

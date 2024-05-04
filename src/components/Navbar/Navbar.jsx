@@ -17,7 +17,7 @@ function NavbarM() {
     return (
         <>
          {/* <div className="sticky top-0 z-20"> */}
-            <div className="bg-white flex justify-between gap-20 items-center max-sm:hidden sm:hidden md:hidden lg:flex">
+            <div className="bg-white flex justify-between gap-40 items-center max-sm:hidden sm:hidden md:hidden lg:flex">
                 <img
                     className="h-28 w-28"
                     src={logo_itch}
@@ -50,12 +50,12 @@ function NavbarM() {
                                     </a>
                                     <a href="/objetivos" className="text-blue-950 text-2xl text-center">Objetivos</a>
                                     <a href="/perfiles" className="text-blue-950 text-2xl">Perfiles</a>
-                                    <a href="/estudiantes" className="text-blue-950 text-2xl">Estudiantes</a>
-                                    <a href="/nab" className="text-blue-950 text-2xl">NAB</a>
-                                    <a href="/planesestudios" className="text-blue-950 text-2xl">Plan de Estudios</a>
-                                    <a href="/convocatorias" className="text-blue-950 text-2xl">Convocatorias</a>
-                                    <a href="/vinculacion" className="text-blue-950 text-2xl">Vinculación</a>
-                                    <a href="/lgac" className="text-blue-950 text-2xl">LGAC</a>
+                                    <a href="#" className="text-blue-950 text-2xl">Estudiantes</a>
+                                    <a href="#" className="text-blue-950 text-2xl">NAB</a>
+                                    <a href="#" className="text-blue-950 text-2xl">Plan de Estudios</a>
+                                    <a href="#" className="text-blue-950 text-2xl">Convocatorias</a>
+                                    <a href="#" className="text-blue-950 text-2xl">Vinculación</a>
+                                    <a href="#" className="text-blue-950 text-2xl">LGAC</a>
                                 </div>
                             </div>
                             {/* secondary */}
@@ -90,12 +90,12 @@ function NavbarM() {
                             <a href="/" className="text-blue-950 text-2xl"> Inicio</a>
                             <a href="/objetivos" className="text-blue-950 text-2xl text-center">Objetivos</a>
                             <a href="/perfiles" className="text-blue-950 text-2xl">Perfiles</a>
-                            <a href="/estudiantes" className="text-blue-950 text-2xl">Estudiantes</a>
-                            <a href="/nab" className="text-blue-950 text-2xl">NAB</a>
-                            <a href="/planesestudios" className="text-blue-950 text-2xl">Plan de Estudios</a>
-                            <a href="/convocatorias" className="text-blue-950 text-2xl">Convocatorias</a>
-                            <a href="/vinculacion" className="text-blue-950 text-2xl">Vinculación</a>
-                            <a href="/lgac" className="text-blue-950 text-2xl">LGAC</a>
+                            <a href="#" className="text-blue-950 text-2xl">Estudiantes</a>
+                            <a href="#" className="text-blue-950 text-2xl">NAB</a>
+                            <a href="#" className="text-blue-950 text-2xl">Plan de Estudios</a>
+                            <a href="#" className="text-blue-950 text-2xl">Convocatorias</a>
+                            <a href="#" className="text-blue-950 text-2xl">Vinculación</a>
+                            <a href="#" className="text-blue-950 text-2xl">LGAC</a>
                         </div>
                     </div>
                     </div>

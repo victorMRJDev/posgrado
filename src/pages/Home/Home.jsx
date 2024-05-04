@@ -9,7 +9,6 @@ import { IoLogoYoutube } from "react-icons/io5";
 import ButtonBlue from '../../components/Buttons/ButtonBlue'
 import separador from '../../assets/separador.svg'
 
-
 export const Home = () => {
   return (
     <>
@@ -82,11 +81,12 @@ export const Home = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-row max-sm:flex-col max-sm:gap-9 sm:flex-col sm:gap-9 md:flex-col lg:flex-row justify-center items-center rounded-2xl mt-14'>
+        <div className='flex flex-row max-sm:flex-col max-sm:gap-9 mb-16 sm:flex-col sm:gap-9 md:flex-col lg:flex-row justify-center items-center rounded-2xl mt-14'>
             
             <CardSocial 
             key={1}
             image={instagramPhoto}
+            // title={''}
             texto={'Instagram'}
             icon={<FaInstagram size={30} color='black'/>}
             />
@@ -94,12 +94,14 @@ export const Home = () => {
             <CardSocial
             key={2}
             image={instagramPhoto}
+            // title={''}
             texto={'Facebook'}
             icon={<FaFacebook size={30} color='blue'/>}
             />
             <CardSocial
             key={3}
             image={instagramPhoto}
+            // title={''}
             texto={'Youtube'}
             icon={<IoLogoYoutube size={30} color='red'/>}
             />

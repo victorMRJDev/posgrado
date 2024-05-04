@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CardSocial = ({image,texto,icon}) => {
+const CardSocial = ({image,title,texto,icon}) => {
   return (
    <>
    <div 
@@ -11,6 +11,9 @@ const CardSocial = ({image,texto,icon}) => {
             alt="service"
             className="h-3/3 w-60 rounded-2xl"
           />
+        </div>
+        <div>
+          <h1 className='font-sans text-3xl text-black'>{title}</h1>
         </div>
 
         <div className="flex h-1/3 justify-center items-center">

@@ -9,6 +9,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 import ButtonBlue from '../../components/Buttons/ButtonBlue'
 import separador from '../../assets/separador.svg'
 
+
 export const Home = () => {
   return (
     <>

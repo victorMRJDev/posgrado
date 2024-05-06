@@ -37,6 +37,8 @@ const AccordionNab = ({ title, list }) => {
            <CardNab 
              key={index}
              image={item.image}
+             name={item.name}
+             puesto={item.puesto}
              text={item.semblanza}
            />
          ))

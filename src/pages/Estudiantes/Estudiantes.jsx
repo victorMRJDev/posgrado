@@ -43,8 +43,8 @@ const lisTerceraGeneracion = [
     id: 1,
     lineaUno: [
       "1. Denisse Peralta Rojo",
-      "2. Diana Dolores Vázquez Martínez",
-      "3. Isaid Uriel Basilios Segovia",
+      "2. Isaid Uriel Basilios Segovia",
+      "3. Diana Dolores Vázquez Martínez",
       "4. Daniela Aurora Morales López",
       "5. Brandon Aldahir Jacobo Salinas",
       "6. José Antonio Hernández Salinas",

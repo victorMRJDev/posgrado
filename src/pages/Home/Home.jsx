@@ -48,9 +48,9 @@ export const Home = () => {
             </div>
             <div className="flex flex-col py-2 px-10 justify-center">
               <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
-                La Maestría en Métodos Estadísticos Aplicados es un programa de
-                nueva creación, con orientación profesional incorporado al
-                Sistema Nacional de Posgrados (SNP) del CONACYT.
+                La Maestría en Ciencias de la Ingeniería es un programa de nueva
+                creación, con orientación profesional incorporado al Sistema
+                Nacional de Posgrados (SNP) del CONACYT.
               </p>
               <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
                 Nuestro programa educativo pretende cubrir la necesidad de la

@@ -10,19 +10,43 @@ import imagePG from '../../assets/Carrusel/image.JPG'
 
 const Estudiantes = () => {
     const listPrimeraGeneracion = [
-        "Victor","Liz","Dominic"
+       {
+        id:1,
+        title: 'LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable',
+        lineaUno: ["1. Lizbeth Gómez Muñoz","2. Eumir Esteban Salgado Lampart","3. José Filiberto Maldonado Catalán"],
+        lineaDos: ["4. María Isabel Ramírez Arcos", "5. Bryan Abisaí Nava Ramírez","6. Nestor Uriel Solache Castro"]
+       }
+     
     ]
 
     const listSegundaGeneracion = [
-        "Persona 1",
-        "Persona 2",
-        "Persona 3"
+       {
+        id:1,
+        lineaUno:["1. Dominic Brian Román Padilla", "2. Víctor Manuel Romero Juárez", "3. Arturo Cisneros Mayoral"],
+        lineaDos:["4. Carlos Gilberto Jiménez Saldaña","5. Marbens Santos Arrieta"]
+       }
     ]
 
     const lisTerceraGeneracion = [
-        "Persona",
-        "Persona",
-        "Persona"
+     {
+      id:1,
+      lineaUno:["1. Denisse Peralta Rojo",
+      "2. Diana Dolores Vázquez Martínez",
+      "3. Isaid Uriel Basilios Segovia",
+      "4. Daniela Aurora Morales López",
+      "5. Brandon Aldahir Jacobo Salinas",
+      "6. José Antonio Hernández Salinas",
+      "7. José Antonio Carranza Martínez",
+      "8. Mario Alberto Duque Peralta",
+      "9. Lisandro Omar Santos Arrieta"
+    ],
+      lineaDos:[
+        "1. José Antonio Rendón Vargas",
+        "2. Imanol Marianito Cuahuitic",
+        "3. Sergio Fernando Franco Salmerón",
+        "4. Williams Reyna Pérez",
+      ]
+     }
     ]
     return (
     <>
@@ -34,7 +58,6 @@ const Estudiantes = () => {
                 <Accordion
                   image={imagePG}
                   title="Primera Generación"
-                  answer="I like to use iOS products"
                   list={listPrimeraGeneracion}
                 />
                 <Accordion

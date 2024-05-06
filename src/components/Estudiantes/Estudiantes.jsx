@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Accordion = ({ title, answer, list, image }) => {
+const Accordion = ({ title, list, image }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
@@ -32,15 +32,27 @@ const Accordion = ({ title, answer, list, image }) => {
           accordionOpen ? "h-auto" : "h-0"
         }`}
       >
-        <div className="grid text-sm border-t-0 border-b-2 border-x-2 border-blue-950 text-slate-600">
-          <div className="flex items-center justify-center w-2/3 mt-2 ml-auto mr-auto ">
+        <div className="grid text-sm border-t-0 border-b-2  border-x-2 border-blue-950 text-slate-600">
+          <div className="flex items-center justify-center w-2/3 mb-4 mt-2 ml-auto mr-auto ">
               <img src={image} alt="" className="flex rounded-xl"/>
           </div>
-          {list.map((item, index) => (
-            <div key={index} className="ml-8 mr-8 overflow-hidden">
-              {item}
-            </div>
-          ))}
+          {list && list.map((item, index) => (
+        <div key={index} className="ml-8 mr-8 overflow-hidden">
+            {/* <h2>{item.title}</h2> */}
+            <h3 className="text-3xl font-mono mb-4">LGAC1: Nuevas Tecnologías para el Desarrollo Sustentable</h3>
+            <ul>
+              {item.lineaUno.map((estudiante, i) => (
+                <p className="text-2xl font-mono ml-8" key={i}>{estudiante}</p>
+              ))}
+            </ul>
+          <h3 className="text-3xl font-mono mb-2 mt-4">LGAC2: Investigación, Desarrollo y Aplicaciones de Tecnologías Inteligentes</h3>
+            <p className="text-2xl font-mono">
+              {item.lineaDos.map((estudiante, i) => (
+                <p className="ml-8" key={i}>{estudiante}</p>
+              ))}
+            </p>
+          </div>
+        ))}
         </div>
       </div>
     </div>

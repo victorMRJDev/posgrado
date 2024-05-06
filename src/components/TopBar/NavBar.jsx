@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom"; // Importa Link desde react-router-dom
+import { Link, useLocation } from "react-router-dom";
 
 const NavBar = () => {
   const location = useLocation();
@@ -11,7 +11,7 @@ const NavBar = () => {
     { title: "Perfiles", to: "/perfiles" },
     { title: "Estudiantes", to: "/estudiantes" },
     { title: "Núcleo Academico", to: "/nucleoacademico" },
-    { title: "LGAC", to: "/lgac" },
+    //{ title: "LGAC", to: "/lgac" },
     { title: "Plan de Estudios", to: "/planesestudios" },
     { title: "Convocatorias", to: "/convocatorias" },
     //{ title: "Vinculación", to: "/vinculacion" },
@@ -29,9 +29,9 @@ const NavBar = () => {
                   <Link
                     key={index}
                     to={item.to}
-                    className={`hover:text-blue-700 text-2xl hover:underline hover:shadow-sm transition-all duration-300 px-2 ${
+                    className={`hover:text-blue-700 text-2xl hover:shadow-sm transition-all duration-300 px-2 ${
                       currentPath === item.to
-                        ? "text-orange-900 font-semibold"
+                        ? "text-blue-900 font-semibold"
                         : "text-blue-900"
                     }`}
                   >

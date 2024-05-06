@@ -19,10 +19,6 @@ function NavbarM() {
          {/* <div className="sticky top-0 z-20"> */}
             <div className="bg-white flex justify-between gap-20 items-center max-sm:hidden sm:hidden md:hidden lg:flex">
                 <img
-                    className="h-28 w-28"
-                    src={logo_itch}
-                />
-                <img
                     className="h-28 w-auto "
                     src={logo_sep_rojo}
                 />
@@ -30,6 +26,11 @@ function NavbarM() {
                     className="h-28 w-auto "
                     src={logo_azul_tecnm}
                 />
+                <img
+                    className="h-28 w-28"
+                    src={logo_itch}
+                />                
+                
                 <img
                     className="h-28 w-auto "
                     src={logo_MCI}

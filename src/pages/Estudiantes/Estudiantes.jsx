@@ -2,84 +2,79 @@ import React from 'react'
 import NavbarM from '../../components/Navbar/Navbar'
 import separador from '../../assets/separador.svg'
 import ButtonBlue from '../../components/Buttons/ButtonBlue'
+import  Accordion  from '../../components/Estudiantes/Estudiantes'
 import { Link } from 'react-router-dom'
+
+import imagePG from '../../assets/Carrusel/image.JPG'
 
 
 const Estudiantes = () => {
-  return (
+    const listPrimeraGeneracion = [
+        "Victor","Liz","Dominic"
+    ]
+
+    const listSegundaGeneracion = [
+        "Persona 1",
+        "Persona 2",
+        "Persona 3"
+    ]
+
+    const lisTerceraGeneracion = [
+        "Persona",
+        "Persona",
+        "Persona"
+    ]
+    return (
     <>
        <NavbarM />
-    <div className='flex flex-row m-9 gap-10'>
+    <div className='flex flex-row gap-10 m-9'>
         
-            <div className='w-2/3 h-auto py-6 shadow-xl mb-4'>
-            <div className='flex justify-end'>
+            <div className='w-2/3 h-auto py-6 mb-4 border-red-700 shadow-xl '>
+            <div className="p-4 bg-white rounded-lg">
+                <Accordion
+                  image={imagePG}
+                  title="Primera Generación"
+                  answer="I like to use iOS products"
+                  list={listPrimeraGeneracion}
+                />
+                <Accordion
+                  image={imagePG}
+                  title="Segunda Generación"
+                  answer="I like to use Tailwind"
+                  list={listSegundaGeneracion}
+                />
+                <Accordion 
+                image={imagePG}
+                title="Tercera Generación" 
+                answer="I am using Supabase!"
+                list={lisTerceraGeneracion}
+                />
             </div>
-                <div className='flex flex-col py-6 px-10 justify-center items-center'>
-                <h1 className='text-6xl text-black font-sans font-semibold'>Primera generación:</h1>
-                </div>
-                <div className='w-3/3'>
-                    <img
-                    className='w-full'
-                    src={separador} 
-                    />
-                </div>
-                <div className='flex flex-col py-6 px-10 justify-center'>
-                    <p className='text-2xl text-justify font-sans font-normal mt-9 text-black'>
-                        Aquí va una foto.
-                    </p>
-                </div>
-                <div className='flex flex-col py-6 px-10 justify-center items-center'>
-                <h1 className='text-6xl text-black font-sans font-semibold'>Segunda generación::</h1>
-                </div>
-                <div className='w-3/3'>
-                    <img
-                    className='w-full'
-                    src={separador} 
-                    />
-                </div>
-                
-                <p className='text-2xl text-justify font-sans font-normal mt-9 text-black px-8'>
-                        Aquí va una foto.
-                </p>
-                
-                <div className='flex flex-col py-6 px-10 justify-center items-center'>
-                <h1 className='text-6xl text-black font-sans font-semibold'>Tercera generación:</h1>
-                </div>
-                <div className='w-3/3'>
-                    <img
-                    className='w-full'
-                    src={separador} 
-                    />
-                </div>
-                                
-                <p className='text-2xl text-justify font-sans font-normal mt-9 text-black px-8'>
-                        Aquí va una foto.
-                </p>
             </div>
 
             <div className='flex flex-col w-1/3 bg-white '>
-                <div className='flex w-3/3 m-4 h-auto bg-white rounded-lg flex-col justify-center items-center border-4 border-blue-950'>
-                    <h1 className='text-4xl text-black font-sans font-semibold mb-6 mt-6'>Repositorio</h1>
+                <div className='flex flex-col items-center justify-center h-auto m-4 bg-white border-4 rounded-lg w-3/3 border-blue-950'>
+                    <h1 className='mt-6 mb-6 font-sans text-4xl font-semibold text-black'>Repositorio</h1>
                     <ButtonBlue 
                     text='Repositorio institucional' 
                     className={"flex md:w-60 max-w-sm mb-6"} />
                
                 </div>
-                <div className='flex w-3/3 m-4 h-2/3 overflow-y-auto bg-white rounded-lg flex-col justify-center items-center border-4 border-blue-950'>
-                  <div className='flex sticky top-0 z-20 mb-6 mt-6 bg-white w-full justify-center items-center '>
-                    <h1 className=' text-4xl text-black font-sans font-semibold mb-6 mt-6'>Eventos</h1>
+                <div className='flex flex-col items-center justify-center m-4 overflow-y-auto bg-white border-4 rounded-lg w-3/3 h-2/3 border-blue-950'>
+                  <div className='sticky top-0 z-20 flex items-center justify-center w-full mt-6 mb-6 bg-white '>
+                    <h1 className='mt-6 mb-6 font-sans text-4xl font-semibold text-black '>Eventos</h1>
                   </div>                
-                    <div className='flex cursor-pointer w-2/3 m-4 h-28 bg-white rounded-lg flex-col justify-center items-center border-4 border-blue-950'>
-                       <h1 className='text-4xl h-28 text-black font-sans font-semibold mb-6 mt-6'>Evento 1</h1>               
+                    <div className='flex flex-col items-center justify-center w-2/3 m-4 bg-white border-4 rounded-lg cursor-pointer h-28 border-blue-950'>
+                       <h1 className='mt-6 mb-6 font-sans text-4xl font-semibold text-black h-28'>Evento 1</h1>               
                     </div>
-                    <div className='flex cursor-pointer w-2/3 m-4 h-28 bg-white rounded-lg flex-col justify-center items-center border-4 border-blue-950'>
-                       <h1 className='text-4xl h-28 text-black font-sans font-semibold mb-6 mt-6'>Evento 1</h1>               
+                    <div className='flex flex-col items-center justify-center w-2/3 m-4 bg-white border-4 rounded-lg cursor-pointer h-28 border-blue-950'>
+                       <h1 className='mt-6 mb-6 font-sans text-4xl font-semibold text-black h-28'>Evento 1</h1>               
                     </div>
-                    <div className='flex cursor-pointer w-2/3 m-4 h-28 bg-white rounded-lg flex-col justify-center items-center border-4 border-blue-950'>
-                       <h1 className='text-4xl h-28 text-black font-sans font-semibold mb-6 mt-6'>Evento 1</h1>               
+                    <div className='flex flex-col items-center justify-center w-2/3 m-4 bg-white border-4 rounded-lg cursor-pointer h-28 border-blue-950'>
+                       <h1 className='mt-6 mb-6 font-sans text-4xl font-semibold text-black h-28'>Evento 1</h1>               
                     </div>
-                    <div className='flex cursor-pointer w-2/3 m-4 h-28 bg-white rounded-lg flex-col justify-center items-center border-4 border-blue-950'>
-                       <h1 className='text-4xl h-28 text-black font-sans font-semibold mb-6 mt-6'>Evento 1</h1>               
+                    <div className='flex flex-col items-center justify-center w-2/3 m-4 bg-white border-4 rounded-lg cursor-pointer h-28 border-blue-950'>
+                       <h1 className='mt-6 mb-6 font-sans text-4xl font-semibold text-black h-28'>Evento 1</h1>               
                     </div>
                 </div>
             </div>

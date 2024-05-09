@@ -3,58 +3,24 @@ import NavbarM from '../../components/Navbar/Navbar'
 import separador from '../../assets/separador.svg'
 import ButtonBlue from '../../components/Buttons/ButtonBlue'
 import { Link } from 'react-router-dom'
-
+import { Document, Page } from '@react-pdf/renderer';
+import convocatoria from '../../assets/convocatoria/convocatoria AGO-DIC 2024 mci.pdf'
 
 const Estudiantes = () => {
+
+    const pdfURL = convocatoria;
   return (
     <>
        <NavbarM />
     <div className='flex flex-row m-9 gap-10'>
         
             <div className='w-2/3 h-auto py-6 shadow-xl mb-4'>
-            <div className='flex justify-end'>
+            <div>
+                <iframe src='../../assets/convocatoria/convocatoria AGO-DIC 2024 mci.pdf' width="100%" height="500px" />
+                {/* <Document file={pdfURL}>
+                    <Page pageNumber={1} />
+                </Document> */}
             </div>
-                <div className='flex flex-col py-6 px-10 justify-center items-center'>
-                <h1 className='text-6xl text-black font-sans font-semibold'>Primera generación:</h1>
-                </div>
-                <div className='w-3/3'>
-                    <img
-                    className='w-full'
-                    src={separador} 
-                    />
-                </div>
-                <div className='flex flex-col py-6 px-10 justify-center'>
-                    <p className='text-2xl text-justify font-sans font-normal mt-9 text-black'>
-                        Aquí va una foto.
-                    </p>
-                </div>
-                <div className='flex flex-col py-6 px-10 justify-center items-center'>
-                <h1 className='text-6xl text-black font-sans font-semibold'>Segunda generación::</h1>
-                </div>
-                <div className='w-3/3'>
-                    <img
-                    className='w-full'
-                    src={separador} 
-                    />
-                </div>
-                
-                <p className='text-2xl text-justify font-sans font-normal mt-9 text-black px-8'>
-                        Aquí va una foto.
-                </p>
-                
-                <div className='flex flex-col py-6 px-10 justify-center items-center'>
-                <h1 className='text-6xl text-black font-sans font-semibold'>Tercera generación:</h1>
-                </div>
-                <div className='w-3/3'>
-                    <img
-                    className='w-full'
-                    src={separador} 
-                    />
-                </div>
-                                
-                <p className='text-2xl text-justify font-sans font-normal mt-9 text-black px-8'>
-                        Aquí va una foto.
-                </p>
             </div>
 
             <div className='flex flex-col w-1/3 bg-white '>

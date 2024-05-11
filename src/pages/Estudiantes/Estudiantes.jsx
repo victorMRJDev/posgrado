@@ -3,13 +3,12 @@ import TopBar from "../../components/TopBar/TopBar";
 import Footer from "../../components/Footer/Footer";
 import PanelLateral from "../../components/PanelLateral/PanelLateral";
 import separador from "../../assets/separador.svg";
-import Accordion from "../../components/Accordion/Accordion";
+import EstudiantesAccordion from "../../components/Estudiantes/EstudiantesAccordion";
 import imagePG from "../../assets/Carrusel/1.jpg";
 
 const listPrimeraGeneracion = [
   {
     id: 1,
-    title: "LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable",
     lineaUno: [
       "1. Lizbeth Gómez Muñoz",
       "2. Eumir Esteban Salgado Lampart",
@@ -25,7 +24,7 @@ const listPrimeraGeneracion = [
 
 const listSegundaGeneracion = [
   {
-    id: 1,
+    id: 2,
     lineaUno: [
       "1. Dominic Brian Román Padilla",
       "2. Víctor Manuel Romero Juárez",
@@ -40,7 +39,7 @@ const listSegundaGeneracion = [
 
 const lisTerceraGeneracion = [
   {
-    id: 1,
+    id: 3,
     lineaUno: [
       "1. Denisse Peralta Rojo",
       "2. Isaid Uriel Basilios Segovia",
@@ -67,17 +66,17 @@ const Estudiantes = () => {
       <TopBar />
       <div className="flex flex-row m-9 gap-10">
         <div className="w-2/3 h-auto py-6 shadow-xl mb-4">
-          <Accordion
+          <EstudiantesAccordion
             image={imagePG}
             title="Primera Generación"
             list={listPrimeraGeneracion}
           />
-          <Accordion
+          <EstudiantesAccordion
             image={imagePG}
             title="Segunda Generación"
             list={listSegundaGeneracion}
           />
-          <Accordion
+          <EstudiantesAccordion
             image={imagePG}
             title="Tercera Generación"
             list={lisTerceraGeneracion}

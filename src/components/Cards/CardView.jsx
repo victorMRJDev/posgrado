@@ -27,7 +27,7 @@ const CardView = ({ image, name, semblanza }) => {
         <img src={image} alt={name} className="w-full h-auto rounded-lg mb-2" />
         <p
           className={`text-lg font-semibold text-center select-none 
-          ${semblanza ? "text-blue-900" : "text-gray-900"}`}
+          ${semblanza ? "text-blue-900" : "text-black"}`}
         >
           {name}
         </p>

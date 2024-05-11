@@ -50,26 +50,38 @@ export const Home = () => {
               <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
                 La Maestría en Ciencias de la Ingeniería es un programa de nueva
                 creación, con orientación profesional incorporado al Sistema
-                Nacional de Posgrados (SNP) del CONACYT.
+                Nacional de Posgrados (SNP) del CONACYT. Nuestro programa
+                educativo tiene como objetivo principal abordar la creciente
+                necesidad de formación de recursos humanos en el ámbito de las
+                Ciencias de la Ingeniería. En numerosas regiones del país, así
+                como en nuestra entidad, existe una demanda considerable de
+                profesionales que puedan aplicar técnicas ingenieriles
+                apropiadas para analizar, procesar y sintetizar datos. Estos
+                expertos deben generar resultados que no solo posean validez
+                científica, sino también un valor práctico significativo. Al
+                contribuir de esta manera, buscamos facilitar la resolución de
+                diversos desafíos presentes en los sectores productivos, de
+                servicios, gubernamentales y sociales.
               </p>
               <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
-                Nuestro programa educativo pretende cubrir la necesidad de la
-                formación de recursos humanos en el área de Estadística. En la
-                entidad y en muchas zonas del país hay una fuerte necesidad de
-                profesionales que sean capaces de aplicar técnicas estadísticas
-                apropiadas que procesen, analicen y resuman información, que
-                aporten resultados con validez científica y valor práctico
-                apropiados. Contribuyendo con ello a la búsqueda de soluciones a
-                los problemas en los distintos ámbitos de los sectores
-                productivos, de servicios, gobierno y de la sociedad. Los
-                estudiantes podrían ser beneficiados por beca CONACYT a
-                propuesta del comité de evaluación y aprobación del CONACYT, los
-                estudiantes que se les otorgue beca se dedicarán de tiempo
-                completo, además los becarios se comprometen formalmente a
-                dedicarse exclusivamente a la Maestría, a aprobar todas las
-                materias y cubrir los créditos del plan de estudios en el tiempo
-                establecido para ello, y a graduarse al término de la vigencia
-                de la beca de acuerdo al reglamento de becas del CONACYT (
+                La Maestría en Ciencias de la Ingeniería se enfoca en capacitar
+                a sus estudiantes para que sean capaces de enfrentar los retos y
+                demandas cambiantes del mundo moderno. A través de un riguroso
+                plan de estudios, los participantes adquieren habilidades y
+                conocimientos fundamentales para aplicar en la práctica
+                ingenieril, así como para realizar investigaciones que impulsen
+                la innovación y el desarrollo en sus respectivas áreas de
+                especialización.
+              </p>
+              <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
+                Además, para fomentar el compromiso y el rendimiento académico,
+                ofrecemos la posibilidad de acceder a becas CONACYT, sujetas a
+                la aprobación del comité correspondiente. Aquellos estudiantes
+                que resulten beneficiarios de estas becas se comprometen a
+                dedicarse de manera exclusiva a su formación académica, a
+                cumplir con todas las asignaturas y créditos del programa en el
+                tiempo estipulado, y a graduarse al concluir el período de la
+                beca, de acuerdo con las normativas establecidas por CONACYT. (
                 <a
                   href="https://conahcyt.mx/"
                   target="_blank"

@@ -1,4 +1,3 @@
-// CardsGrid.js
 import React from "react";
 import CardView from "./CardView";
 
@@ -10,7 +9,7 @@ const CardsGrid = ({ data }) => {
           key={index}
           image={item.image}
           name={item.name}
-          details={item.details}
+          semblanza={item.semblanza}
         />
       ))}
     </div>

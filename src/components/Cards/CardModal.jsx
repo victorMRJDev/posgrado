@@ -40,10 +40,10 @@ const CardModal = ({ image, name, semblanza, closeModal }) => {
         </div>
 
         <div className="ml-7 mr-2 w-full">
-          <p className="text-xl font-sans font-semibold text-black text-center m-3">
+          <p className="text-2xl font-sans font-semibold text-black text-center m-3">
             {name}
           </p>
-          <p className="text-m text-gray-600 h-4/5 overflow-auto whitespace-pre-wrap text-justify pr-4">
+          <p className="text-base text-gray-600 h-4/5 overflow-auto whitespace-pre-wrap text-justify pr-4">
             {semblanza}
           </p>
         </div>

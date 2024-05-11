@@ -50,12 +50,6 @@ const Estudios = ({ title, text, list, image }) => {
               </ul>
             </div>
           ))}
-          {/* <div className="w-full h-2">
-          <img
-            className='w-full h-2'
-            src={separador} 
-            /> 
-          </div> */}
           {list.map((item, index) => (
             <div key={index} className="bg-blue-950 mt-4 overflow-hidden">
               <p className="text-2xl ml-8 font-mono font-medium text-white my-1">

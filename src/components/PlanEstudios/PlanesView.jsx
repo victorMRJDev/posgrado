@@ -8,7 +8,7 @@ const Estudios = ({ title, text, list, image }) => {
     <div className="py-2 px-10">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between w-full py-2 border-2 rounded-lg border-blue-950 hover:bg-blue-50 "
+        className="flex justify-between w-full py-2 border-2 rounded-lg border-blue-950 hover:bg-blue-50"
       >
         <span className="ml-4 font-sans text-2xl text-black">{title}</span>
         <svg
@@ -32,7 +32,7 @@ const Estudios = ({ title, text, list, image }) => {
           accordionOpen ? "h-auto" : "h-0"
         }`}
       >
-        <div className="grid text-sm border-t-0 border-b-2 border-x-2  border-blue-950 text-slate-600">
+        <div className="grid text-sm border-t-0 border-b-2 border-x-2 border-blue-950 text-slate-600">
           <div className="flex items-center justify-center w-2/3 mt-2 ml-auto mr-auto ">
             <img src={image} alt="" className="flex rounded-xl" />
           </div>
@@ -41,7 +41,7 @@ const Estudios = ({ title, text, list, image }) => {
               <ul>
                 {item.materias.map((materia, i) => (
                   <p
-                    className="text-2xl font-mono mt-2 mb-1 font-medium text-black"
+                    className="text-2xl font-mono mt-2 mb-1 font-medium text-black hover:bg-blue-50"
                     key={i}
                   >
                     {materia}

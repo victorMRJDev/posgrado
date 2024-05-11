@@ -50,16 +50,16 @@ const asignaturasOptativas = [
     id: 1,
     title: "LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable",
     materias: [
-      "1. Estrategias para la competitividad (No. 22)",
-      "2. Análisis y Diseño de Producto (No.47)",
-      "3. Manejo y disposición de residuos sólidos (No. 93)",
-      "4. Tecnologías para la gestión del conocimiento (No. 110)",
-      "5. Certificación para la sustentabilidad (No. 114)",
-      "6. Tecnologías adecuadas social y ecológicamente (No. 120)",
-      "7. Evaluación del impacto ambiental (No. 121)",
-      "8. Temas Selectos I (No. 143)",
-      "9. Temas Selectos II (No. 144)",
-      "10. Temas Selectos III (No. 145)",
+      "Estrategias para la competitividad",
+      "Análisis y Diseño de Producto",
+      "Manejo y disposición de residuos sólidos",
+      "Tecnologías para la gestión del conocimiento",
+      "Certificación para la sustentabilidad",
+      "Tecnologías adecuadas social y ecológicamente",
+      "Evaluación del impacto ambiental",
+      "Temas Selectos I",
+      "Temas Selectos II",
+      "Temas Selectos III",
     ],
   },
 ];
@@ -68,17 +68,17 @@ const asignaturasLineaDOs = [
     id: 1,
     title: "LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable",
     materias: [
-      "1. Minería de datos (No. 11)",
-      "2. Control inteligente (No. 41)",
-      "3. Inteligencia artificial (No. 43)",
-      "4. Sistemas de automatización (No. 53)",
-      "5. Sistemas inteligentes distribuidos (No. 76)",
-      "6. Visión artificial (No. 127)",
-      "7. Reconocimiento de patrones (No. 129)",
-      "8. Robótica y Automatización (No. 130)",
-      "9. Temas Selectos I (No. 143)",
-      "10. Temas Selectos II (No. 144)",
-      "11. Temas Selectos III (No. 145)",
+      "Minería de datos",
+      "Control inteligente",
+      "Inteligencia artificial",
+      "Sistemas de automatización",
+      "Sistemas inteligentes distribuidos",
+      "Visión artificial",
+      "Reconocimiento de patrones",
+      "Robótica y Automatización",
+      "Temas Selectos I",
+      "Temas Selectos II",
+      "Temas Selectos III",
     ],
   },
 ];
@@ -133,6 +133,15 @@ const Estudiantes = () => {
             <h1 className="text-4xl text-black font-sans font-semibold">
               Asignaturas Optativas
             </h1>
+          </div>
+          <div className="flex flex-col py-2 px-10 justify-center">
+            <p className="text-xl text-justify font-sans font-normal text-black">
+              A lo largo de tu estancia como estudiante del Posgrado en Ciencias
+              de la Ingeniería, tus aprendizajes se verán guiados por docentes
+              expertos en su rama, con materias específicas para cada línea de
+              investigación, con el objetivo de que la innovación y el
+              conocimiento sean partes fundamentales de tus clases.
+            </p>
           </div>
           <Accordion
             title={"LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable"}

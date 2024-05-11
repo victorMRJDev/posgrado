@@ -1,4 +1,4 @@
-Frontend del sitio web de la maestría del ITCH
+#Frontend del sitio web de la maestría del ITCH
 
 Para descargar el proyecto ejecute:  
  `git clone https://github.com/victorMRJDev/posgrado.git`

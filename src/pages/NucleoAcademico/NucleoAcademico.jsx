@@ -3,7 +3,7 @@ import TopBar from "../../components/TopBar/TopBar";
 import Footer from "../../components/Footer/Footer";
 import PanelLateral from "../../components/PanelLateral/PanelLateral";
 import separador from "../../assets/separador.svg";
-import CardsView from "../../components/Cards/CardsView";
+import CardsGrid from "../../components/Cards/CardsGrid";
 //
 import DraCastro from "../../assets/nucleoacademico/DraCastro.jpeg";
 import DraHernandez from "../../assets/nucleoacademico/DraHernandez.jpeg";
@@ -50,7 +50,7 @@ const NucleoAcademico = () => {
               <img className="w-full" src={separador} />
             </div>
             <div className="container mx-auto px-4 py-8">
-              <CardsView data={data} />
+              <CardsGrid data={data} />
             </div>
             <div className="flex flex-col py-2 px-10 justify-center">
               <p className="text-xl text-justify font-sans font-normal text-black">

@@ -3,6 +3,7 @@ import logo_MCI from "../../assets/logo_MCI.jpeg";
 import logo_azul_tecnm from "../../assets/logo_azul_tecnm.png";
 import logo_itch from "../../assets/logo_itch.png";
 import logo_sep_rojo from "../../assets/logo_sep_rojo.png";
+import { APP_VERSION } from "../../Global";
 
 const LogoBar = () => {
   return (
@@ -37,9 +38,9 @@ const LogoBar = () => {
           />
         </div>
       </div>
-      #JoanReva v0.5.4
+      #JoanReva v{APP_VERSION}
       <div className="bg-blue-950 flex h-8 items-center justify-end pr-4">
-        v0.5.4
+        v{APP_VERSION}
       </div>
     </>
   );

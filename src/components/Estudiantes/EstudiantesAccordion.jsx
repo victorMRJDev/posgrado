@@ -42,7 +42,10 @@ const EstudiantesAccordion = ({ title, list, image }) => {
                 <h3 className="text-3xl mt-2 mb-2 text-blue-900">{LINEA_1} </h3>
                 <ul>
                   {item.lineaUno.map((estudiante, i) => (
-                    <p className="text-2xl mb-1 text-black ml-10" key={i}>
+                    <p
+                      className="text-2xl mb-1 text-black ml-10 hover:bg-blue-50"
+                      key={i}
+                    >
                       {estudiante}
                     </p>
                   ))}
@@ -50,7 +53,10 @@ const EstudiantesAccordion = ({ title, list, image }) => {
                 <h3 className="text-3xl mt-5 mb-2 text-blue-900">{LINEA_2} </h3>
                 <div className="text-2xl">
                   {item.lineaDos.map((estudiante, i) => (
-                    <p className="text-2xl mb-1 text-black ml-10" key={i}>
+                    <p
+                      className="text-2xl mb-1 text-black ml-10 hover:bg-blue-50"
+                      key={i}
+                    >
                       {estudiante}
                     </p>
                   ))}

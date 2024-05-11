@@ -3,7 +3,7 @@ import TopBar from "../../components/TopBar/TopBar";
 import Footer from "../../components/Footer/Footer";
 import PanelLateral from "../../components/PanelLateral/PanelLateral";
 import separador from "../../assets/separador.svg";
-import Accordion from "../../components/PlanEstudios/PlanesView";
+import PlanesAccordion from "../../components/PlanEstudios/PlanesAccordion";
 
 const semestreUno = [
   {
@@ -20,7 +20,7 @@ const semestreUno = [
 ];
 const semestreDos = [
   {
-    id: 1,
+    id: 2,
     materias: [
       "Seminario de Investigación II",
       "Optativa I",
@@ -32,20 +32,20 @@ const semestreDos = [
 ];
 const semestreTres = [
   {
-    id: 1,
+    id: 3,
     materias: ["Seminario de Investigación III", "Optativa IV"],
     creditos: 10,
   },
 ];
 const semestreCuatro = [
   {
-    id: 1,
+    id: 4,
     materias: ["Tésis"],
     creditos: 40,
   },
 ];
 
-const asignaturasOptativas = [
+const optativasL1 = [
   {
     id: 1,
     title: "LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable",
@@ -63,10 +63,11 @@ const asignaturasOptativas = [
     ],
   },
 ];
-const asignaturasLineaDOs = [
+const optativasL2 = [
   {
-    id: 1,
-    title: "LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable",
+    id: 2,
+    title:
+      "LGAC 2: Investigación, Desarrollo y Aplicaciones de Tecnologías Inteligentes",
     materias: [
       "Minería de datos",
       "Control inteligente",
@@ -95,7 +96,7 @@ const asignaturasBasicas = [
   },
 ];
 
-const Estudiantes = () => {
+const PlanesEstudios = () => {
   return (
     <>
       <TopBar />
@@ -119,16 +120,16 @@ const Estudiantes = () => {
               el examen de grado.
             </p>
           </div>
-          <Accordion title="Semestre 1" list={semestreUno} />
-          <Accordion title="Semestre 2" list={semestreDos} />
-          <Accordion title="Semestre 3" list={semestreTres} />
-          <Accordion title="Semestre 4" list={semestreCuatro} />
+          <PlanesAccordion title="Semestre 1" list={semestreUno} />
+          <PlanesAccordion title="Semestre 2" list={semestreDos} />
+          <PlanesAccordion title="Semestre 3" list={semestreTres} />
+          <PlanesAccordion title="Semestre 4" list={semestreCuatro} />
           <div className="flex flex-col py-6 px-10 justify-center items-center">
             <h1 className="text-4xl text-black font-sans font-semibold">
               Asignaturas Básicas
             </h1>
           </div>
-          <Accordion title="Asignaturas" list={asignaturasBasicas} />
+          <PlanesAccordion title="Asignaturas" list={asignaturasBasicas} />
           <div className="flex flex-col py-6 px-10 justify-center items-center">
             <h1 className="text-4xl text-black font-sans font-semibold">
               Asignaturas Optativas
@@ -143,15 +144,15 @@ const Estudiantes = () => {
               conocimiento sean partes fundamentales de tus clases.
             </p>
           </div>
-          <Accordion
+          <PlanesAccordion
             title={"LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable"}
-            list={asignaturasOptativas}
+            list={optativasL1}
           />
-          <Accordion
+          <PlanesAccordion
             title={
               "LGAC 2: Investigación, Desarrollo y Aplicaciones de Tecnologías Inteligentes"
             }
-            list={asignaturasLineaDOs}
+            list={optativasL2}
           />
         </div>
         <PanelLateral />
@@ -161,4 +162,4 @@ const Estudiantes = () => {
   );
 };
 
-export default Estudiantes;
+export default PlanesEstudios;

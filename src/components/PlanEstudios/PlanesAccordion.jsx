@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import separador from "../../assets/separador.svg";
 
-const Estudios = ({ title, text, list, image }) => {
+const PlanesAccordion = ({ title, text, list, image }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
@@ -10,7 +10,7 @@ const Estudios = ({ title, text, list, image }) => {
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between w-full py-2 border-2 rounded-lg border-blue-950 hover:bg-blue-50"
       >
-        <span className="ml-4 font-sans text-2xl text-black">{title}</span>
+        <span className="ml-4 font-medium text-2xl text-black">{title}</span>
         <svg
           className="items-center my-auto ml-8 mr-4 fill-blue-950 shrink-0"
           width="16"
@@ -41,7 +41,7 @@ const Estudios = ({ title, text, list, image }) => {
               <ul>
                 {item.materias.map((materia, i) => (
                   <p
-                    className="text-2xl font-mono mt-2 mb-1 font-medium text-black hover:bg-blue-50"
+                    className="text-2xl mt-2 mb-1 text-black hover:bg-blue-50"
                     key={i}
                   >
                     {materia}
@@ -52,7 +52,7 @@ const Estudios = ({ title, text, list, image }) => {
           ))}
           {list.map((item, index) => (
             <div key={index} className="bg-blue-950 mt-4 overflow-hidden">
-              <p className="text-2xl ml-8 font-mono font-medium text-white my-1">
+              <p className="text-2xl ml-8 font-medium text-white my-1">
                 {item.creditos ? `Creditos: ${item.creditos}` : ""}
               </p>
             </div>
@@ -63,4 +63,4 @@ const Estudios = ({ title, text, list, image }) => {
   );
 };
 
-export default Estudios;
+export default PlanesAccordion;

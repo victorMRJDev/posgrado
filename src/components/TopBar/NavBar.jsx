@@ -20,11 +20,11 @@ const NavBar = () => {
   return (
     <>
       <header className="sticky top-0 z-20 flex justify-between items-center shadow-2xl">
-        <nav className="w-screen bg-white shadow-2xl">
+        <nav className="w-screen bg-white shadow-2xl flex">
           <div className="flex justify-between mx-auto">
             {/* Logo and primary menu */}
-            <div className="flex items-center gap-16 my-4">
-              <div className="flex flex-wrap gap-2 px-4">
+            <div className="flex items-center justify-center gap-16 my-4">
+              <div className="flex flex-wrap gap-12">
                 {menuItems.map((item, index) => (
                   <Link
                     key={index}

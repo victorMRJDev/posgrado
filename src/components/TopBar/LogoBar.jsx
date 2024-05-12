@@ -38,10 +38,6 @@ const LogoBar = () => {
           />
         </div>
       </div>
-      #JoanReva v{APP_VERSION}
-      <div className="bg-blue-950 flex h-8 items-center justify-end pr-4">
-        v{APP_VERSION}
-      </div>
     </>
   );
 };

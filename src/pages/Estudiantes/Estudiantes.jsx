@@ -1,10 +1,10 @@
 import React from "react";
-import TopBar from "../../components/TopBar/TopBar";
+import imagePG from "../../assets/Carrusel/1.jpg";
+import EstudiantesAccordion from "../../components/Estudiantes/EstudiantesAccordion";
 import Footer from "../../components/Footer/Footer";
 import PanelLateral from "../../components/PanelLateral/PanelLateral";
-import separador from "../../assets/separador.svg";
-import EstudiantesAccordion from "../../components/Estudiantes/EstudiantesAccordion";
-import imagePG from "../../assets/Carrusel/1.jpg";
+import Titulo from "../../components/Secciones/Titulo";
+import TopBar from "../../components/TopBar/TopBar";
 
 const listPrimeraGeneracion = [
   {
@@ -66,6 +66,8 @@ const Estudiantes = () => {
       <TopBar />
       <div className="flex flex-row m-9 gap-10">
         <div className="w-2/3 h-auto py-6 shadow-xl mb-4">
+          <Titulo titulo={"Lista de Alumnos"}></Titulo>
+          <p className="mb-9"></p>
           <EstudiantesAccordion
             image={imagePG}
             title="Primera Generación"

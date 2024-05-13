@@ -37,6 +37,12 @@ const LogoBar = () => {
             alt="logo_MCI"
           />
         </div>
+        {/*Etiqueta Temporal de Desarrollo*/}
+        <div className="bg-blue-950 flex h-10">
+          <p className="text-white text-center text-sm font-bold mx-auto">
+            Versión {APP_VERSION}
+          </p>
+        </div>
       </div>
     </>
   );

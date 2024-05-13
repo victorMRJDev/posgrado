@@ -111,7 +111,7 @@ const PlanesEstudios = () => {
             <img className="w-full" src={separador} />
           </div>
           <div className="flex flex-col py-2 px-10 justify-center">
-            <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
+            <p className="text-2xl text-justify font-serif font-light mt-9 text-black">
               El plan de estudios es semestral diseñado para concluirse en dos
               años, en el que el estudiante deberá cursar cuatro asignaturas
               básicas, cuatro asignaturas optativas, tres seminarios de
@@ -136,7 +136,7 @@ const PlanesEstudios = () => {
             </h1>
           </div>
           <div className="flex flex-col py-2 px-10 justify-center">
-            <p className="text-xl text-justify font-sans font-normal text-black">
+            <p className="text-2xl text-justify font-serif font-light text-black">
               A lo largo de tu estancia como estudiante del Posgrado en Ciencias
               de la Ingeniería, tus aprendizajes se verán guiados por docentes
               expertos en su rama, con materias específicas para cada línea de

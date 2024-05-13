@@ -20,7 +20,7 @@ const Perfiles = () => {
               <img className="w-full" src={separador} />
             </div>
             <div className="flex flex-col py-2 px-10 justify-center">
-              <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
+              <p className="text-xl text-justify font-serif font-light mt-9 text-black">
                 El programa está dirigido a ingenieros recién egresados y/o
                 ingenieros del sector productivo, en las distintas áreas de la
                 ingeniería, que cuenten con competencias, habilidades, valores y
@@ -40,7 +40,7 @@ const Perfiles = () => {
               <img className="w-full" src={separador} />
             </div>
             <div className="flex flex-col py-2 px-10 justify-center">
-              <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
+              <p className="text-xl text-justify font-serif font-light mt-9 text-black">
                 El egresado de la Maestría en Ciencias de la Ingeniería será
                 capaz de generar conocimientos científicos y tecnológicos a
                 través del planteamiento y desarrollo de trabajo de
@@ -49,7 +49,7 @@ const Perfiles = () => {
                 amor por el planeta, la vida silvestre, los ecosistemas y los
                 semejantes, además de contar con las competencias siguientes:
               </p>
-              <ul className="text-xl text-justify font-sans font-normal mt-9 text-black list-disc pl-6 space-y-3">
+              <ul className="text-xl text-justify font-serif font-light mt-9 text-black list-disc pl-6 space-y-3">
                 <li>
                   Capacidad para conducir investigación original en el área de
                   ingeniería de su especialidad.

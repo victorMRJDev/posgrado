@@ -5,18 +5,18 @@ import PanelLateral from "../../components/PanelLateral/PanelLateral";
 import separador from "../../assets/separador.svg";
 import CardsGrid from "../../components/Cards/CardsGrid";
 //
-import DraCastro from "../../assets/nucleoacademico/DraCastro.jpeg";
-import DraHernandez from "../../assets/nucleoacademico/DraHernandez.jpeg";
-import DraLeyva from "../../assets/nucleoacademico/DraLeyva.png";
-import DrCaballero from "../../assets/nucleoacademico/DrCaballero.jpeg";
-import DrCampos from "../../assets/nucleoacademico/DrCampos.jpeg";
-import DrFuentes from "../../assets/nucleoacademico/DrFuentes.jpeg";
-import DrGonzalez from "../../assets/nucleoacademico/DrGonzalez.jpeg";
-import DrLuna from "../../assets/nucleoacademico/DrLuna.png";
-import DrMarmolejo from "../../assets/nucleoacademico/DrMarmolejo.jpeg";
-import DrMorales from "../../assets/nucleoacademico/DrMorales.jpeg";
-import LicGonzalez from "../../assets/nucleoacademico/LicGonzalez.jpeg";
-import MCValencia from "../../assets/nucleoacademico/MCValencia.jpeg";
+import DraCastro from "../../assets/nucleoacademico/DraCastro.jpg";
+import DraHernandez from "../../assets/nucleoacademico/DraHernandez.jpg";
+import DraLeyva from "../../assets/nucleoacademico/DraLeyva.jpg";
+import DrCaballero from "../../assets/nucleoacademico/DrCaballero.jpg";
+import DrCampos from "../../assets/nucleoacademico/DrCampos.jpg";
+import DrFuentes from "../../assets/nucleoacademico/DrFuentes.jpg";
+import DrGonzalez from "../../assets/nucleoacademico/DrGonzalez.jpg";
+import DrLuna from "../../assets/nucleoacademico/DrLuna.jpg";
+import DrMarmolejo from "../../assets/nucleoacademico/DrMarmolejo.jpg";
+import DrMorales from "../../assets/nucleoacademico/DrMorales.jpg";
+import LicGonzalez from "../../assets/nucleoacademico/LicGonzalez.jpg";
+import MCValencia from "../../assets/nucleoacademico/MCValencia.jpg";
 //
 
 const data = [

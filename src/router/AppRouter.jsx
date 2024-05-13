@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Convocatorias from "../pages/Convocatorias/Convocatorias";
 import Estudiantes from "../pages/Estudiantes/Estudiantes";
 import { Home } from "../pages/Home/Home";
@@ -23,6 +23,7 @@ const AppRouter = () => {
       <Route path="/convocatorias" element={<Convocatorias />} />
       <Route path="/vinculacion" element={<Vinculacion />} />
       <Route path="/lgac" element={<LGAC />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 };

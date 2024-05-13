@@ -50,7 +50,7 @@ export const Home = () => {
               <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
                 La Maestría en Ciencias de la Ingeniería es un programa de nueva
                 creación, con orientación profesional incorporado al Sistema
-                Nacional de Posgrados (SNP) del CONACYT. Nuestro programa
+                Nacional de Posgrados (SNP) del CONAHCYT. Nuestro programa
                 educativo tiene como objetivo principal abordar la creciente
                 necesidad de formación de recursos humanos en el ámbito de las
                 Ciencias de la Ingeniería. En numerosas regiones del país, así
@@ -75,13 +75,13 @@ export const Home = () => {
               </p>
               <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
                 Además, para fomentar el compromiso y el rendimiento académico,
-                ofrecemos la posibilidad de acceder a becas CONACYT, sujetas a
+                ofrecemos la posibilidad de acceder a becas CONAHCYT, sujetas a
                 la aprobación del comité correspondiente. Aquellos estudiantes
                 que resulten beneficiarios de estas becas se comprometen a
                 dedicarse de manera exclusiva a su formación académica, a
                 cumplir con todas las asignaturas y créditos del programa en el
                 tiempo estipulado, y a graduarse al concluir el período de la
-                beca, de acuerdo con las normativas establecidas por CONACYT. (
+                beca, de acuerdo con las normativas establecidas por CONAHCYT. (
                 <a
                   href="https://conahcyt.mx/"
                   target="_blank"

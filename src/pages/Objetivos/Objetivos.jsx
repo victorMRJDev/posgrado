@@ -20,7 +20,7 @@ const Objetivos = () => {
               <img className="w-full" src={separador} />
             </div>
             <div className="flex flex-col py-2 px-10 justify-center">
-              <p className="text-xl text-justify font-sans font-normal mt-9 text-black">
+              <p className="text-xl text-justify font-serif font-light mt-9 text-black">
                 Formar profesionistas de alta calidad académica con profundos
                 conocimientos en el estado del arte de su disciplina, con
                 destrezas intelectuales y metodológicas que les permitan
@@ -45,7 +45,7 @@ const Objetivos = () => {
               <img className="w-full" src={separador} />
             </div>
             <div className="flex flex-col py-2 px-10 justify-center">
-              <ul className="text-xl text-justify font-sans font-normal mt-9 text-black list-disc pl-6 space-y-3">
+              <ul className="text-xl text-justify font-serif font-light mt-9 text-black list-disc pl-6 space-y-3">
                 <li>
                   Formar recursos humanos con capacidad de investigar, asimilar,
                   aplicar, generar y difundir conocimiento científico y

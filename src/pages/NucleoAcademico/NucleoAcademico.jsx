@@ -99,11 +99,11 @@ const NucleoAcademico = () => {
               <CardsGrid data={data} />
             </div>
             <div className="flex flex-col py-2 px-10 justify-center">
-              <p className="text-2xl text-justify font-serif font-light text-black">
+              <p className="text-xl text-justify font-serif font-light text-black">
                 ¡Estamos aquí para apoyarte en tu camino hacia la excelencia
                 académica y profesional en el campo de la ingeniería!
               </p>
-              <p className="text-2xl text-justify font-serif font-light mt-4 text-black">
+              <p className="text-xl text-justify font-serif font-light mt-4 text-black">
                 ¡No dudes en acercarte a nosotros para cualquier consulta o
                 asistencia que necesites durante tu experiencia en la Maestría
                 en Ciencias de la Ingeniería!

@@ -50,7 +50,9 @@ const EstudiantesAccordion = ({ title, list, image }) => {
                     </p>
                   ))}
                 </ul>
-                <h3 className="text-3xl mt-5 mb-2 text-blue-900 ">{LINEA_2} </h3>
+                <h3 className="text-3xl mt-5 mb-2 text-blue-900 ">
+                  {LINEA_2}{" "}
+                </h3>
                 <div className="text-2xl font-serif font-light ">
                   {item.lineaDos.map((estudiante, i) => (
                     <p

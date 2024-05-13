@@ -12,13 +12,6 @@ const LogoBar = () => {
         <div className="flex items-center justify-center w-1/4 max-w-screen-lg mx-auto">
           <img
             className="h-20 max-w-full object-contain mx-4"
-            src={logo_itch}
-            alt="logo_itch"
-          />
-        </div>
-        <div className="flex items-center justify-center w-1/4 max-w-screen-lg mx-auto">
-          <img
-            className="h-20 max-w-full object-contain mx-4"
             src={logo_sep_rojo}
             alt="logo_sep_rojo"
           />
@@ -28,6 +21,13 @@ const LogoBar = () => {
             className="h-20 max-w-full object-contain mx-4"
             src={logo_azul_tecnm}
             alt="logo_azul_tecnm"
+          />
+        </div>
+        <div className="flex items-center justify-center w-1/4 max-w-screen-lg mx-auto">
+          <img
+            className="h-20 max-w-full object-contain mx-4"
+            src={logo_itch}
+            alt="logo_itch"
           />
         </div>
         <div className="flex items-center justify-center w-1/4 max-w-screen-lg mx-auto mr-10">

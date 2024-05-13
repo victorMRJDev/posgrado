@@ -1,4 +1,4 @@
-export const APP_VERSION = "0.6.3";
+export const APP_VERSION = "0.6.4";
 export const LINEA_1 =
   "LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable";
 export const LINEA_2 =

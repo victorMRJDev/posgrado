@@ -10,7 +10,7 @@ const NavBar = () => {
     { title: "Objetivos", to: "/objetivos" },
     { title: "Perfiles", to: "/perfiles" },
     { title: "Estudiantes", to: "/estudiantes" },
-    { title: "Núcleo Academico", to: "/nucleoacademico" },
+    { title: "Núcleo Académico", to: "/nucleoacademico" },
     //{ title: "LGAC", to: "/lgac" },
     { title: "Plan de Estudios", to: "/planesestudios" },
     { title: "Convocatorias", to: "/convocatorias" },

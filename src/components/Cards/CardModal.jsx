@@ -42,7 +42,7 @@ const CardModal = ({ image, name, semblanza, closeModal }) => {
           />
         </div>
 
-        <div className="flex flex-col ml-7 mr-2 w-full justify-center m-auto items-center bg-red-100 max-h-full overflow-y-auto">
+        <div className="flex flex-col ml-7 mr-2 w-full justify-center m-auto items-center max-h-full overflow-y-auto">
           <p className="flex text-4xl font-sans font-semibold text-black text-center m-3">
             {name}
           </p>

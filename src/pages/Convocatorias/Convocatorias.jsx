@@ -44,7 +44,7 @@ const Estudiantes = () => {
               <img className="w-full" src={separador} />
             </div>
             <div className="flex flex-col py-2 px-10 justify-center">
-              <p className="text-2xl text-justify font-serif font-light mt-9 text-black">
+              <p className="text-xl text-justify font-serif font-light mt-9 text-black">
                 A todos los egresados y profesionistas de alguna Ingeniería en{" "}
                 <strong>
                   Sistemas Computacionales, Informática, Electrónica, Eléctrica,
@@ -70,7 +70,7 @@ const Estudiantes = () => {
               <img className="w-full" src={separador} />
             </div>
             <div className="flex flex-col py-2 px-10 justify-center">
-              <ul className="text-2xl text-justify font-serif font-light mt-9 text-black list-disc pl-6 space-y-3">
+              <ul className="text-xl text-justify font-serif font-light mt-9 text-black list-disc pl-6 space-y-3">
                 <li>
                   Acreditar el proceso de admisión (curso propedéutico, examen
                   de conocimientos y entrevista).

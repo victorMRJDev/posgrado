@@ -1,7 +1,7 @@
 import React from "react";
 import Separador from "../../assets/separador.svg";
 
-const SeccionTitulo = ({ titulo, mostrarSeparador = true }) => {
+const Titulo = ({ titulo, mostrarSeparador = true }) => {
   return (
     <div>
       <div className="flex flex-col py-6 px-10 justify-center items-center">
@@ -18,4 +18,4 @@ const SeccionTitulo = ({ titulo, mostrarSeparador = true }) => {
   );
 };
 
-export default SeccionTitulo;
+export default Titulo;

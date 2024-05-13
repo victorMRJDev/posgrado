@@ -1,10 +1,9 @@
 import React from "react";
-import TopBar from "../../components/TopBar/TopBar";
 import Footer from "../../components/Footer/Footer";
 import PanelLateral from "../../components/PanelLateral/PanelLateral";
-import separador from "../../assets/separador.svg";
-import SeccionParrafoLista from "../../components/Secciones/SeccionParrafoLista";
 import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
+import SeccionParrafoLista from "../../components/Secciones/SeccionParrafoLista";
+import TopBar from "../../components/TopBar/TopBar";
 
 const competenciasEgreso = [
   "Capacidad para conducir investigación original en el área de ingeniería de su especialidad.",

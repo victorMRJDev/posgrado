@@ -1,9 +1,11 @@
 import React from "react";
-import TopBar from "../../components/TopBar/TopBar";
+import CardsGrid from "../../components/Cards/CardsGrid";
 import Footer from "../../components/Footer/Footer";
 import PanelLateral from "../../components/PanelLateral/PanelLateral";
-import separador from "../../assets/separador.svg";
-import CardsGrid from "../../components/Cards/CardsGrid";
+import Parrafo from "../../components/Secciones/Parrafo";
+import Titulo from "../../components/Secciones/Titulo";
+import TopBar from "../../components/TopBar/TopBar";
+
 //
 import DraCastro from "../../assets/nucleoacademico/DraCastro.jpg";
 import DraHernandez from "../../assets/nucleoacademico/DraHernandez.jpg";
@@ -86,30 +88,21 @@ const NucleoAcademico = () => {
       <TopBar />
       <div className="flex flex-row m-9 gap-10">
         <div className="w-2/3 h-auto py-6 shadow-xl mb-4">
-          <div>
-            <div className="flex flex-col py-6 px-10 justify-center items-center">
-              <h1 className="text-4xl text-black font-sans font-semibold">
-                Profesores de Tiempo Completo
-              </h1>
-            </div>
-            <div className="w-3/3">
-              <img className="w-full" src={separador} />
-            </div>
-            <div className="container mx-auto px-4 py-8">
-              <CardsGrid data={data} />
-            </div>
-            <div className="flex flex-col py-2 px-10 justify-center">
-              <p className="text-xl text-justify font-serif font-light text-black">
-                ¡Estamos aquí para apoyarte en tu camino hacia la excelencia
-                académica y profesional en el campo de la ingeniería!
-              </p>
-              <p className="text-xl text-justify font-serif font-light mt-4 text-black">
-                ¡No dudes en acercarte a nosotros para cualquier consulta o
-                asistencia que necesites durante tu experiencia en la Maestría
-                en Ciencias de la Ingeniería!
-              </p>
-            </div>
+          <Titulo titulo={"Profesores de Tiempo Completo"}></Titulo>
+          <div className="container mx-auto px-4 py-8">
+            <CardsGrid data={data} />
           </div>
+          <Parrafo
+            texto="¡Estamos aquí para apoyarte en tu camino hacia la excelencia
+                académica y profesional en el campo de la ingeniería!"
+            conMargenSuperior={false}
+          ></Parrafo>
+          <Parrafo
+            texto=" ¡No dudes en acercarte a nosotros para cualquier consulta o
+              asistencia que necesites durante tu experiencia en la Maestría
+              en Ciencias de la Ingeniería!"
+            conMargenSuperior={false}
+          ></Parrafo>
         </div>
         <PanelLateral />
       </div>

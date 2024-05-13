@@ -1,12 +1,17 @@
 import React from "react";
 import Parrafo from "../../components/Secciones/Parrafo";
-import SeccionTitulo from "../../components/Secciones/Titulo";
+import Titulo from "../../components/Secciones/Titulo";
 
-const SeccionParrafo = ({ titulo, mostrarSeparador = true, texto }) => {
+const SeccionParrafo = ({
+  titulo,
+  mostrarSeparador = true,
+  texto,
+  conMargenSuperior,
+}) => {
   return (
     <div>
-      <SeccionTitulo titulo={titulo} mostrarSeparador={mostrarSeparador} />
-      <Parrafo texto={texto} />
+      <Titulo titulo={titulo} mostrarSeparador={mostrarSeparador} />
+      <Parrafo texto={texto} conMargenSuperior={conMargenSuperior} />
     </div>
   );
 };

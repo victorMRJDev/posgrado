@@ -19,6 +19,7 @@ import DrMarmolejo from "../../assets/nucleoacademico/DrMarmolejo.jpg";
 import DrMorales from "../../assets/nucleoacademico/DrMorales.jpg";
 import LicGonzalez from "../../assets/nucleoacademico/LicGonzalez.jpg";
 import MCValencia from "../../assets/nucleoacademico/MCValencia.jpg";
+import DrRoman from '../../assets/nucleoacademico/DrRoman.jpg'
 //
 
 const data = [
@@ -71,6 +72,12 @@ const data = [
     name: "Dr. Wilfrido Campos Francisco",
     semblanza:
       "Ingeniero en Sistemas Computacionales, egresado del Instituto Tecnológico de Acapulco en el año 2001.\nEn el año 2010 obtiene el grado de Maestro en Computación por la Facultad de Ingeniería de la Universidad Autónoma de Guerrero.\nEn 2015 obtiene el grado de Doctor en Ciencias de la Computación por el Centro Nacional de Investigación y Desarrollo Tecnológico (cenidet) en la ciudad de Cuernavaca, Morelos.\nDurante sus estudios de Doctorado, realizó una estancia de investigación en el Centro de Investigación Científica y de Educación Superior de Ensenada, Baja California (cicese).\nFue Miembro de Sistema Nacional de Investigadores por el Consejo Nacional de Ciencia y Tecnología en el periodo 2017-2019.\nObtuvo el reconocimiento de perfil deseable por la Secretaría de Educación Superior durante el periodo 2017-2020.\nTiene publicaciones en revistas de impacto nacional indexadas por el CONACyT y de impacto internacional indexadas en el Jornal Citation Report (JCR).\nSus áreas de investigación son, entre otras:\nComputación aplicada al comportamiento humano.\nReconocimiento de patrones de socialización con algoritmos de Machine Learning.\nActualmente es docente del Tecnológico Nacional de México Campus Chilpancingo e imparte materias en el programa educativo de Ingeniería en Sistemas Computacionales y en la Maestría en Ciencias de la Ingeniería.",
+  },
+  {
+    image: DrRoman,
+    name: "Dr. Edgar Roman Rangel",
+    semblanza:
+    "Profesor de tiempo completo, desde 2019, en el departamento académico de computación, del Instituto Tecnológico Autónomo de México (ITAM). Profesor investigador invitado, desde 2024, en el Tecnológico Nacional de México / Instituto Tecnológico de Chilpancingo. Miembro del Sistema Nacional de Investigadores (SNII) nivel 1. Realiza investigación en aprendizaje de máquina, aprendizaje de representaciones, y procesamiento de señales multimodales. Su investigación tiene como objetivo, por un lado, avanzar el estado del arte en los fundamentos del aprendizaje de máquina y en la representación del conocimiento; y por otro lado, desarrollar aplicaciones de interés social en arqueología, agricultura, y medicina. Cuenta con 14 publicaciones JCR, y 26 capítulos de libro y memorias de congreso revisadas por pares. Mantiene colaboraciones de investigación, tanto nacionales como internacionales, incluyendo grupos académicos y del sector privado. Actualmente dirige el laboratorio de investigación en aprendizaje y procesamiento de señales del ITAM. Miembro del Sistema Nacional de Investigadores (SNII) nivel 1. Realiza investigación en aprendizaje de máquina, aprendizaje de representaciones, y procesamiento de señales multimodales. Su investigación tiene como objetivo, por un lado, avanzar el estado del arte en los fundamentos del aprendizaje de máquina y en la representación del conocimiento; y por otro lado, desarrollar aplicaciones de interés social en arqueología, agricultura, y medicina. Cuenta con 14 publicaciones JCR, y 26 capítulos de libro y memorias de congreso revisadas por pares. Mantiene colaboraciones de investigación, tanto nacionales como internacionales, incluyendo grupos académicos y del sector privado. Actualmente dirige el laboratorio de investigación en aprendizaje y procesamiento de señales del ITAM."
   },
   { image: DrGonzalez, name: "Dr. Mario González Durán" },
   {

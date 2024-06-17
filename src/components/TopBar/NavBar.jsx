@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-
+import { HiMenu } from "react-icons/hi";
+import { HiOutlineX } from "react-icons/hi";
 const NavBar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
+
+  const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
     { title: "Inicio", to: "/" },
@@ -11,38 +14,45 @@ const NavBar = () => {
     { title: "Perfiles", to: "/perfiles" },
     { title: "Estudiantes", to: "/estudiantes" },
     { title: "Núcleo Académico", to: "/nucleoacademico" },
-    //{ title: "LGAC", to: "/lgac" },
     { title: "Plan de Estudios", to: "/planesestudios" },
     { title: "Convocatorias", to: "/convocatorias" },
-    //{ title: "Vinculación", to: "/vinculacion" },
   ];
 
   return (
-    <>
-      <header className="sticky top-0 z-20 flex justify-between items-center shadow-2xl">
-        <nav className="w-screen bg-white shadow-2xl flex">
-          <div className="flex justify-between mx-auto w-full">
-            <div className="flex items-center justify-center gap-16 my-4 w-full">
-              <div className="flex flex-wrap gap-2 w-full mx-auto">
-                {menuItems.map((item, index) => (
-                  <Link
-                    key={index}
-                    to={item.to}
-                    className={`flex-grow hover:text-blue-700 text-2xl hover:shadow-sm transition-all duration-300 px-2 text-center ${
-                      currentPath === item.to
-                        ? "text-blue-900 font-semibold"
-                        : "text-blue-900"
-                    }`}
-                  >
-                    {item.title}
-                  </Link>
-                ))}
-              </div>
-            </div>
+    <header className="sticky top-0 z-20 shadow-2xl bg-white">
+      <nav className="w-screen bg-white shadow-2xl items-center lg:flex lg:justify-center ">
+        <div className="flex justify-end items-center p-4">
+          {/* <div className="text-2xl font-bold">MiLogo</div> */}
+          <button
+            className="lg:hidden text-3xl justify-end mr-4"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? (
+              <HiOutlineX size={32} color="#001A5F" />
+            ) : (
+              <HiMenu size={32} color="#001A5F" /> 
+            )}
+          </button>
+        </div>
+
+        <div className={`lg:flex ${isOpen ? "block" : "hidden"} w-full`}>
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-2 w-full mx-auto my-4 md:gap-4 sm:gap-4">
+            {menuItems.map((item, index) => (
+              <Link
+                key={index}
+                to={item.to}
+                className={`flex-grow hover:text-blue-700 text-2xl hover:shadow-sm transition-all duration-300 px-2 text-center ${
+                  currentPath === item.to ? "text-blue-900 font-semibold" : "text-blue-900"
+                }`}
+                onClick={() => setIsOpen(false)}
+              >
+                {item.title}
+              </Link>
+            ))}
           </div>
-        </nav>
-      </header>
-    </>
+        </div>
+      </nav>
+    </header>
   );
 };
 

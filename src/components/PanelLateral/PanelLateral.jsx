@@ -4,7 +4,7 @@ import Eventos from "../PanelLateral/Eventos";
 
 function PanelLateral() {
   return (
-    <div className="flex flex-col w-1/3 bg-white">
+    <div className="hidden lg:flex lg:flex-col lg:w-1/3 bg-white">
       <Repositorio />
       <Eventos />
     </div>

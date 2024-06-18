@@ -18,8 +18,8 @@ export const Home = () => {
     <>
       <TopBar />
       <StreamableVideo src="https://streamable.com/e/tro9w0?autoplay=1&muted=0" />
-      <div className="flex flex-row m-9 gap-10">
-        <div className="w-2/3 h-auto py-6 shadow-xl mb-4">
+      <div className="flex flex-row m-9 gap-10 max-sm:m-2">
+        <div className="w-2/3 h-auto py-6 shadow-xl mb-4 md:w-screen sm:w-screen max-sm:w-screen">
           <SeccionParrafo
             titulo="Maestría en Ciencias de la Ingeniería"
             texto="La Maestría en Ciencias de la Ingeniería es un programa de nueva
@@ -72,7 +72,8 @@ export const Home = () => {
         </div>
         <PanelLateral />
       </div>
-      <div className="flex flex-row max-sm:flex-col max-sm:gap-9 sm:flex-col sm:gap-9 md:flex-col lg:flex-row justify-center items-center rounded-2xl mt-14">
+      <div className="flex flex-row lg:gap-9 max-sm:flex-col max-sm:gap-9 sm:flex-row sm:gap-3 md:flex-row 
+      lg:flex-row justify-center items-center rounded-2xl mt-14">
         <CardSocial
           key={1}
           image={instagramPhoto}

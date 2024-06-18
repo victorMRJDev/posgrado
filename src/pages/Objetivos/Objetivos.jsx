@@ -19,7 +19,7 @@ const Objetivos = () => {
     <>
       <TopBar />
       <div className="flex flex-row m-9 gap-10">
-        <div className="w-2/3 h-auto py-6 shadow-xl mb-4">
+        <div className="w-2/3 h-auto py-6 shadow-xl mb-4 max-sm:w-full">
           <SeccionParrafo
             titulo="Objetivo General"
             texto="Formar profesionistas de alta calidad académica con profundos

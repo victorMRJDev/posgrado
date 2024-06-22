@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import { HiOutlineX } from "react-icons/hi";
+
 const NavBar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
-
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
@@ -19,10 +19,9 @@ const NavBar = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-20 shadow-2xl bg-white">
-      <nav className="w-screen bg-white shadow-2xl items-center lg:flex lg:justify-center ">
-        <div className="flex justify-end items-center p-4">
-          {/* <div className="text-2xl font-bold">MiLogo</div> */}
+    <header className="sticky top-0 z-20 flex justify-between items-center shadow-2xl">
+      <nav className="w-screen shadow-2xl lg:flex lg:justify-center bg-white">
+        <div className="flex justify-end items-center my-4">
           <button
             className="lg:hidden text-3xl justify-end mr-4"
             onClick={() => setIsOpen(!isOpen)}
@@ -30,7 +29,7 @@ const NavBar = () => {
             {isOpen ? (
               <HiOutlineX size={32} color="#001A5F" />
             ) : (
-              <HiMenu size={32} color="#001A5F" /> 
+              <HiMenu size={32} color="#001A5F" />
             )}
           </button>
         </div>
@@ -42,7 +41,9 @@ const NavBar = () => {
                 key={index}
                 to={item.to}
                 className={`flex-grow hover:text-blue-700 text-2xl hover:shadow-sm transition-all duration-300 px-2 text-center ${
-                  currentPath === item.to ? "text-blue-900 font-semibold" : "text-blue-900"
+                  currentPath === item.to
+                    ? "text-blue-900 font-semibold"
+                    : "text-blue-900"
                 }`}
                 onClick={() => setIsOpen(false)}
               >

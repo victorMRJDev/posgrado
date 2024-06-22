@@ -1,10 +1,10 @@
 import React from "react";
+import { APP_VERSION } from "../../Global";
+import logo_gobierno from '../../assets/gobierno_logo.png';
 import logo_MCI from "../../assets/logo_MCI.jpeg";
 import logo_azul_tecnm from "../../assets/logo_azul_tecnm.png";
 import logo_itch from "../../assets/logo_itch.png";
 import logo_sep_rojo from "../../assets/logo_sep_rojo.png";
-import logo_gobierno from '../../assets/gobierno_logo.png';
-import { APP_VERSION } from "../../Global";
 
 const LogoBar = () => {
   return (

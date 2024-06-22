@@ -97,7 +97,7 @@ const asignaturasBasicas = [
   },
 ];
 
-const PlanesEstudios = () => {
+const PlanEstudios = () => {
   return (
     <>
       <TopBar />
@@ -149,4 +149,4 @@ const PlanesEstudios = () => {
   );
 };
 
-export default PlanesEstudios;
+export default PlanEstudios;

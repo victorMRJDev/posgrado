@@ -19,7 +19,7 @@ import DrMarmolejo from "../../assets/nucleoacademico/DrMarmolejo.jpg";
 import DrMorales from "../../assets/nucleoacademico/DrMorales.jpg";
 import LicGonzalez from "../../assets/nucleoacademico/LicGonzalez.jpg";
 import MCValencia from "../../assets/nucleoacademico/MCValencia.jpg";
-import DrRoman from '../../assets/nucleoacademico/DrRoman.jpg'
+import DrRoman from "../../assets/nucleoacademico/DrRoman.jpg";
 //
 
 const data = [
@@ -77,7 +77,7 @@ const data = [
     image: DrRoman,
     name: "Dr. Edgar Roman Rangel",
     semblanza:
-    "Profesor de tiempo completo, desde 2019, en el departamento académico de computación, del Instituto Tecnológico Autónomo de México (ITAM). Profesor investigador invitado, desde 2024, en el Tecnológico Nacional de México / Instituto Tecnológico de Chilpancingo. Miembro del Sistema Nacional de Investigadores (SNII) nivel 1. Realiza investigación en aprendizaje de máquina, aprendizaje de representaciones, y procesamiento de señales multimodales. Su investigación tiene como objetivo, por un lado, avanzar el estado del arte en los fundamentos del aprendizaje de máquina y en la representación del conocimiento; y por otro lado, desarrollar aplicaciones de interés social en arqueología, agricultura, y medicina. Cuenta con 14 publicaciones JCR, y 26 capítulos de libro y memorias de congreso revisadas por pares. Mantiene colaboraciones de investigación, tanto nacionales como internacionales, incluyendo grupos académicos y del sector privado. Actualmente dirige el laboratorio de investigación en aprendizaje y procesamiento de señales del ITAM. Miembro del Sistema Nacional de Investigadores (SNII) nivel 1. Realiza investigación en aprendizaje de máquina, aprendizaje de representaciones, y procesamiento de señales multimodales. Su investigación tiene como objetivo, por un lado, avanzar el estado del arte en los fundamentos del aprendizaje de máquina y en la representación del conocimiento; y por otro lado, desarrollar aplicaciones de interés social en arqueología, agricultura, y medicina. Cuenta con 14 publicaciones JCR, y 26 capítulos de libro y memorias de congreso revisadas por pares. Mantiene colaboraciones de investigación, tanto nacionales como internacionales, incluyendo grupos académicos y del sector privado. Actualmente dirige el laboratorio de investigación en aprendizaje y procesamiento de señales del ITAM."
+      "Profesor de tiempo completo, desde 2019, en el departamento académico de computación, del Instituto Tecnológico Autónomo de México (ITAM). Profesor investigador invitado, desde 2024, en el Tecnológico Nacional de México / Instituto Tecnológico de Chilpancingo. Miembro del Sistema Nacional de Investigadores (SNII) nivel 1. Realiza investigación en aprendizaje de máquina, aprendizaje de representaciones, y procesamiento de señales multimodales. Su investigación tiene como objetivo, por un lado, avanzar el estado del arte en los fundamentos del aprendizaje de máquina y en la representación del conocimiento; y por otro lado, desarrollar aplicaciones de interés social en arqueología, agricultura, y medicina. Cuenta con 14 publicaciones JCR, y 26 capítulos de libro y memorias de congreso revisadas por pares. Mantiene colaboraciones de investigación, tanto nacionales como internacionales, incluyendo grupos académicos y del sector privado. Actualmente dirige el laboratorio de investigación en aprendizaje y procesamiento de señales del ITAM. Miembro del Sistema Nacional de Investigadores (SNII) nivel 1. Realiza investigación en aprendizaje de máquina, aprendizaje de representaciones, y procesamiento de señales multimodales. Su investigación tiene como objetivo, por un lado, avanzar el estado del arte en los fundamentos del aprendizaje de máquina y en la representación del conocimiento; y por otro lado, desarrollar aplicaciones de interés social en arqueología, agricultura, y medicina.",
   },
   { image: DrGonzalez, name: "Dr. Mario González Durán" },
   {
@@ -105,7 +105,7 @@ const NucleoAcademico = () => {
             conMargenSuperior={false}
           ></Parrafo>
           <Parrafo
-            texto=" ¡No dudes en acercarte a nosotros para cualquier consulta o
+            texto="¡No dudes en acercarte a nosotros para cualquier consulta o
               asistencia que necesites durante tu experiencia en la Maestría
               en Ciencias de la Ingeniería!"
             conMargenSuperior={false}

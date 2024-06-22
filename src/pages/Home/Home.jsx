@@ -72,8 +72,10 @@ export const Home = () => {
         </div>
         <PanelLateral />
       </div>
-      <div className="flex flex-row lg:gap-9 max-sm:flex-col max-sm:gap-9 sm:flex-row sm:gap-3 md:flex-row 
-      lg:flex-row justify-center items-center rounded-2xl mt-14">
+      <div
+        className="flex flex-row lg:gap-9 max-sm:flex-col max-sm:gap-9 sm:flex-row sm:gap-3 md:flex-row 
+      lg:flex-row justify-center items-center rounded-2xl mt-14"
+      >
         <CardSocial
           key={1}
           image={instagramPhoto}

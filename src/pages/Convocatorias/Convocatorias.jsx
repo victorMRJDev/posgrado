@@ -1,13 +1,12 @@
 import React from "react";
-import TopBar from "../../components/TopBar/TopBar";
+import convocatoriaPDF from "../../assets/Convocatoria2024MCI.pdf";
+import ButtonBlue from "../../components/Buttons/ButtonBlue";
 import Footer from "../../components/Footer/Footer";
 import PanelLateral from "../../components/PanelLateral/PanelLateral";
-import separador from "../../assets/separador.svg";
-import ButtonBlue from "../../components/Buttons/ButtonBlue";
-import convocatoriaPDF from "../../assets/Convocatoria2024MCI.pdf";
-import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import SeccionLista from "../../components/Secciones/SeccionLista";
+import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import SeccionTitulo from "../../components/Secciones/Titulo";
+import TopBar from "../../components/TopBar/TopBar";
 
 const requisitosIngreso = [
   "Acreditar el proceso de admisión (curso propedéutico, examen de conocimientos y entrevista).",

@@ -1,15 +1,13 @@
 import React from "react";
 
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
+import { Home } from "../pages/Home/Home";
 import Convocatorias from "../pages/Convocatorias/Convocatorias";
 import Estudiantes from "../pages/Estudiantes/Estudiantes";
-import { Home } from "../pages/Home/Home";
-import LGAC from "../pages/LGAC/LGAC";
 import NucleoAcademico from "../pages/NucleoAcademico/NucleoAcademico";
 import Objetivos from "../pages/Objetivos/Objetivos";
 import Perfiles from "../pages/Perfiles/Perfiles";
-import PlanesEstudios from "../pages/PlanesEstudios/PlanesEstudios";
-import Vinculacion from "../pages/Vinculacion/Vinculacion";
+import PlanEstudios from "../pages/PlanEstudios/PlanEstudios";
 
 const AppRouter = () => {
   return (
@@ -19,10 +17,8 @@ const AppRouter = () => {
       <Route path="/perfiles" element={<Perfiles />} />
       <Route path="/estudiantes" element={<Estudiantes />} />
       <Route path="/nucleoacademico" element={<NucleoAcademico />} />
-      <Route path="/planesestudios" element={<PlanesEstudios />} />
+      <Route path="/planestudios" element={<PlanEstudios />} />
       <Route path="/convocatorias" element={<Convocatorias />} />
-      <Route path="/vinculacion" element={<Vinculacion />} />
-      <Route path="/lgac" element={<LGAC />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

@@ -69,27 +69,24 @@ export const Home = () => {
           conMargenSuperior={false}
         ></Parrafo>
       </Contenido>
-      <div
-        className="flex flex-row lg:gap-9 max-sm:flex-col max-sm:gap-9 sm:flex-row sm:gap-3 md:flex-row 
-      lg:flex-row justify-center items-center rounded-2xl mt-14"
-      >
+      <div className="flex flex-wrap justify-evenly items-center gap-5 mx-7 lg:gap-9 max-sm:gap-9 rounded-2xl">
         <CardSocial
           key={1}
           image={instagramPhoto}
           texto={"Instagram"}
-          icon={<FaInstagram size={30} color="black" />}
+          icon={<FaInstagram color="black" />}
         />
         <CardSocial
           key={2}
           image={instagramPhoto}
           texto={"Facebook"}
-          icon={<FaFacebook size={30} color="blue" />}
+          icon={<FaFacebook color="blue" />}
         />
         <CardSocial
           key={3}
           image={instagramPhoto}
           texto={"Youtube"}
-          icon={<IoLogoYoutube size={30} color="red" />}
+          icon={<IoLogoYoutube color="red" />}
         />
       </div>
       <Footer />

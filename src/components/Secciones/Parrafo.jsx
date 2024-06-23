@@ -2,8 +2,8 @@ import React from "react";
 
 const ParrafoConMargen = ({ texto }) => {
   return (
-    <div className="flex flex-col py-2 px-10 justify-center mt-9">
-      <p className="text-xl text-justify font-serif font-light text-black">
+    <div className="flex flex-col py-2 px-10 justify-center mt-9 max-sm:px-5 max-md:px-7">
+      <p className="text-xl text-justify font-serif font-light text-black max-sm:text-base max-md:text-lg">
         {texto}
       </p>
     </div>
@@ -12,8 +12,8 @@ const ParrafoConMargen = ({ texto }) => {
 
 const ParrafoSinMargen = ({ texto }) => {
   return (
-    <div className="flex flex-col py-2 px-10 justify-center">
-      <p className="text-xl text-justify font-serif font-light text-black">
+    <div className="flex flex-col py-2 px-10 justify-center max-sm:px-5 max-md:px-7">
+      <p className="text-xl text-justify font-serif font-light text-black max-sm:text-base max-md:text-lg">
         {texto}
       </p>
     </div>
@@ -22,8 +22,8 @@ const ParrafoSinMargen = ({ texto }) => {
 
 const ParrafoComponente = ({ texto, componente }) => {
   return (
-    <div className="flex flex-col py-2 px-10 justify-center">
-      <p className="text-xl text-justify font-serif font-light text-black">
+    <div className="flex flex-col py-2 px-10 justify-center max-sm:px-5 max-md:px-7">
+      <p className="text-xl text-justify font-serif font-light text-black max-sm:text-base max-md:text-lg">
         {texto} {componente && <span>({componente})</span>}
       </p>
     </div>

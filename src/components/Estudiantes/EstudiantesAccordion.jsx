@@ -5,26 +5,22 @@ const EstudiantesAccordion = ({ title, list, image }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-2">
+    <div className="py-2 px-10 max-sm:px-5 max-md:px-7">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between w-full py-2 border-2 rounded-lg border-blue-950 "
+        className="flex justify-between w-full py-2 border-2 rounded-lg border-blue-950 hover:bg-blue-50"
       >
-        <span className="ml-4 font-medium text-2xl text-black">{title}</span>
+        <span className="ml-2 font-medium text-2xl text-black max-sm:text-lg max-md:text-xl">
+          {title}
+        </span>
         <svg
-          className="items-center my-auto ml-8 mr-4 fill-blue-950 shrink-0"
+          className={`items-center my-auto ml-8 mr-4 fill-blue-950 shrink-0 transition-transform duration-200 ease-out ${
+            accordionOpen ? "rotate-180" : ""
+          }`}
           width="16"
           height="16"
         >
-          <rect
-            y="7"
-            width="16"
-            height="2"
-            rx="1"
-            className={`transform origin-center transition duration-200 ease-out ${
-              accordionOpen && "rotate-180"
-            }`}
-          />
+          <rect y="7" width="16" height="2" rx="1" />
         </svg>
       </button>
       <div
@@ -32,43 +28,38 @@ const EstudiantesAccordion = ({ title, list, image }) => {
           accordionOpen ? "h-auto" : "h-0"
         }`}
       >
-        <div className="grid text-sm border-t-0 border-b-2 border-x-2 border-blue-950 text-slate-600">
-          <div className="flex items-center justify-center w-2/3 mb-4 mt-2 ml-auto mr-auto ">
+        <div className="grid text-sm border-t-0 border-b-2 border-x-2 border-blue-950 text-slate-600 py-5">
+          <div className="flex items-center justify-center w-2/3 mt-2 ml-auto mr-auto ">
             <img src={image} alt="" className="flex rounded-xl" />
           </div>
-          {list &&
-            list.map((item, index) => (
-              <div key={index} className="ml-5 mr-3 overflow-hidden mb-4">
-                <h3 className="text-3xl mt-2 mb-2 text-blue-900">{LINEA_1} </h3>
-                <ul>
-                  {item.lineaUno.map((estudiante, i) => (
-                    <p
-                      className="text-2xl mb-1 text-black ml-10 font-serif font-light hover:bg-blue-50"
-                      key={i}
-                    >
-                      {estudiante}
-                    </p>
-                  ))}
-                </ul>
-                <h3 className="text-3xl mt-5 mb-2 text-blue-900 ">
-                  {LINEA_2}{" "}
-                </h3>
-                <div className="text-2xl font-serif font-light ">
-                  {item.lineaDos.map((estudiante, i) => (
-                    <p
-                      className="text-2xl mb-1 text-black ml-10 font-serif font-light hover:bg-blue-50"
-                      key={i}
-                    >
-                      {estudiante}
-                    </p>
-                  ))}
-                </div>
-              </div>
-            ))}
+          {list?.map((item, index) => (
+            <div key={index} className="mx-2 overflow-hidden">
+              <Section title={LINEA_1} content={item.lineaUno} />
+              <Section title={LINEA_2} content={item.lineaDos} />
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
 };
+
+const Section = ({ title, content }) => (
+  <>
+    <h3 className="my-2 ml-2 font-medium text-2xl text-blue-900 max-sm:text-base max-md:text-xl">
+      {title}
+    </h3>
+    <ul>
+      {content.map((estudiante, i) => (
+        <li
+          className="text-xl mb-1 text-black ml-7 font-serif font-light hover:bg-blue-50 max-sm:text-base max-md:text-xl max-sm:ml-3 max-md:ml-5"
+          key={i}
+        >
+          {estudiante}
+        </li>
+      ))}
+    </ul>
+  </>
+);
 
 export default EstudiantesAccordion;

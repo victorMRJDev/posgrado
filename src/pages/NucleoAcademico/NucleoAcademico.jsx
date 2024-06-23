@@ -1,15 +1,11 @@
 import React from "react";
 import CardsGrid from "../../components/Cards/CardsGrid";
 import Footer from "../../components/Footer/Footer";
-import PanelLateral from "../../components/PanelLateral/PanelLateral";
 import Parrafo from "../../components/Secciones/Parrafo";
 import Titulo from "../../components/Secciones/Titulo";
 import TopBar from "../../components/TopBar/TopBar";
 
 //
-import DraCastro from "../../assets/nucleoacademico/DraCastro.jpg";
-import DraHernandez from "../../assets/nucleoacademico/DraHernandez.jpg";
-import DraLeyva from "../../assets/nucleoacademico/DraLeyva.jpg";
 import DrCaballero from "../../assets/nucleoacademico/DrCaballero.jpg";
 import DrCampos from "../../assets/nucleoacademico/DrCampos.jpg";
 import DrFuentes from "../../assets/nucleoacademico/DrFuentes.jpg";
@@ -17,9 +13,13 @@ import DrGonzalez from "../../assets/nucleoacademico/DrGonzalez.jpg";
 import DrLuna from "../../assets/nucleoacademico/DrLuna.jpg";
 import DrMarmolejo from "../../assets/nucleoacademico/DrMarmolejo.jpg";
 import DrMorales from "../../assets/nucleoacademico/DrMorales.jpg";
+import DrRoman from "../../assets/nucleoacademico/DrRoman.jpg";
+import DraCastro from "../../assets/nucleoacademico/DraCastro.jpg";
+import DraHernandez from "../../assets/nucleoacademico/DraHernandez.jpg";
+import DraLeyva from "../../assets/nucleoacademico/DraLeyva.jpg";
 import LicGonzalez from "../../assets/nucleoacademico/LicGonzalez.jpg";
 import MCValencia from "../../assets/nucleoacademico/MCValencia.jpg";
-import DrRoman from "../../assets/nucleoacademico/DrRoman.jpg";
+import Contenido from "../../components/Secciones/Contenido";
 //
 
 const data = [
@@ -93,26 +93,23 @@ const NucleoAcademico = () => {
   return (
     <>
       <TopBar />
-      <div className="flex flex-row m-9 gap-10">
-        <div className="w-2/3 h-auto py-6 shadow-xl mb-4">
-          <Titulo titulo={"Profesores de Tiempo Completo"}></Titulo>
-          <div className="container mx-auto px-4 py-8">
-            <CardsGrid data={data} />
-          </div>
-          <Parrafo
-            texto="¡Estamos aquí para apoyarte en tu camino hacia la excelencia
+      <Contenido>
+        <Titulo titulo={"Profesores de Tiempo Completo"}></Titulo>
+        <div className="container mx-auto px-4 py-8">
+          <CardsGrid data={data} />
+        </div>
+        <Parrafo
+          texto="¡Estamos aquí para apoyarte en tu camino hacia la excelencia
                 académica y profesional en el campo de la ingeniería!"
-            conMargenSuperior={false}
-          ></Parrafo>
-          <Parrafo
-            texto="¡No dudes en acercarte a nosotros para cualquier consulta o
+          conMargenSuperior={false}
+        ></Parrafo>
+        <Parrafo
+          texto="¡No dudes en acercarte a nosotros para cualquier consulta o
               asistencia que necesites durante tu experiencia en la Maestría
               en Ciencias de la Ingeniería!"
-            conMargenSuperior={false}
-          ></Parrafo>
-        </div>
-        <PanelLateral />
-      </div>
+          conMargenSuperior={false}
+        ></Parrafo>
+      </Contenido>
       <Footer />
     </>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
-import PanelLateral from "../../components/PanelLateral/PanelLateral";
 import PlanesAccordion from "../../components/PlanEstudios/PlanesAccordion";
+import Contenido from "../../components/Secciones/Contenido";
 import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import Titulo from "../../components/Secciones/Titulo";
 import TopBar from "../../components/TopBar/TopBar";
@@ -101,49 +101,46 @@ const PlanEstudios = () => {
   return (
     <>
       <TopBar />
-      <div className="flex flex-row m-9 gap-10">
-        <div className="w-2/3 h-auto py-6 shadow-xl mb-4">
-          <SeccionParrafo
-            titulo="Plan De Estudios"
-            texto="El plan de estudios es semestral diseñado para concluirse en dos
+      <Contenido>
+        <SeccionParrafo
+          titulo="Plan De Estudios"
+          texto="El plan de estudios es semestral diseñado para concluirse en dos
             años, en el que el estudiante deberá cursar cuatro asignaturas
             básicas, cuatro asignaturas optativas, tres seminarios de
             investigación y tesis. La tesis empezará a desarrollarse desde el
             primer semestre y se acreditará hasta que el estudiante presente
             el examen de grado."
-          ></SeccionParrafo>
-          <PlanesAccordion title="Semestre 1" list={semestreUno} />
-          <PlanesAccordion title="Semestre 2" list={semestreDos} />
-          <PlanesAccordion title="Semestre 3" list={semestreTres} />
-          <PlanesAccordion title="Semestre 4" list={semestreCuatro} />
-          <Titulo
-            titulo={"Asignaturas Básicas"}
-            mostrarSeparador={false}
-          ></Titulo>
-          <PlanesAccordion title="Asignaturas" list={asignaturasBasicas} />
-          <SeccionParrafo
-            titulo="Asignaturas Optativas"
-            mostrarSeparador={false}
-            texto=" A lo largo de tu estancia como estudiante del Posgrado en Ciencias
+        ></SeccionParrafo>
+        <PlanesAccordion title="Semestre 1" list={semestreUno} />
+        <PlanesAccordion title="Semestre 2" list={semestreDos} />
+        <PlanesAccordion title="Semestre 3" list={semestreTres} />
+        <PlanesAccordion title="Semestre 4" list={semestreCuatro} />
+        <Titulo
+          titulo={"Asignaturas Básicas"}
+          mostrarSeparador={false}
+        ></Titulo>
+        <PlanesAccordion title="Asignaturas" list={asignaturasBasicas} />
+        <SeccionParrafo
+          titulo="Asignaturas Optativas"
+          mostrarSeparador={false}
+          texto=" A lo largo de tu estancia como estudiante del Posgrado en Ciencias
             de la Ingeniería, tus aprendizajes se verán guiados por docentes
             expertos en su rama, con materias específicas para cada línea de
             investigación, con el objetivo de que la innovación y el
             conocimiento sean partes fundamentales de tus clases."
-            conMargenSuperior={false}
-          ></SeccionParrafo>
-          <PlanesAccordion
-            title={"LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable"}
-            list={optativasL1}
-          />
-          <PlanesAccordion
-            title={
-              "LGAC 2: Investigación, Desarrollo y Aplicaciones de Tecnologías Inteligentes"
-            }
-            list={optativasL2}
-          />
-        </div>
-        <PanelLateral />
-      </div>
+          conMargenSuperior={false}
+        ></SeccionParrafo>
+        <PlanesAccordion
+          title={"LGAC 1: Nuevas Tecnologías para el Desarrollo Sustentable"}
+          list={optativasL1}
+        />
+        <PlanesAccordion
+          title={
+            "LGAC 2: Investigación, Desarrollo y Aplicaciones de Tecnologías Inteligentes"
+          }
+          list={optativasL2}
+        />
+      </Contenido>
       <Footer />
     </>
   );

@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import PanelLateral from "../../components/PanelLateral/PanelLateral";
 import Titulo from "../../components/Secciones/Titulo";
 import TopBar from "../../components/TopBar/TopBar";
+import Contenido from "../../components/Secciones/Contenido";
 
 const listPrimeraGeneracion = [
   {
@@ -64,28 +65,25 @@ const Estudiantes = () => {
   return (
     <>
       <TopBar />
-      <div className="flex flex-row m-9 gap-10">
-        <div className="w-2/3 h-auto py-6 shadow-xl mb-4 max-sm:w-full">
-          <Titulo titulo={"Lista de Alumnos"}></Titulo>
-          <p className="mb-9"></p>
-          <EstudiantesAccordion
-            image={imagePG}
-            title="Primera Generación"
-            list={listPrimeraGeneracion}
-          />
-          <EstudiantesAccordion
-            image={imagePG}
-            title="Segunda Generación"
-            list={listSegundaGeneracion}
-          />
-          <EstudiantesAccordion
-            image={imagePG}
-            title="Tercera Generación"
-            list={lisTerceraGeneracion}
-          />
-        </div>
-        <PanelLateral />
-      </div>
+      <Contenido>
+        <Titulo titulo={"Lista de Alumnos"}></Titulo>
+        <p className="mb-9"></p>
+        <EstudiantesAccordion
+          image={imagePG}
+          title="Primera Generación"
+          list={listPrimeraGeneracion}
+        />
+        <EstudiantesAccordion
+          image={imagePG}
+          title="Segunda Generación"
+          list={listSegundaGeneracion}
+        />
+        <EstudiantesAccordion
+          image={imagePG}
+          title="Tercera Generación"
+          list={lisTerceraGeneracion}
+        />
+      </Contenido>
       <Footer />
     </>
   );

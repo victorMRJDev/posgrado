@@ -4,8 +4,8 @@ import Separador from "../../assets/separador.svg";
 const Titulo = ({ titulo, mostrarSeparador = true }) => {
   return (
     <div>
-      <div className="flex flex-col py-6 px-10 justify-center items-center max-sm:justify-start">
-        <h1 className="text-4xl text-black font-sans font-semibold max-sm:text-justify max-sm:text-3xl">
+      <div className="flex flex-col py-6 px-10 justify-center items-center">
+        <h1 className="text-4xl text-black font-sans font-semibold text-center max-sm:text-2xl max-md:text-3xl bg-red-200">
           {titulo}
         </h1>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Lista from "../../components/Secciones/Lista";
 import Parrafo from "./Parrafo";
-import SeccionTitulo from "./Titulo";
+import Titulo from "./Titulo";
 
 const SeccionParrafoLista = ({
   titulo,
@@ -12,7 +12,7 @@ const SeccionParrafoLista = ({
 }) => {
   return (
     <div>
-      <SeccionTitulo titulo={titulo} mostrarSeparador={mostrarSeparador} />
+      <Titulo titulo={titulo} mostrarSeparador={mostrarSeparador} />
       <Parrafo texto={texto} conMargenSuperior={conMargenSuperior} />
       <Lista lista={lista} />
     </div>

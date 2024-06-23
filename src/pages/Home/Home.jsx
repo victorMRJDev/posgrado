@@ -69,7 +69,7 @@ export const Home = () => {
           conMargenSuperior={false}
         ></Parrafo>
       </Contenido>
-      <div className="flex flex-wrap justify-evenly items-center gap-5 mx-7 lg:gap-9 max-sm:gap-9 rounded-2xl">
+      <div className="flex flex-wrap justify-evenly items-center gap-5 mx-7 lg:gap-9 rounded-2xl">
         <CardSocial
           key={1}
           image={instagramPhoto}

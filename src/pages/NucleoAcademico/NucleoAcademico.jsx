@@ -22,7 +22,7 @@ import MCValencia from "../../assets/nucleoacademico/MCValencia.jpg";
 import Contenido from "../../components/Secciones/Contenido";
 //
 
-const data = [
+const datosPlantilla = [
   {
     image: DraCastro,
     name: "Dra. Mirna Castro Bello",
@@ -95,8 +95,8 @@ const NucleoAcademico = () => {
       <TopBar />
       <Contenido>
         <Titulo titulo={"Profesores de Tiempo Completo"}></Titulo>
-        <div className="container mx-auto px-4 py-8">
-          <CardsGrid data={data} />
+        <div className="container mx-auto px-4 py-4">
+          <CardsGrid data={datosPlantilla} />
         </div>
         <Parrafo
           texto="¡Estamos aquí para apoyarte en tu camino hacia la excelencia

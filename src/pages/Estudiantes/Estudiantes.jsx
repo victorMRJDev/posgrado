@@ -2,12 +2,11 @@ import React from "react";
 import imagePG from "../../assets/Carrusel/1.jpg";
 import EstudiantesAccordion from "../../components/Estudiantes/EstudiantesAccordion";
 import Footer from "../../components/Footer/Footer";
-import PanelLateral from "../../components/PanelLateral/PanelLateral";
+import Contenido from "../../components/Secciones/Contenido";
 import Titulo from "../../components/Secciones/Titulo";
 import TopBar from "../../components/TopBar/TopBar";
-import Contenido from "../../components/Secciones/Contenido";
 
-const listPrimeraGeneracion = [
+const listaPrimeraGeneracion = [
   {
     id: 1,
     lineaUno: [
@@ -23,7 +22,7 @@ const listPrimeraGeneracion = [
   },
 ];
 
-const listSegundaGeneracion = [
+const listaSegundaGeneracion = [
   {
     id: 2,
     lineaUno: [
@@ -38,7 +37,7 @@ const listSegundaGeneracion = [
   },
 ];
 
-const lisTerceraGeneracion = [
+const listaTerceraGeneracion = [
   {
     id: 3,
     lineaUno: [
@@ -67,21 +66,21 @@ const Estudiantes = () => {
       <TopBar />
       <Contenido>
         <Titulo titulo={"Lista de Alumnos"}></Titulo>
-        <p className="mb-9"></p>
+        <p className="mt-9 max-sm:mt-5 max-md:mt-7"></p>
         <EstudiantesAccordion
           image={imagePG}
           title="Primera Generación"
-          list={listPrimeraGeneracion}
+          list={listaPrimeraGeneracion}
         />
         <EstudiantesAccordion
           image={imagePG}
           title="Segunda Generación"
-          list={listSegundaGeneracion}
+          list={listaSegundaGeneracion}
         />
         <EstudiantesAccordion
           image={imagePG}
           title="Tercera Generación"
-          list={lisTerceraGeneracion}
+          list={listaTerceraGeneracion}
         />
       </Contenido>
       <Footer />

@@ -9,11 +9,11 @@ function Footer() {
         <p className="text-base mb-2">
           División de Estudios de Posgrado e Investigación
         </p>
-        <div className="flex-wrap justify-center">
+        <div className="flex-wrap justify-center underline">
           <p className="text-base mb-2 mx-2">
             <a
               href="mailto:posgrado.mci@chilpancingo.tecnm.mx"
-              className="hover:text-blue-100 text-base"
+              className="hover:text-blue-100 text-base font-"
             >
               posgrado.mci@chilpancingo.tecnm.mx
             </a>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import separador from "../../assets/separador.svg";
 
 const PlanesAccordion = ({ title, text, list, image }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
@@ -10,7 +9,9 @@ const PlanesAccordion = ({ title, text, list, image }) => {
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between w-full py-2 border-2 rounded-lg border-blue-950 hover:bg-blue-50"
       >
-        <span className="ml-4 font-medium text-2xl text-black">{title}</span>
+        <span className="ml-4 font-medium text-2xl text-black max-sm:text-lg max-md:text-xl">
+          {title}
+        </span>
         <svg
           className="items-center my-auto ml-8 mr-4 fill-blue-950 shrink-0"
           width="16"
@@ -37,11 +38,14 @@ const PlanesAccordion = ({ title, text, list, image }) => {
             <img src={image} alt="" className="flex rounded-xl" />
           </div>
           {list.map((item, index) => (
-            <div key={index} className="ml-8 mr-8 overflow-hidden">
+            <div
+              key={index}
+              className="mx-8 overflow-hidden max-sm:mx-3 max-md:mx-5"
+            >
               <ul>
                 {item.materias.map((materia, i) => (
                   <p
-                    className="text-2xl mt-2 mb-1 text-black hover:bg-blue-50"
+                    className="text-2xl mt-2 mb-1 text-black hover:bg-blue-50 max-sm:text-lg max-md:text-xl"
                     key={i}
                   >
                     {materia}
@@ -52,7 +56,7 @@ const PlanesAccordion = ({ title, text, list, image }) => {
           ))}
           {list.map((item, index) => (
             <div key={index} className="bg-blue-950 mt-4 overflow-hidden">
-              <p className="text-2xl ml-8 font-medium text-white my-1">
+              <p className="text-2xl ml-5 font-bold text-white my-1 max-sm:text-lg max-md:text-xl">
                 {item.creditos ? `Creditos: ${item.creditos}` : ""}
               </p>
             </div>

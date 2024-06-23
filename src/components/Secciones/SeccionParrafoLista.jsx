@@ -8,13 +8,13 @@ const SeccionParrafoLista = ({
   mostrarSeparador = true,
   texto,
   lista,
-  conMargenSuperior,
+  conMargenSuperior = false,
 }) => {
   return (
     <div>
       <Titulo titulo={titulo} mostrarSeparador={mostrarSeparador} />
       <Parrafo texto={texto} conMargenSuperior={conMargenSuperior} />
-      <Lista lista={lista} />
+      <Lista lista={lista} conMargenSuperior={false} />
     </div>
   );
 };

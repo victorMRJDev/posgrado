@@ -19,8 +19,8 @@ const NavBar = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-20 flex justify-between items-center shadow-2xl">
-      <nav className="w-screen shadow-2xl lg:flex lg:justify-center bg-white">
+    <header className="sticky top-0 z-20 flex justify-between items-center shadow-2xl bg-white">
+      <nav className="w-screen lg:flex lg:justify-center">
         <div className="flex justify-end items-center my-4">
           <button
             className="lg:hidden text-3xl justify-end mr-4"
@@ -35,7 +35,7 @@ const NavBar = () => {
         </div>
 
         <div className={`lg:flex ${isOpen ? "block" : "hidden"} w-full`}>
-          <div className="flex flex-col lg:flex-row justify-center items-center gap-2 w-full mx-auto my-4 md:gap-4 sm:gap-4">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-2 w-full mx-auto my-4 px-5">
             {menuItems.map((item, index) => (
               <Link
                 key={index}

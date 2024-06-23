@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
-import PanelLateral from "../../components/PanelLateral/PanelLateral";
+import Contenido from "../../components/Secciones/Contenido";
 import SeccionLista from "../../components/Secciones/SeccionLista";
 import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import TopBar from "../../components/TopBar/TopBar";
@@ -18,11 +18,10 @@ const Objetivos = () => {
   return (
     <>
       <TopBar />
-      <div className="flex flex-row m-9 gap-10">
-        <div className="w-2/3 h-auto py-6 shadow-xl mb-4 max-sm:w-full">
-          <SeccionParrafo
-            titulo="Objetivo General"
-            texto="Formar profesionistas de alta calidad académica con profundos
+      <Contenido>
+        <SeccionParrafo
+          titulo="Objetivo General"
+          texto="Formar profesionistas de alta calidad académica con profundos
             conocimientos en el estado del arte de su disciplina, con
             destrezas intelectuales y metodológicas que les permitan resolver
             problemas de su entorno profesional, aprender en forma autónoma y
@@ -33,14 +32,12 @@ const Objetivos = () => {
             ser líderes que respondan a las necesidades de las empresas
             locales, regionales, nacionales e internacionales a través de una
             visión objetiva, crítica y de trabajo en equipo."
-          ></SeccionParrafo>
-          <SeccionLista
-            titulo="Objetivos Específicos"
-            lista={objetivosEspecificos}
-          ></SeccionLista>
-        </div>
-        <PanelLateral />
-      </div>
+        ></SeccionParrafo>
+        <SeccionLista
+          titulo="Objetivos Específicos"
+          lista={objetivosEspecificos}
+        ></SeccionLista>
+      </Contenido>
       <Footer />
     </>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 const ParrafoConMargen = ({ texto }) => {
   return (
-    <div className="flex flex-col py-2 px-10 justify-center mt-9 max-sm:px-5 max-md:px-7">
+    <div className="flex flex-col py-2 px-10 justify-center mt-7 max-sm:px-5 max-md:px-7 max-sm:mt-3 max-md:mt-5">
       <p className="text-xl text-justify font-serif font-light text-black max-sm:text-base max-md:text-lg">
         {texto}
       </p>

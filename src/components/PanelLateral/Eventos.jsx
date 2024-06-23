@@ -1,4 +1,5 @@
 import React from "react";
+import CardEvento from "../Cards/CardEvento";
 
 function Eventos() {
   return (
@@ -8,26 +9,10 @@ function Eventos() {
           Eventos
         </h1>
       </div>
-      <div className="flex cursor-pointer w-2/3 m-4 h-28 bg-blue-900 rounded-lg flex-col justify-center items-center border-4 border-blue-950">
-        <h1 className="text-4xl h-28 text-white font-sans font-semibold mb-6 mt-6">
-          Evento 1
-        </h1>
-      </div>
-      <div className="flex cursor-pointer w-2/3 m-4 h-28 bg-blue-900 rounded-lg flex-col justify-center items-center border-4 border-blue-950">
-        <h1 className="text-4xl h-28 text-white font-sans font-semibold mb-6 mt-6">
-          Evento 2
-        </h1>
-      </div>
-      <div className="flex cursor-pointer w-2/3 m-4 h-28 bg-blue-900 rounded-lg flex-col justify-center items-center border-4 border-blue-950">
-        <h1 className="text-4xl h-28 text-white font-sans font-semibold mb-6 mt-6">
-          Evento 3
-        </h1>
-      </div>
-      <div className="flex cursor-pointer w-2/3 m-4 h-28 bg-blue-900 rounded-lg flex-col justify-center items-center border-4 border-blue-950">
-        <h1 className="text-4xl h-28 text-white font-sans font-semibold mb-6 mt-6">
-          Evento 4
-        </h1>
-      </div>
+      <CardEvento title={"Evento 1"} />
+      <CardEvento title={"Evento 2"} />
+      <CardEvento title={"Evento 3"} />
+      <CardEvento title={"Evento 4"} />
     </div>
   );
 }

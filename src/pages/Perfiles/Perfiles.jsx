@@ -4,6 +4,7 @@ import PanelLateral from "../../components/PanelLateral/PanelLateral";
 import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import SeccionParrafoLista from "../../components/Secciones/SeccionParrafoLista";
 import TopBar from "../../components/TopBar/TopBar";
+import Contenido from "../../components/Secciones/Contenido";
 
 const competenciasEgreso = [
   "Capacidad para conducir investigación original en el área de ingeniería de su especialidad.",
@@ -16,31 +17,28 @@ const Perfiles = () => {
   return (
     <>
       <TopBar />
-      <div className="flex flex-row m-9 gap-10">
-        <div className="w-2/3 h-auto py-6 shadow-xl mb-4 max-sm:w-full">
-          <SeccionParrafo
-            titulo="Perfil de Egreso"
-            texto="El programa está dirigido a ingenieros recién egresados y/o
+      <Contenido>
+        <SeccionParrafo
+          titulo="Perfil de Egreso"
+          texto="El programa está dirigido a ingenieros recién egresados y/o
             ingenieros del sector productivo, en las distintas áreas de la
             ingeniería, que cuenten con competencias, habilidades, valores y
             conocimientos que permitan evidenciar aptitudes para la
             investigación, innovación y desarrollo de proyectos
             tecnológicos."
-          ></SeccionParrafo>
-          <SeccionParrafoLista
-            titulo="Perfil de Egreso"
-            texto="El egresado de la Maestría en Ciencias de la Ingeniería será
+        ></SeccionParrafo>
+        <SeccionParrafoLista
+          titulo="Perfil de Egreso"
+          texto="El egresado de la Maestría en Ciencias de la Ingeniería será
             capaz de generar conocimientos científicos y tecnológicos a
             través del planteamiento y desarrollo de trabajo de
             investigación en las áreas de nuevas tecnologías para el
             desarrollo sustentable, con apego a la ética, el humanismo, el
             amor por el planeta, la vida silvestre, los ecosistemas y los
             semejantes, además de contar con las competencias siguientes:"
-            lista={competenciasEgreso}
-          ></SeccionParrafoLista>
-        </div>
-        <PanelLateral />
-      </div>
+          lista={competenciasEgreso}
+        ></SeccionParrafoLista>
+      </Contenido>
       <Footer />
     </>
   );

@@ -7,7 +7,7 @@ import CardSocial from "../../components/Cards/CardSocial";
 import Footer from "../../components/Footer/Footer";
 import EnlaceExterno from "../../components/Multimedia/EnlaceExterno";
 import StreamableVideo from "../../components/Multimedia/StreamableVideo";
-import PanelLateral from "../../components/PanelLateral/PanelLateral";
+import Contenido from "../../components/Secciones/Contenido";
 import Parrafo from "../../components/Secciones/Parrafo";
 import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import TopBar from "../../components/TopBar/TopBar";
@@ -18,11 +18,10 @@ export const Home = () => {
     <>
       <TopBar />
       <StreamableVideo src="https://streamable.com/e/tro9w0?autoplay=1&muted=0" />
-      <div className="flex flex-row m-9 gap-10 max-sm:m-2">
-        <div className="w-2/3 h-auto py-6 shadow-xl mb-4 md:w-screen sm:w-screen max-sm:w-screen">
-          <SeccionParrafo
-            titulo="Maestría en Ciencias de la Ingeniería"
-            texto="La Maestría en Ciencias de la Ingeniería es un programa de nueva
+      <Contenido>
+        <SeccionParrafo
+          titulo="Maestría en Ciencias de la Ingeniería"
+          texto="La Maestría en Ciencias de la Ingeniería es un programa de nueva
             creación, con orientación profesional incorporado al Sistema
             Nacional de Posgrados (SNP) del CONAHCYT. Nuestro programa
             educativo tiene como objetivo principal abordar la creciente
@@ -36,9 +35,9 @@ export const Home = () => {
             contribuir de esta manera, buscamos facilitar la resolución de
             diversos desafíos presentes en los sectores productivos, de
             servicios, gubernamentales y sociales."
-          ></SeccionParrafo>
-          <Parrafo
-            texto=" La Maestría en Ciencias de la Ingeniería se enfoca en capacitar
+        ></SeccionParrafo>
+        <Parrafo
+          texto=" La Maestría en Ciencias de la Ingeniería se enfoca en capacitar
           a sus estudiantes para que sean capaces de enfrentar los retos y
           demandas cambiantes del mundo moderno. A través de un riguroso
           plan de estudios, los participantes adquieren habilidades y
@@ -46,10 +45,10 @@ export const Home = () => {
           ingenieril, así como para realizar investigaciones que impulsen
           la innovación y el desarrollo en sus respectivas áreas de
           especialización."
-            conMargenSuperior={false}
-          ></Parrafo>
-          <Parrafo
-            texto="Además, para fomentar el compromiso y el rendimiento académico,
+          conMargenSuperior={false}
+        ></Parrafo>
+        <Parrafo
+          texto="Además, para fomentar el compromiso y el rendimiento académico,
             ofrecemos la posibilidad de acceder a becas CONAHCYT, sujetas a la
             aprobación del comité correspondiente. Aquellos estudiantes que
             resulten beneficiarios de estas becas se comprometen a dedicarse
@@ -57,21 +56,19 @@ export const Home = () => {
             las asignaturas y créditos del programa en el tiempo estipulado, y
             a graduarse al concluir el período de la beca, de acuerdo con las
             normativas establecidas por CONAHCYT"
-            conMargenSuperior={false}
-            componente={
-              <EnlaceExterno
-                texto="www.conahcyt.mx"
-                url="https://conahcyt.mx/"
-              ></EnlaceExterno>
-            }
-          ></Parrafo>
-          <Parrafo
-            texto="Coordinadora: Dra. Mirna Castro Bello"
-            conMargenSuperior={false}
-          ></Parrafo>
-        </div>
-        <PanelLateral />
-      </div>
+          conMargenSuperior={false}
+          componente={
+            <EnlaceExterno
+              texto="www.conahcyt.mx"
+              url="https://conahcyt.mx/"
+            ></EnlaceExterno>
+          }
+        ></Parrafo>
+        <Parrafo
+          texto="Coordinadora: Dra. Mirna Castro Bello"
+          conMargenSuperior={false}
+        ></Parrafo>
+      </Contenido>
       <div
         className="flex flex-row lg:gap-9 max-sm:flex-col max-sm:gap-9 sm:flex-row sm:gap-3 md:flex-row 
       lg:flex-row justify-center items-center rounded-2xl mt-14"

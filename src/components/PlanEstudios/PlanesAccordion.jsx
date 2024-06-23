@@ -9,7 +9,7 @@ const PlanesAccordion = ({ title, text, list, image }) => {
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between w-full py-2 border-2 rounded-lg border-blue-950 hover:bg-blue-50"
       >
-        <span className="ml-4 font-medium text-2xl text-black max-sm:text-lg max-md:text-xl">
+        <span className="ml-2 font-medium text-2xl text-black max-sm:text-lg max-md:text-xl">
           {title}
         </span>
         <svg

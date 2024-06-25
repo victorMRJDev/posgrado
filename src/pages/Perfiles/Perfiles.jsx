@@ -19,7 +19,7 @@ const Perfiles = () => {
       <TopBar />
       <Contenido>
         <SeccionParrafo
-          titulo="Perfil de Egreso"
+          titulo="Perfil de Ingreso"
           texto="El programa está dirigido a ingenieros recién egresados y/o
             ingenieros del sector productivo, en las distintas áreas de la
             ingeniería, que cuenten con competencias, habilidades, valores y

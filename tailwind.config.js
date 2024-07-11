@@ -3,7 +3,12 @@ export default {
   // content: [],
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'gob-green':'#10312B'
+      },
+    },
+    
   },
   plugins: [],
 };

@@ -1,9 +1,19 @@
 import React from "react";
+import { useNavigate  } from "react-router-dom";
 
-const ButtonBlue = ({ text, type = "button", onClick, className }) => {
+const ButtonBlue = ({ text, type = "button", onClick,to, className }) => {
+
+  const navigate = useNavigate ();
+
   const handleClick = () => {
+    // if (onClick) {
+    //   onClick();
+    // }
     if (onClick) {
       onClick();
+    }
+    if (to) {
+      navigate(to);
     }
   };
 

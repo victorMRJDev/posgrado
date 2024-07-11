@@ -10,6 +10,7 @@ import Perfiles from "../pages/Perfiles/Perfiles";
 import PlanEstudios from "../pages/PlanEstudios/PlanEstudios";
 import Repositorio from "../pages/Repositorio/Repositorio";
 
+
 const AppRouter = () => {
   return (
     <Routes>

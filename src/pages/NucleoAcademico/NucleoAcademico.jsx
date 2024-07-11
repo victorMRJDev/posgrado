@@ -9,7 +9,7 @@ import TopBar from "../../components/TopBar/TopBar";
 import DrCaballero from "../../assets/nucleoacademico/DrCaballero.jpg";
 import DrCampos from "../../assets/nucleoacademico/DrCampos.jpg";
 import DrFuentes from "../../assets/nucleoacademico/DrFuentes.jpg";
-import DrGonzalez from "../../assets/nucleoacademico/DrGonzalez.jpg";
+// import DrGonzalez from "../../assets/nucleoacademico/DrGonzalez.jpg";
 import DrLuna from "../../assets/nucleoacademico/DrLuna.jpg";
 import DrMarmolejo from "../../assets/nucleoacademico/DrMarmolejo.jpg";
 import DrMorales from "../../assets/nucleoacademico/DrMorales.jpg";

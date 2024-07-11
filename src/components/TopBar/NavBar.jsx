@@ -19,7 +19,8 @@ const NavBar = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-20 flex justify-between items-center shadow-2xl bg-white">
+    // <header className="flex justify-between items-center shadow-2xl bg-white">
+     <header className="sticky top-0 z-20 flex justify-between items-center shadow-2xl bg-white"> 
       <nav className="w-screen lg:flex lg:justify-center">
         <div className="flex justify-end items-center my-4">
           <button

@@ -11,6 +11,7 @@ const LogoBar = () => {
   return (
     <>
       <div className="bg-white flex justify-between items-center max-sm:hidden sm:hidden md:hidden lg:flex p-2">
+      {/* <div className="bg-white flex justify-between items-center max-sm:hidden sm:hidden md:hidden lg:flex p-2"> */}
       <div className="flex items-center justify-center w-1/6 max-w-screen-lg mx-auto">
           <img
             className="h-16 max-w-full object-contain mx-4"

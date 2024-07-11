@@ -11,11 +11,14 @@ import Contenido from "../../components/Secciones/Contenido";
 import Parrafo from "../../components/Secciones/Parrafo";
 import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import TopBar from "../../components/TopBar/TopBar";
+import NavBarGob from "../../components/TopBar/NavBarGob";
+import logoMci_fondo from "../../assets/logo_mci_confondo.svg";
 //import Carrusel from "../../components/Carrusel/Carrusel";
 
 export const Home = () => {
   return (
     <>
+      <NavBarGob />
       <TopBar />
       <StreamableVideo src="https://streamable.com/e/tro9w0?autoplay=1&muted=0" />
       <Contenido>
@@ -72,19 +75,19 @@ export const Home = () => {
       <div className="flex flex-wrap justify-evenly items-center gap-5 mx-7 lg:gap-9 rounded-2xl">
         <CardSocial
           key={1}
-          image={instagramPhoto}
+          image={logoMci_fondo}
           texto={"Instagram"}
           icon={<FaInstagram color="black" />}
         />
         <CardSocial
           key={2}
-          image={instagramPhoto}
+          image={logoMci_fondo}
           texto={"Facebook"}
           icon={<FaFacebook color="blue" />}
         />
         <CardSocial
           key={3}
-          image={instagramPhoto}
+          image={logoMci_fondo}
           texto={"Youtube"}
           icon={<IoLogoYoutube color="red" />}
         />

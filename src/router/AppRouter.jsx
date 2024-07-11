@@ -8,6 +8,8 @@ import NucleoAcademico from "../pages/NucleoAcademico/NucleoAcademico";
 import Objetivos from "../pages/Objetivos/Objetivos";
 import Perfiles from "../pages/Perfiles/Perfiles";
 import PlanEstudios from "../pages/PlanEstudios/PlanEstudios";
+import Repositorio from "../pages/Repositorio/Repositorio";
+
 
 const AppRouter = () => {
   return (
@@ -19,6 +21,7 @@ const AppRouter = () => {
       <Route path="/nucleoacademico" element={<NucleoAcademico />} />
       <Route path="/planestudios" element={<PlanEstudios />} />
       <Route path="/convocatorias" element={<Convocatorias />} />
+      <Route path="/repositorio" element={<Repositorio />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

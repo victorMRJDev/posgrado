@@ -7,7 +7,9 @@ function Repositorio() {
       <h1 className="text-4xl text-black font-sans font-semibold mb-6 mt-6">
         Repositorio
       </h1>
-      <ButtonBlue text="Repositorio institucional" className={"mb-6 px-6"} />
+
+      <ButtonBlue text="Repositorio institucional" className={"mb-6 px-6"} to={"/repositorio"} />
+
     </div>
   );
 }

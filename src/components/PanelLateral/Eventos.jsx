@@ -9,10 +9,10 @@ function Eventos() {
           Eventos
         </h1>
       </div>
-      <CardEvento title={"Evento 1"} />
-      <CardEvento title={"Evento 2"} />
-      <CardEvento title={"Evento 3"} />
-      <CardEvento title={"Evento 4"} />
+      <CardEvento title={"1er CITCA"} />
+      <CardEvento title={"2do CITCA"} />
+      <CardEvento title={"COLOQUIO INTERNACIONAL ITSJR"} />
+      {/* <CardEvento title={"Evento 4"} /> */}
     </div>
   );
 }

@@ -5,6 +5,7 @@ import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import SeccionParrafoLista from "../../components/Secciones/SeccionParrafoLista";
 import TopBar from "../../components/TopBar/TopBar";
 import Contenido from "../../components/Secciones/Contenido";
+import NavBarGob from "../../components/TopBar/NavBarGob";
 
 const competenciasEgreso = [
   "Capacidad para conducir investigación original en el área de ingeniería de su especialidad.",
@@ -16,6 +17,7 @@ const competenciasEgreso = [
 const Perfiles = () => {
   return (
     <>
+    <NavBarGob />
       <TopBar />
       <Contenido>
         <SeccionParrafo

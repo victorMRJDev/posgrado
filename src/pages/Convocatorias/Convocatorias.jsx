@@ -7,6 +7,7 @@ import SeccionLista from "../../components/Secciones/SeccionLista";
 import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import SeccionTitulo from "../../components/Secciones/Titulo";
 import TopBar from "../../components/TopBar/TopBar";
+import NavBarGob from "../../components/TopBar/NavBarGob";
 
 const requisitosIngreso = [
   "Acreditar el proceso de admisión (curso propedéutico, examen de conocimientos y entrevista).",
@@ -19,6 +20,7 @@ const requisitosIngreso = [
 const Estudiantes = () => {
   return (
     <>
+    <NavBarGob />
       <TopBar />
       <Contenido>
         <SeccionParrafo

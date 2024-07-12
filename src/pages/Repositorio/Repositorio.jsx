@@ -43,6 +43,7 @@ import IMC_poster from "../../assets/posters/IMC.pdf";
 import ISB_poster from "../../assets/posters/ISB.pdf";
 import JARV_poster from "../../assets/posters/JARV.pdf";
 import Contenido from "../../components/Secciones/Contenido";
+import NavBarGob from "../../components/TopBar/NavBarGob";
 
 
 const Repositorio = () => {
@@ -149,6 +150,7 @@ const Repositorio = () => {
 
   return (
     <>
+        <NavBarGob />
         <TopBar />
         <div className="mt-14">
           <Contenido mostrarPanelLateral={false}>

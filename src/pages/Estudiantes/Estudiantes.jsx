@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import Contenido from "../../components/Secciones/Contenido";
 import Titulo from "../../components/Secciones/Titulo";
 import TopBar from "../../components/TopBar/TopBar";
+import NavBarGob from "../../components/TopBar/NavBarGob";
 
 const listaPrimeraGeneracion = [
   {
@@ -63,6 +64,7 @@ const listaTerceraGeneracion = [
 const Estudiantes = () => {
   return (
     <>
+    <NavBarGob />
       <TopBar />
       <Contenido>
         <Titulo titulo={"Lista de Alumnos"}></Titulo>

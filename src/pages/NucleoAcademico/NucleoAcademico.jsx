@@ -9,7 +9,6 @@ import TopBar from "../../components/TopBar/TopBar";
 import DrCaballero from "../../assets/nucleoacademico/DrCaballero.jpg";
 import DrCampos from "../../assets/nucleoacademico/DrCampos.jpg";
 import DrFuentes from "../../assets/nucleoacademico/DrFuentes.jpg";
-import DrGonzalez from "../../assets/nucleoacademico/DrGonzalez.jpg";
 import DrLuna from "../../assets/nucleoacademico/DrLuna.jpg";
 import DrMarmolejo from "../../assets/nucleoacademico/DrMarmolejo.jpg";
 import DrMorales from "../../assets/nucleoacademico/DrMorales.jpg";
@@ -20,6 +19,7 @@ import DraLeyva from "../../assets/nucleoacademico/DraLeyva.jpg";
 import LicGonzalez from "../../assets/nucleoacademico/LicGonzalez.jpg";
 import MCValencia from "../../assets/nucleoacademico/MCValencia.jpg";
 import Contenido from "../../components/Secciones/Contenido";
+import NavBarGob from "../../components/TopBar/NavBarGob";
 //
 
 const datosPlantilla = [
@@ -91,6 +91,7 @@ const datosPlantilla = [
 const NucleoAcademico = () => {
   return (
     <>
+    <NavBarGob/>
       <TopBar />
       <Contenido>
         <Titulo titulo={"Profesores de Tiempo Completo"}></Titulo>

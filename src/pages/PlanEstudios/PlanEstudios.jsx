@@ -5,6 +5,7 @@ import Contenido from "../../components/Secciones/Contenido";
 import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import Titulo from "../../components/Secciones/Titulo";
 import TopBar from "../../components/TopBar/TopBar";
+import NavBarGob from "../../components/TopBar/NavBarGob";
 
 const semestreUno = [
   {
@@ -100,6 +101,7 @@ const asignaturasBasicas = [
 const PlanEstudios = () => {
   return (
     <>
+    <NavBarGob />
       <TopBar />
       <Contenido>
         <SeccionParrafo

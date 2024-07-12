@@ -4,6 +4,7 @@ import Contenido from "../../components/Secciones/Contenido";
 import SeccionLista from "../../components/Secciones/SeccionLista";
 import SeccionParrafo from "../../components/Secciones/SeccionParrafo";
 import TopBar from "../../components/TopBar/TopBar";
+import NavBarGob from "../../components/TopBar/NavBarGob";
 
 const objetivosEspecificos = [
   "Formar recursos humanos con capacidad de investigar, asimilar, aplicar, generar y difundir conocimiento científico y tecnológico en el área de ingeniería.",
@@ -17,6 +18,7 @@ const objetivosEspecificos = [
 const Objetivos = () => {
   return (
     <>
+    <NavBarGob />
       <TopBar />
       <Contenido>
         <SeccionParrafo

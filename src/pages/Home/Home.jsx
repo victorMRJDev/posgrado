@@ -21,7 +21,7 @@ export const Home = () => {
       <NavBarGob />
       <TopBar />
       <StreamableVideo src="https://streamable.com/e/tro9w0?autoplay=1&muted=0" />
-      <Contenido>
+      <Contenido >
         <SeccionParrafo
           titulo="Maestría en Ciencias de la Ingeniería"
           texto="La Maestría en Ciencias de la Ingeniería es un programa de nueva
@@ -78,18 +78,21 @@ export const Home = () => {
           image={logoMci_fondo}
           texto={"Instagram"}
           icon={<FaInstagram color="black" />}
+          link={"https://www.instagram.com/tecnmcampuschilpancingo/"}
         />
         <CardSocial
           key={2}
           image={logoMci_fondo}
           texto={"Facebook"}
           icon={<FaFacebook color="blue" />}
+          link={"https://www.facebook.com/TecNMChilpancingo"}
         />
         <CardSocial
           key={3}
           image={logoMci_fondo}
           texto={"Youtube"}
           icon={<IoLogoYoutube color="red" />}
+          link={"https://www.youtube.com/@TecNMCampusChilpancingo"}
         />
       </div>
       <Footer />

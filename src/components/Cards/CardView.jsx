@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "./CardModal";
 
-const CardView = ({ image, name, semblanza }) => {
+const CardView = ({ image, name, semblanza, tiempo }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 

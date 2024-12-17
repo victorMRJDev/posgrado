@@ -1,5 +1,7 @@
 import React from "react";
 import convocatoriaPDF from "../../assets/Convocatoria2024MCI.pdf";
+import CONV_ADM_EJ25_DEPI from "../../assets/CONV_ADM_EJ25_DEPI.pdf";
+
 import tiempoCompleto from "../../assets/DedicacionTiempoCompleto.pdf";
 import preRegistro from "../../assets/Formato_Pre_Registro.pdf";
 
@@ -46,7 +48,7 @@ const Estudiantes = () => {
           <div className="flex flex-row py-2 justify-center">
             <p className="text-xl text-justify font-sans font-normal mt-9 text-black"></p>
             <a
-              href={convocatoriaPDF}
+              href={CONV_ADM_EJ25_DEPI}
               target="_blank"
               rel="noopener noreferrer"
               className="md:w-60 mb-2 mx-auto"

@@ -14,6 +14,8 @@ import VMRJ_portCongreso from "../../assets/articleCongreso/VMRJ_portada.jpg";
 import MSA_portCongreso from "../../assets/articleCongreso/MSA_portada.jpg";
 import ACM_portCongreso from "../../assets/articleCongreso/ACM_portada.jpg";
 import ESL_portCongreso from "../../assets/articleCongreso/ESL_portada.png";
+import JFP_portoptica from '../../assets/articleCongreso/Optica_2024.jpg'
+
 
 import DBRP_portada from "../../assets/posters/DBRP_portada.jpg";
 import IUBS_portada from "../../assets/posters/IUBS_portada.jpg";
@@ -31,6 +33,7 @@ import ESL_congreso from "../../assets/articleCongreso/ESL.pdf";
 import LGM_congreso from "../../assets/articleCongreso/LGM.pdf";
 import MSA_congreso from "../../assets/articleCongreso/MSA.pdf";
 import VMRJ_congreso from "../../assets/articleCongreso/VMRJ.pdf";
+import JFP_optica from '../../assets/articleCongreso/Optica_2024.pdf'
 // import ACM_congreso from "../../assets/articleCongreso/ACM.pdf";
 
 //POSTERS PRESENTADOS EN CONGRESO
@@ -94,6 +97,12 @@ const Repositorio = () => {
       pdf={ESL_congreso}
       image={ESL_portCongreso}
     />,
+    <CardPdf
+    // title="Environmental monitoring system between two sensor nodes with 9km link"
+    // content={["Eumir Esteban Salgado Lampart"]}
+    pdf={JFP_optica}
+    image={JFP_portoptica}
+  />,
   ]
 
   const posterCongresos = [

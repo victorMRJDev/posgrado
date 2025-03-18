@@ -1,5 +1,6 @@
 import React from "react";
 import imagePG from "../../assets/Carrusel/1.jpg";
+import fondo from '../../assets/secihti_fondoFot.jpg';
 import EstudiantesAccordion from "../../components/Estudiantes/EstudiantesAccordion";
 import Footer from "../../components/Footer/Footer";
 import Contenido from "../../components/Secciones/Contenido";
@@ -45,44 +46,59 @@ const listaTerceraGeneracion = [
       "1. Denisse Peralta Rojo",
       "2. Isaid Uriel Basilios Segovia",
       "3. Diana Dolores Vázquez Martínez",
-      "4. Daniela Aurora Morales López",
-      "5. Brandon Aldahir Jacobo Salinas",
-      "6. José Antonio Hernández Salinas",
-      "7. José Antonio Carranza Martínez",
-      "8. Mario Alberto Duque Peralta",
-      "9. Lisandro Omar Santos Arrieta",
+      "4. Brandon Aldahir Jacobo Salinas",
+      "5. Mario Alberto Duque Peralta",
+      "6. Lisandro Omar Santos Arrieta",
     ],
     lineaDos: [
       "1. José Antonio Rendón Vargas",
       "2. Imanol Marianito Cuahuitic",
-      "3. Sergio Fernando Franco Salmerón",
-      "4. Williams Reyna Pérez",
     ],
   },
 ];
 
+const listaCuartaGeneracion =[
+  {
+    id:4,
+    lineaUno:[
+      "1. Alejandra Texta Nogueda",
+      "2. Jorge Arturo Ocampo Pineda",
+      "3. Itzel Nizaritani Reyes"
+
+    ],
+    lineaDos:[
+      "1. Alberto Barrera Azoños",
+      "2. Joaquín Zueriel Nava Salazar"
+    ]
+  }
+]
 const Estudiantes = () => {
   return (
     <>
-    <NavBarGob />
+      <NavBarGob />
       <TopBar />
       <Contenido>
         <Titulo titulo={"Lista de Alumnos"}></Titulo>
         <p className="mt-9 max-sm:mt-5 max-md:mt-7"></p>
         <EstudiantesAccordion
-          image={imagePG}
+          image={fondo}
           title="Primera Generación"
           list={listaPrimeraGeneracion}
         />
         <EstudiantesAccordion
-          image={imagePG}
+          image={fondo}
           title="Segunda Generación"
           list={listaSegundaGeneracion}
         />
         <EstudiantesAccordion
-          image={imagePG}
+          image={fondo}
           title="Tercera Generación"
           list={listaTerceraGeneracion}
+        />
+        <EstudiantesAccordion
+          image={fondo}
+          title="Cuarta Generación"
+          list={listaCuartaGeneracion}
         />
       </Contenido>
       <Footer />

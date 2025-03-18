@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       colors:{
-        'gob-green':'#10312B'
+        'gob-green':'#10312B',
+        'gob-vino':'#611232'
       },
     },
     

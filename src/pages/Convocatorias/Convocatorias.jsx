@@ -3,7 +3,6 @@ import convocatoriaPDF from "../../assets/Convocatoria2024MCI.pdf";
 import CONV_ADM_EJ25_DEPI from "../../assets/CONV_ADM_EJ25_DEPI.pdf";
 import CONV_ADM_EJ25_DEPI_ACT from "../../assets/CONV_ADM_EJ25_DEPI_ACT.pdf";
 
-
 import tiempoCompleto from "../../assets/DedicacionTiempoCompleto.pdf";
 import preRegistro from "../../assets/Formato_Pre_Registro.pdf";
 
@@ -56,6 +55,7 @@ const Estudiantes = () => {
               className="md:w-60 mb-2 mx-auto"
             >
               <ButtonBlue
+                disabled={true}
                 text="Abrir convocatoria"
                 className={"md:w-80 mb-6 mx-auto"}
               />

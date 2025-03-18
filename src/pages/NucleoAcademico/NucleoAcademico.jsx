@@ -14,9 +14,12 @@ import DrRoman from "../../assets/nucleoacademico/DrRoman.jpg";
 import DraCastro from "../../assets/nucleoacademico/DraCastro.jpg";
 import DraHernandez from "../../assets/nucleoacademico/DraHernandez.jpg";
 import DraLeyva from "../../assets/nucleoacademico/DraLeyva.jpg";
+import DrDaniel from "../../assets/nucleoacademico/DrDaniel.jpeg";
 import MCValencia from "../../assets/nucleoacademico/MCValencia.jpg";
+
 import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
+
 //
 
 const datosPlantilla = [
@@ -61,6 +64,12 @@ const datosPlantilla = [
     tiempo: "invitado",
     semblanza:
       "Doctorado en Ciencias de la Computación con la especialidad en Ingeniería de Software que imparte el Centro Nacional de Investigación y Desarrollo Tecnológico (CENIDET).\n\nMiembro del Sistema Nacional de Investigadores (nivel C).\n\nProfesor por asignatura durante siete años consecutivos en la maestría en Tecnologías de la Información que imparte la Universidad Politécnica del Estado de Morelos (UPEMOR). Experiencia profesional en empresas como son: la Comisión Federal de Electricidad a través del Instituto Nacional de Electricidad y Energías Limpias (INEEL), la Secretaría de Finanzas, CDMX, el Instituto de Biotecnología, Morelos, la Secretaría de Bienestar, CDMX, la empresa Control de Riesgos Dumor S.A. de C.V. (CCR), Morelos y actualmente en el CENIDET. Experiencia en realizar y dirigir investigación Científica y Tecnológica en la IBERO y en CENIDET. Experiencia en publicaciones de artículos científicos en revistas indizadas en el JCR. Experiencia en dirección, codirección y revisión de tesis a nivel posgrado. Asistencia a congresos internacionales y estancia académica a nivel internacional en la Universidad de Medellín, Colombia. Miembro de comisiones y asociaciones educativas a nivel Nacional e Internacional como son: la IEEE y la Red Internacional de Investigación e Innovación para el Desarrollo Sostenible (RIIIDS), que coordina el Instituto Tecnológico de Linares. Colaboración en mejoras a planes de estudios en la maestría en Tecnologías de la Información que imparte la UPEMOR.",
+  },
+  {
+    image: DrDaniel,
+    name: "Dr. Daniel Angeles Herrera",
+    tiempo: "completo",
+    semblanza: "Doctorado en Ciencias en Materiales otorgado por el Instituto Politécnico Nacional, IPN – ESIQIE. Ha realizado dos estancias posdoctorales: \n\n1.- Instituto Mexicano del Petróleo (IMP), desarrollando el proyecto de investigación denominado: Evaluación de parámetros críticos (cargas, tamaños de grieta y número de ciclos) para la iniciación y propagación de grietas en conexiones soldadas en “T” en plataformas Jacket (2014 – 2015). \n2.- Centro de Tecnologías para Aguas Profundas (CTAP), desarrollando el proyecto de investigación: Diseño de pilotes de succión para sistemas submarinos de producción sujetos a carga combinada en condiciones geotécnicas de aguas profundas financiado por el Consejo Nacional de Humanidades, Ciencias y Tecnologías y la Secretaria de Energía (2016 – 2017). \nEs miembro del Sistema Nacional de Investigadores e Investigadoras Nivel 1 (2022 – 2026), y Nivel Candidato (2017 -2021). \n\nProfesor de Tiempo Completo con Perfil Deseable del PRODEP (2021 – 2024), Responsable del Cuerpo Académico: Biotecnología, Ingeniería de Materiales y Simulación de Procesos (2021 – 2024). \nFue Subdirector de Posgrado e Investigación del ITS de Tantoyuca (Enero – Agosto 2024) y Jefe de Posgrado e investigación de ITS de Tantoyuca (2018 – 2023), ha participado en diversos proyectos de investigación financiados por CONAHCyT y TecNM, ha publicado artículos científicos de divulgación y difusión en revistas especializadas e indizadas, cuenta con la publicación de cuatro capítulos de libro, así mismo, tiene certificados de derechos por INDAUTOR y un modelo de utilidad registrado ante el IMPI. \n\nAmplia experiencia en la formación de recursos humanos mediante la dirección de tesis nivel maestría y doctorado, así como, la impartición de asignaturas a nivel licenciatura y maestría desde el 2018. \n\nEn el 2020, la Sociedad Americana para Pruebas y Materiales (por sus siglas en inglés, ASTM), otorgó el reconocimiento como “Best Paper Award”, debido a la relevancia del tema y a la claridad de los resultados presentados. \n\nEn el 2022, participó como ponente en el evento académico a nivel nacional: Pasillo de la Ciencia en el Marco de la Reunión Primera Nacional de Directores del TecNM.",
   },
   {
     image: DrCampos,

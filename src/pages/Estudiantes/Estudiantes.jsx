@@ -57,9 +57,23 @@ const listaTerceraGeneracion = [
   },
 ];
 
-const listaCuartaGeneracion =[
+const listaCuartaGeneracion = [
   {
-    id:4,
+    id: 4,
+    luneaUno:[
+      "1. Yaozihuatl López García",
+      "2. Celeste Bello Pastor"
+    ],
+    lineaDos:[
+      "1. Jonathan Jesús Carranza Vega",
+      "2. Orlando Mares Hernández"
+    ]
+  }
+]
+
+const listaQuintaGeneracion =[
+  {
+    id:5,
     lineaUno:[
       "1. Alejandra Texta Nogueda",
       "2. Jorge Arturo Ocampo Pineda",
@@ -95,10 +109,15 @@ const Estudiantes = () => {
           title="Tercera Generación"
           list={listaTerceraGeneracion}
         />
-        <EstudiantesAccordion
+         <EstudiantesAccordion
           image={fondo}
           title="Cuarta Generación"
           list={listaCuartaGeneracion}
+        />
+        <EstudiantesAccordion
+          image={fondo}
+          title="Quinta Generación"
+          list={listaQuintaGeneracion}
         />
       </Contenido>
       <Footer />

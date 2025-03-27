@@ -60,7 +60,7 @@ const listaTerceraGeneracion = [
 const listaCuartaGeneracion = [
   {
     id: 4,
-    luneaUno:[
+    lineaUno:[
       "1. Yaozihuatl López García",
       "2. Celeste Bello Pastor"
     ],

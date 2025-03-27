@@ -16,6 +16,7 @@ import DraHernandez from "../../assets/nucleoacademico/DraHernandez.jpg";
 import DraLeyva from "../../assets/nucleoacademico/DraLeyva.jpg";
 import DrDaniel from "../../assets/nucleoacademico/DrDaniel.jpeg";
 import MCValencia from "../../assets/nucleoacademico/MCValencia.jpg";
+import MtroDiego from '../../assets/nucleoacademico/MtroDiego.jpg';
 
 import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
@@ -70,6 +71,12 @@ const datosPlantilla = [
     name: "Dr. Daniel Angeles Herrera",
     tiempo: "completo",
     semblanza: "Doctorado en Ciencias en Materiales otorgado por el Instituto Politécnico Nacional, IPN – ESIQIE. Ha realizado dos estancias posdoctorales: \n\n1.- Instituto Mexicano del Petróleo (IMP), desarrollando el proyecto de investigación denominado: Evaluación de parámetros críticos (cargas, tamaños de grieta y número de ciclos) para la iniciación y propagación de grietas en conexiones soldadas en “T” en plataformas Jacket (2014 – 2015). \n2.- Centro de Tecnologías para Aguas Profundas (CTAP), desarrollando el proyecto de investigación: Diseño de pilotes de succión para sistemas submarinos de producción sujetos a carga combinada en condiciones geotécnicas de aguas profundas financiado por el Consejo Nacional de Humanidades, Ciencias y Tecnologías y la Secretaria de Energía (2016 – 2017). \nEs miembro del Sistema Nacional de Investigadores e Investigadoras Nivel 1 (2022 – 2026), y Nivel Candidato (2017 -2021). \n\nProfesor de Tiempo Completo con Perfil Deseable del PRODEP (2021 – 2024), Responsable del Cuerpo Académico: Biotecnología, Ingeniería de Materiales y Simulación de Procesos (2021 – 2024). \nFue Subdirector de Posgrado e Investigación del ITS de Tantoyuca (Enero – Agosto 2024) y Jefe de Posgrado e investigación de ITS de Tantoyuca (2018 – 2023), ha participado en diversos proyectos de investigación financiados por CONAHCyT y TecNM, ha publicado artículos científicos de divulgación y difusión en revistas especializadas e indizadas, cuenta con la publicación de cuatro capítulos de libro, así mismo, tiene certificados de derechos por INDAUTOR y un modelo de utilidad registrado ante el IMPI. \n\nAmplia experiencia en la formación de recursos humanos mediante la dirección de tesis nivel maestría y doctorado, así como, la impartición de asignaturas a nivel licenciatura y maestría desde el 2018. \n\nEn el 2020, la Sociedad Americana para Pruebas y Materiales (por sus siglas en inglés, ASTM), otorgó el reconocimiento como “Best Paper Award”, debido a la relevancia del tema y a la claridad de los resultados presentados. \n\nEn el 2022, participó como ponente en el evento académico a nivel nacional: Pasillo de la Ciencia en el Marco de la Reunión Primera Nacional de Directores del TecNM.",
+  },
+  {
+    image: MtroDiego,
+    name: "Mtro. Diego Esteban Gutierrez Valencia",
+    tiempo: "completo",
+    semblanza:"Licenciado en matemáticas y física con énfasis en didáctica de la matemática y enseñanza de la fisica por la Universidad del Valle - Colombia. \nMaestro en matemática aplicada por la Universidad Autónoma de Guerrero. Candidato a Doctor en Matemáticas por la Universidad Autónoma de Guerrero. \nMiembro del Padrón Estatal de Investigadores del estado de Guerrero en el período Enero-Diciembre 2025. Publicaciones en revistas indizadas y divulgaciones relacionadas con la aplicación del análisis complejo en problemas de física."
   },
   {
     image: DrCampos,

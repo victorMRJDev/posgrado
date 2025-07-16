@@ -1,15 +1,7 @@
 import React from "react";
-// import convocatoriaPDF from "../../assets/Convocatoria2024MCI.pdf";
-// import CONV_ADM_EJ25_DEPI from "../../assets/CONV_ADM_EJ25_DEPI.pdf";
-// import CONV_ADM_EJ25_DEPI_ACT from "../../assets/CONV_ADM_EJ25_DEPI_ACT.pdf";
-import CONV_ADM_AGO_DIC from '../../assets/CONV_ADM_AGO-DIC-2025.pdf'
-
-// import tiempoCompleto from "../../assets/DedicacionTiempoCompleto.pdf";
-// import preRegistro from "../../assets/Formato_Pre_Registro.pdf";
-
+import CONV_ADM_AGO_DIC from "../../assets/CONV_ADM_AGO-DIC-2025.pdf";
 import tiempoCompleto from "../../assets/Dedicación de Tiempo completo Ago-Dic 2025.docx";
 import preRegistro from "../../assets/Formato Pre-registro Ago-Dic 2025.docx";
-
 import ButtonBlue from "../../components/Buttons/ButtonBlue";
 import Footer from "../../components/Footer/Footer";
 import Contenido from "../../components/Secciones/Contenido";
@@ -49,48 +41,46 @@ const Estudiantes = () => {
         ></SeccionLista>
         <SeccionTitulo titulo="Convocatoria"></SeccionTitulo>
 
-        <div className="flex lg:flex-row gap-32 justify-center  sm:flex-col max-sm:flex-col  max-sm:gap-0">
-          <div className="flex flex-row py-2 justify-center">
-            <p className="text-xl text-justify font-sans font-normal mt-9 text-black"></p>
+        <div className="flex flex-wrap justify-center gap-6 py-8 px-4">
+          {" "}
+          {/* Añadido py-8 para padding vertical */}
+          <div className="w-full sm:w-auto min-w-[260px] max-w-[320px]">
             <a
               href={CONV_ADM_AGO_DIC}
               target="_blank"
               rel="noopener noreferrer"
-              className="md:w-60 mb-2 mx-auto"
+              className="block"
             >
               <ButtonBlue
                 disabled={false}
                 text="Abrir convocatoria"
-                className={"md:w-80 mb-6 mx-auto"}
+                className="w-full py-3"
               />
             </a>
           </div>
-
-          <div className="flex flex-row py-2 justify-center">
-            <p className="text-xl text-justify font-sans font-normal mt-9 text-black"></p>
+          <div className="w-full sm:w-auto min-w-[260px] max-w-[320px]">
             <a
               href={preRegistro}
               target="_blank"
               rel="noopener noreferrer"
-              className="md:w-60 mb-2 mx-auto"
+              className="block"
             >
               <ButtonBlue
                 text="Formato de Pre-registro"
-                className={"md:w-80 mb-6 mx-auto"}
+                className="w-full py-3"
               />
             </a>
           </div>
-          <div className="flex flex-row py-2 justify-center">
-            <p className="text-xl text-justify font-sans font-normal mt-9 text-black"></p>
+          <div className="w-full sm:w-auto min-w-[260px] max-w-[320px]">
             <a
               href={tiempoCompleto}
               target="_blank"
               rel="noopener noreferrer"
-              className="md:w-60 mb-2 mx-auto"
+              className="block"
             >
               <ButtonBlue
                 text="Formato Tiempo completo"
-                className={"md:w-80 mb-6 mx-auto"}
+                className="w-full py-3"
               />
             </a>
           </div>

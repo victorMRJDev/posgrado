@@ -17,8 +17,8 @@ import DraLeyva from "../../assets/nucleoacademico/DraLeyva.jpg";
 import DrDaniel from "../../assets/nucleoacademico/DrDaniel.jpeg";
 import MCValencia from "../../assets/nucleoacademico/MCValencia.jpg";
 import MtroDiego from '../../assets/nucleoacademico/MtroDiego.jpg';
-import DrDiego from '../../assets/nucleoacademico/DrDiego.jpeg'
-
+import DrDiego from '../../assets/nucleoacademico/DrDiego.jpeg';
+import DrCarlosMarmolejoDuarte from '../../assets/nucleoacademico/DrCarloshijo.jpg';
 import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
 
@@ -52,6 +52,12 @@ const datosPlantilla = [
     tiempo: "parcial",
     semblanza:
       "Posdoctorado en el Centro de Investigación en Ciencias (CInC) de la Universidad Autónoma del Estado de Morelos en Cuernavaca, México. Doctor y Maestro en Ciencias de la Computación con especialidad en Inteligencia Artificial por el Centro Nacional de Investigación y Desarrollo Tecnológico (CENIDET).\n\nMiembro del Sistema Nacional de Investigadores, Nivel 1 (2024 – 2028).\n\nDurante el periodo de septiembre de 2016 a septiembre 2022 se desempeñó como Profesor-Investigador del CInC a través del programa ”Cátedras CONACYT”. Sus áreas de interés son: Visión por Computadora, Agricultura de Precisión y Aprendizaje profundo.",
+  },
+  {
+    image: DrCarlosMarmolejoDuarte,
+    name:"Dr. Carlos Marmolejo Duarte",
+    tiempo: "parcial",
+    semblanza: "Catedrático de Universidad de la ETS de Arquitectura de Barcelona e investigador del Centro de Política de Suelo y Valoraciones. Coordinador del Máster en Valoraciones Inmobiliarias Internacionales de la Universidad Politécnica de Cataluña. Miembro del Comité Académico de la Asociación Española de Valoración Inmobiliaria (AEVIU) y del Recognition Committe del European Group of Valuers' Associations (TEGoVA).\n\n Responsable de Edición de la Revista ACE: Arquitectura, Ciudad y Entorno. Especialziación en valoraciones inmobiliarias, de bienes sin mercado, el análisis urbano y territorial. Autor de numerosas publicaciones científicas y de difusión.\n\n Investigador principal de los proyectos nacionales: EnerValor sobre el impacto de la eficiencia energética en el mercado inmobiliario; LugarES sobre la identificación de centralidades usando los patrones espaciotemporales de la población; y Subcentros sobre el impacto del policentrismo en las diñámicas territoriales."
   },
   // {
   //   image: DraHernandez,

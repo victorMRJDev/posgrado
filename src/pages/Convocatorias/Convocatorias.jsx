@@ -33,7 +33,7 @@ const Estudiantes = () => {
             Tecnologías de Información y Comunicaciones, a participar en el
             PROCESO DE ADMISIÓN para el Programa de MAESTRÍA EN CIENCIAS DE
             LA INGENIERÍA en la MODALIDAD ESCOLARIZADA, para iniciar los
-            estudios en el periodo de Agosto-Diciembre 2024."
+            estudios en el periodo de Agosto-Diciembre 2025."
         ></SeccionParrafo>
         <SeccionLista
           titulo="Requisitos de Ingreso"

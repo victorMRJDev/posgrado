@@ -29,7 +29,7 @@ function Footer() {
             </a>
           </p>
         </div>
-        <p className="text-base">Teléfono: (747) 454 1300 ext. 134</p>
+        <p className="text-base">Teléfono: (747) 454 1300 ext. 1325</p>
       </div>
     </footer>
   );

@@ -54,8 +54,10 @@ const optativasL1 = [
     materias: [
       "Estrategias para la competitividad",
       "Análisis y Diseño de Producto",
+      "Modelo de negocios",
       "Manejo y disposición de residuos sólidos",
       "Tecnologías para la gestión del conocimiento",
+      "Tecnologías descontaminantes del suelo",
       "Certificación para la sustentabilidad",
       "Tecnologías adecuadas social y ecológicamente",
       "Evaluación del impacto ambiental",
@@ -78,6 +80,7 @@ const optativasL2 = [
       "Sistemas inteligentes distribuidos",
       "Visión artificial",
       "Reconocimiento de patrones",
+      "Programación para dispositivos móviles",
       "Robótica y Automatización",
       "Temas Selectos I",
       "Temas Selectos II",
@@ -93,7 +96,7 @@ const asignaturasBasicas = [
       "Matemáticas aplicadas a la ingeniería",
       "Estadística aplicada en diseño de experimentos",
       "Innovación y sustentabilidad en la ingeniería",
-      "Programación",
+      "Programación","Modelado Matemático",
     ],
   },
 ];

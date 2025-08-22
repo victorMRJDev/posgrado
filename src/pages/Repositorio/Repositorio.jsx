@@ -126,7 +126,7 @@ const Repositorio = () => {
   ]
 
   const posterCongresos = [
-  <CardPdf
+  < CardPdf
     // title="Prototipo de un Contenedor Clasificador de Residuos Sólidos Urbanos Con Redes Neuronales Convolucionales"
     // content={["Dominic Brian Roman Padilla"]}
     pdf={DBRP_poster}
@@ -175,6 +175,9 @@ const Repositorio = () => {
     image={IMC_portada}
   />,
   
+  ]
+
+  const tesis = [
   ]
 
   return (

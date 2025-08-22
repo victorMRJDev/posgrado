@@ -22,6 +22,8 @@ import DraYanet from "../../assets/nucleoacademico/Dra Yanet.jpg";;
 import DrCarlosMarmolejoDuarte from '../../assets/nucleoacademico/DrCarloshijo.jpg';
 import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
+import Areli from "../../assets/nucleoacademico/Areli.jpg";
+import Sergio from "../../assets/nucleoacademico/Sergio.jpg";
 
 //
 
@@ -57,7 +59,7 @@ const datosPlantilla = [
   {
     image: DrCarlosMarmolejoDuarte,
     name:"Dr. Carlos Marmolejo Duarte",
-    tiempo: "completo",
+    tiempo: "invitado",
     semblanza: "Catedrático de Universidad de la ETS de Arquitectura de Barcelona e investigador del Centro de Política de Suelo y Valoraciones. Coordinador del Máster en Valoraciones Inmobiliarias Internacionales de la Universidad Politécnica de Cataluña. Miembro del Comité Académico de la Asociación Española de Valoración Inmobiliaria (AEVIU) y del Recognition Committe del European Group of Valuers' Associations (TEGoVA).\n\n Responsable de Edición de la Revista ACE: Arquitectura, Ciudad y Entorno. Especialziación en valoraciones inmobiliarias, de bienes sin mercado, el análisis urbano y territorial. Autor de numerosas publicaciones científicas y de difusión.\n\n Investigador principal de los proyectos nacionales: EnerValor sobre el impacto de la eficiencia energética en el mercado inmobiliario; LugarES sobre la identificación de centralidades usando los patrones espaciotemporales de la población; y Subcentros sobre el impacto del policentrismo en las diñámicas territoriales."
   },
   {
@@ -77,7 +79,7 @@ const datosPlantilla = [
   {
     image: DrDiego,
     name: "Dr. Diego Esteban Gutierrez Valencia",
-    tiempo: "completo",
+    tiempo: "parcial",
     semblanza:
     "Licenciado en matemáticas y física con énfasis en didáctica de la matemática y enseñanza de la fisica por la Universidad del Valle - Colombia. \nMaestro en matemática aplicada por la Universidad Autónoma de Guerrero. Candidato a Doctor en Matemáticas por la Universidad Autónoma de Guerrero. \nMiembro del Padrón Estatal de Investigadores del estado de Guerrero en el período Enero-Diciembre 2025. Publicaciones en revistas indizadas y divulgaciones relacionadas con la aplicación del análisis complejo en problemas de física.",
   },
@@ -85,7 +87,7 @@ const datosPlantilla = [
     image: DraYanet,
     name: "Dra. Yanet Evangelista Alcocer",
     tiempo: "completo",
-    semblanza: "",
+    semblanza: "Profesora del programa de Ingeniería en Sistemas Computacionales y de la Maestría en Ciencias en Ciencias de la Ingeniería en el Instituto Tecnológico de Chilpancingo, en Guerrero, México, con una maestría en Ciencias de la Computación y un doctorado en Sistemas Computacionales. \nHa trabajado como consultora, desarrolladora y asesora en proyectos vinculados a los sectores público y privado. Entre los proyectos más recientes en los que ha participado se encuentran un sistema de votación remota con urna electrónica, una aplicación móvil para aprender lengua de signos mexicana y un videojuego para enseñar educación ambiental a los niños. Sus áreas de interés son los sistemas distribuidos, los agentes inteligentes y el aprendizaje automático aplicado a la educación superior.",
   },
   {
     image: DrCampos,
@@ -119,6 +121,18 @@ const datosPlantilla = [
     tiempo: "invitado",
     semblanza:
       "Doctor en Ingeniería Eléctrica, École Polytechnique Féderale de Lausanne, Suiza. Maestro en Ciencias Computacionales, Tecnológico de Monterrey. Ingeniero en Computación, Universidad Morelos de Cuernavaca\n\nMiembro del Sistema Nacional de Investigadores (SNII) nivel 1.\n\nProfesor de tiempo completo, desde 2019, en el departamento académico de computación, del Instituto Tecnológico Autónomo de México (ITAM). Profesor investigador invitado, desde 2024, en el Tecnológico Nacional de México / Instituto Tecnológico de Chilpancingo. Realiza investigación en aprendizaje de máquina, aprendizaje de representaciones, y procesamiento de señales multimodales. Su investigación tiene como objetivo, por un lado, avanzar el estado del arte en los fundamentos del aprendizaje de máquina y en la representación del conocimiento; y por otro lado, desarrollar aplicaciones de interés social en arqueología, agricultura, y medicina. Cuenta con 14 publicaciones JCR, y 26 capítulos de libro y memorias de congreso revisadas por pares. Mantiene colaboraciones de investigación, tanto nacionales como internacionales, incluyendo grupos académicos y del sector privado. Actualmente dirige el laboratorio de investigación en aprendizaje y procesamiento de señales del ITAM. Realiza investigación en aprendizaje de máquina, aprendizaje de representaciones, y procesamiento de señales multimodales. Su investigación tiene como objetivo, por un lado, avanzar el estado del arte en los fundamentos del aprendizaje de máquina y en la representación del conocimiento; y por otro lado, desarrollar aplicaciones de interés social en arqueología, agricultura, y medicina.",
+  },
+  {
+    image: Areli,
+    name: "M.D.I.S. Areli Bárcena Nava",
+    tiempo: "completo",
+    semblanza: "",
+  },
+   {
+    image: Sergio,
+    name: "M.E. Sergio Ricardo Zagal Barrera",
+    tiempo: "parcial",
+    semblanza: "Sergio Ricardo Zagal Barrera, Maestro en Educación por la Universidad Fray Luca Paccioli - Cuernavaca, actualmente Subdirector Académico del Tecnológico Nacional de México Instituto Tecnológico de Chilpancingo, miembro de la Red Nacional de Ciencias Sociales, Economía Social y Solidaria, autorizada por el Tecnológico Nacional de México del año 2024 al año 2026. \nMiembro del Comité Arbitral de la Revista Avacient por el Instituto Tecnológico de Chetumal, en el área de Ingeniería Aplicada. Docente de la Maestría en Ciencias de la Ingeniería y de las diferentes licenciaturas del Instituto Tecnológico de Chilpancingo.",
   },
 ];
 //

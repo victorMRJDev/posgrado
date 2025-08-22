@@ -3,11 +3,22 @@ import AccordionArticle from "../../components/AccordionArticle/AccordionArticle
 import CardPdf from "../../components/Cards/CardPdf";
 import LGM from "../../assets/articleIndizados/LGM.pdf";
 import JFP from "../../assets/articleIndizados/JFP.pdf";
+import MCB from "../../assets/articleIndizados/MCB.pdf";
+import DBRP from "../../assets/articleIndizados/DBRP.pdf";
+import VMRJ from "../../assets/articleIndizados/VMRJ.pdf";
+
+
+
 import TopBar from "../../components/TopBar/TopBar";
 import Footer from "../../components/Footer/Footer";
 
 import LGM_portada from "../../assets/articleIndizados/LGM_portada.png";
 import JFP_portada from "../../assets/articleIndizados/JFP_portada.png";
+import MCB_portada_article from "../../assets/articleIndizados/MCB.png";
+import DBRP_portada_article from "../../assets/articleIndizados/DBRP.png";
+import VMRJ_portada_article from "../../assets/articleIndizados/VMRJ.png";
+
+
 
 import LGM_portCongreso from "../../assets/articleCongreso/LGM_portada.jpg";
 import VMRJ_portCongreso from "../../assets/articleCongreso/VMRJ_portada.jpg";
@@ -51,17 +62,26 @@ import NavBarGob from "../../components/TopBar/NavBarGob";
 
 const Repositorio = () => {
   const cardsJCR = [
-    <CardPdf
-      // title="Design of experiments to evaluate pH and temperature parameters with different inoculums in domestic biodigester"
-      // content={["Lizbetg Gómez Muños"]}
+    <CardPdf key={1}
       pdf={LGM}
       image={LGM_portada}
     />,
-    <CardPdf
-      // title="Generation of Virtual Ground Control Points Using a Binocular Camera"
-      // content={["Dr. Jorge Alberto Fuentes Pacheco"]}
+    <CardPdf key={2}
       pdf={JFP}
       image={JFP_portada}
+
+    />,
+    <CardPdf key={3}
+      pdf={MCB}
+      image={MCB_portada_article}
+    />,
+    <CardPdf key={4}
+      pdf={DBRP}
+      image={DBRP_portada_article}
+    />,
+    <CardPdf key={5}
+      pdf={VMRJ}
+      image={VMRJ_portada_article}
 
     />
   ];

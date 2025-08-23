@@ -59,6 +59,12 @@ import JARV_poster from "../../assets/posters/JARV.pdf";
 import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
 
+//TESIS
+import tesisliz from "../../assets/Tesis/TesisLiz.png";
+import tesisvictor from "../../assets/Tesis/TesisVictor.png";
+import tesisdominic from "../../assets/Tesis/TesisDominic.png";
+import tesisisabel from "../../assets/Tesis/TesisIsabel.png";
+
 
 const Repositorio = () => {
   const cardsJCR = [
@@ -178,6 +184,30 @@ const Repositorio = () => {
   ]
 
   const tesis = [
+    <CardPdf
+    // title="Environmental monitoring system between two sensor nodes with 9km link"
+    // content={["Eumir Esteban Salgado Lampart"]}
+    //pdf={JFP_optica}
+    image={tesisliz}
+  />,
+  <CardPdf
+    // title="Environmental monitoring system between two sensor nodes with 9km link"
+    // content={["Eumir Esteban Salgado Lampart"]}
+    //pdf={JFP_optica}
+    image={tesisvictor}
+  />,
+  <CardPdf
+    // title="Environmental monitoring system between two sensor nodes with 9km link"
+    // content={["Eumir Esteban Salgado Lampart"]}
+    //pdf={JFP_optica}
+    image={tesisdominic}
+  />,
+  <CardPdf
+    // title="Environmental monitoring system between two sensor nodes with 9km link"
+    // content={["Eumir Esteban Salgado Lampart"]}
+    //pdf={JFP_optica}
+    image={tesisisabel}
+  />,
   ]
 
   return (
@@ -200,6 +230,11 @@ const Repositorio = () => {
           title="Poster de Congresos"
           list={posterCongresos}
           text="Producción científica de los estudiantes de la Maestría en Ciencias de la Ingeniería."
+        />
+        <AccordionArticle
+          title="Tesis"
+          list={tesis}
+          text="Proyectos de investigación de los estudiantes de la Maestría en Ciencias de la Ingeniería."
         />
           </Contenido>
         </div>

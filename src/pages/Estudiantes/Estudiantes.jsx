@@ -86,6 +86,17 @@ const listaQuintaGeneracion =[
     ]
   }
 ]
+const listaSextaGeneracion =[
+  {
+    id:6,
+    lineaUno:[
+      "1. Noe Arellano Ávila"
+    ],
+    lineaDos:[
+          
+    ]
+  }
+]
 const Estudiantes = () => {
   return (
     <>
@@ -118,6 +129,11 @@ const Estudiantes = () => {
           image={fondo}
           title="Quinta Generación"
           list={listaQuintaGeneracion}
+        />
+        <EstudiantesAccordion
+          image={fondo}
+          title="Sexta Generación"
+          list={listaSextaGeneracion}
         />
       </Contenido>
       <Footer />

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { LINEA_1, LINEA_2 } from "../../Global";
+import { Link } from "react-router-dom";
 
 const EstudiantesAccordion = ({ title, list, image }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);

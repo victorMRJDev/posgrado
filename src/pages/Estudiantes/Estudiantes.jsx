@@ -253,7 +253,7 @@ const AccordionItem = ({ title, children, isOpen, onClick }) => {
 const Estudiantes = () => {
   const [openAccordion, setOpenAccordion] = useState(
     generaciones[0]?.title || null
-  ); // Abre la primera por defecto
+  );
 
   const handleAccordionClick = (title) => {
     setOpenAccordion(openAccordion === title ? null : title);

@@ -24,7 +24,12 @@ import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
 import Areli from "../../assets/nucleoacademico/Areli.jpg";
 import Sergio from "../../assets/nucleoacademico/Sergio.jpg";
-
+import Armida from "../../assets/nucleoacademico/Armida.png";
+import victor from "../../assets/nucleoacademico/victor.png";
+import jaimenavarrete from "../../assets/nucleoacademico/jaimenavarrete.png";
+import angelcustodio from "../../assets/nucleoacademico/angelcustodio.png";
+import jazael from "../../assets/nucleoacademico/jazael.png";
+import sinfoto from "../../assets/nucleoacademico/sinfoto.png";
 //
 
 const datosPlantilla = [
@@ -99,22 +104,22 @@ const datosPlantilla = [
   {
     image: DraHernandez,
     name: "Dra. Mercedes Hernández De La Cruz",
-    tiempo: "completo",
+    tiempo: "parcial",
     semblanza:
-      "Doctora en Educación con Tecnologías del Aprendizaje y del Conocimiento por la Universidad Michoacana de San Nicolás de Hidalgo, maestra en Computación en la Facultad de Ingeniería de la Universidad Autónoma de Guerrero y Lic. en Informática por el Instituto Tecnológico de Chilpancingo.\n\nSe ha desempeñado como profesora-investigadora en el Instituto Tecnológico de Chilpancingo en la carrera de Ingeniería Informática. Ha sido presidenta de la academia de Informática. Ha sido asesora de varios proyectos de residencia profesional, distinguiéndose por ser novedosos e innovadores. Cuenta con varias publicaciones en Congresos Nacionales e Internacionales en las cuales ha participado como autora principal, autora corresponsal y coautora. Es miembro activo del Colegio de Ingenieros en TICS del estado de Guerrero, A.C. desde 2019 a la fecha, participando activamente en conferencias vía Zoom. Sus áreas de investigación son: Aplicaciones Móviles, Tecnologías Emergentes, Animación de Avatares e Internet de las cosas.",
+      "Doctora en Educación con Tecnologías del Aprendizaje y del Conocimiento por la Universidad Virtual del Estado de Michoacán (UNIVIM), maestra en Computación en la Facultad de Ingeniería de la Universidad Autónoma de Guerrero y Lic. en Informática por el Instituto Tecnológico de Chilpancingo.\n\nSe ha desempeñado como profesora-investigadora en el Instituto Tecnológico de Chilpancingo en la carrera de Ingeniería Informática. Ha sido presidenta de la academia de Informática. Ha sido asesora de varios proyectos de residencia profesional, distinguiéndose por ser novedosos e innovadores. Cuenta con varias publicaciones en Congresos Nacionales e Internacionales en las cuales ha participado como autora principal, autora corresponsal y coautora. Es miembro activo del Colegio de Ingenieros en TICS del estado de Guerrero, A.C. desde 2019 a la fecha, participando activamente en conferencias vía Zoom. Sus áreas de investigación son: Aplicaciones Móviles, Tecnologías Emergentes, Animación de Avatares e Internet de las cosas.",
   },
   {
     image: DraLeyva,
     name: "Dra. Paula Adriana Leyva Alarcón",
-    tiempo: "completo",
+    tiempo: "parcial",
     semblanza:"Licenciada en Contaduría por el Instituto Tecnológico de Chilpancingo, maestra en Ciencias de la Educación, Área Educación Superior por la Universidad Autónoma de Guerrero, maestra en Administración por el Instituto de Estudios Universitarios y doctora en Ciencias Administrativas por el Instituto de Estudios Universitarios.\n\nDocente de Tiempo Completo en el Tecnológico Nacional de México campus Chilpancingo. Miembro del Padrón Estatal de Investigadores del Consejo de Ciencia, Tecnología e Innovación del Estado de Guerrero y del Colegio de Contadores Públicos del Estado de Guerrero A.C.\n\nHa escrito artículos científicos y participado como ponente y conferencista en diferentes espacios académicos. Es líder del Cuerpo Académico en formación ITCHIL-CA-1 “Promoción y Desarrollo de la Responsabilidad Social”."
   },
-   {
-    image: MCValencia,
-    name: "M.C. Eleazar Felipe Valencia Díaz",
-    tiempo: "completo",
-    semblanza:"Maestro en la Universidad de Texas en Arlington, en los Estados Unidos de Norteamérica. Ingeniero Civil en Vías Terrestres por el Instituto Tecnológico Regional de Oaxaca Número 16 y diplomado en The University College  en Londres Inglaterra.\n\nActualmente cursa el octavo módulo de catorce que comprende el Doctorado en Ciencias de la Educación en el Colegio Mayor de San Carlos, Campus Pacífico."
-  },
+   //{
+    //image: MCValencia,
+    //name: "M.C. Eleazar Felipe Valencia Díaz",
+   // tiempo: "completo",
+    //semblanza:"Maestro en la Universidad de Texas en Arlington, en los Estados Unidos de Norteamérica. Ingeniero Civil en Vías Terrestres por el Instituto Tecnológico Regional de Oaxaca Número 16 y diplomado en The University College  en Londres Inglaterra.\n\nActualmente cursa el octavo módulo de catorce que comprende el Doctorado en Ciencias de la Educación en el Colegio Mayor de San Carlos, Campus Pacífico."
+  //},
   {
     image: DrRoman,
     name: "Dr. Edgar Roman Rangel",
@@ -133,6 +138,48 @@ const datosPlantilla = [
     name: "M.E. Sergio Ricardo Zagal Barrera",
     tiempo: "parcial",
     semblanza: "Sergio Ricardo Zagal Barrera, Maestro en Educación por la Universidad Fray Luca Paccioli - Cuernavaca, actualmente Subdirector Académico del Tecnológico Nacional de México Instituto Tecnológico de Chilpancingo, miembro de la Red Nacional de Ciencias Sociales, Economía Social y Solidaria, autorizada por el Tecnológico Nacional de México del año 2024 al año 2026. \nMiembro del Comité Arbitral de la Revista Avacient por el Instituto Tecnológico de Chetumal, en el área de Ingeniería Aplicada. Docente de la Maestría en Ciencias de la Ingeniería y de las diferentes licenciaturas del Instituto Tecnológico de Chilpancingo.",
+  },
+  {
+    image: Armida,
+    name: "Dra. Armida González Lorence",
+    tiempo: "parcial",
+    semblanza: "Ingeniera en Sistemas Computacionales por el Instituto Tecnológico y de Estudios Superiores de Monterrey, campus Querétaro (1991).  Maestra en Ciencias Computacionales por el Instituto Tecnológico de Toluca (2001). Doctora en Ciencias, en Ciencias Computacionales por el Instituto tecnológico de Toluca (2005).  Posdoctorado Centro Nacional de Investigación y Desarrollo Tecnológico (CENIDET) (2009).\n\nMiembro del Sistema Nacional de Investigadoras e Investigadores (Nivel I 2025-2029), actualmente es reconocida como Perfil Deseable, pertenece al Cuerpo Académico en consolidación “Innovación Aplicada a la Industria 4.0”. Cuenta con diversas publicaciones nacionales e internacionales, ha sido Líder de proyectos de desarrollo tecnológico financiados por TecNM, revisora de artículos de revistas indizadas, evaluadora de proyectos de investigación CIATEQ, evaluadora programas y planes de estudio COEPES. Sus líneas de investigación son: Innovación aplicada a la Industria 4.0, Internet de las Cosas (IoT), Inteligencia Artificial y Visión computacional. El desarrollo de sus investigaciones incide en el bienestar social, la sustentabilidad y el desarrollo productivo de México.  ",
+  },
+  {
+    image: sinfoto,
+    name: "Dra. Josefa Morales Morales",
+    tiempo: "completo",
+    semblanza: "Doctora en Ciencias Aplicadas por el Instituto Potosino de Investigación Científica y Tecnológica, A.C. en el año 2015. Miembro del Sistema NAcional de Investigadoras e Investigadores (SNII I 2021-2025). Sus líneas de investigación se enfocan en vehículos eléctricos, modelado, sistemas híbridos y energía renovable.",
+  },
+   {
+    image: jazael,
+    name: "Dr. Jesús Jazael García Gallegos",
+    tiempo: "completo",
+    semblanza: "Ingeniero Electrónico por la Facultad de Ciencias de la Universidad Autónoma de San Luis Potosí, realizó una maestría en Ciencias Aplicadas en el Instituto de Investigación y Comunicación Óptica de la Universidad Autónoma de San Luis Potosí y es Doctor en Ingeniería y Ciencias de Materiales. Miembro del Sistema NAcionbal de Investigadoras e Investigadores (SNII I 2022-2025) ",
+  },
+  {
+    image: jaimenavarrete,
+    name: "Dr. Jaime Navarrete Damián",
+    tiempo: "completo",
+    semblanza: "Ingeniero en Electrónica por el Instituto Tecnológico de Celaya (1993).  Maestro en Ciencias, en Ingeniería Administrativa por el Instituto Tecnológico de Celaya (2006). Maestro en Ciencia y Tecnología, en Ingeniería Industrial y de Manufactura por Centro de Investigaciones Avanzadas en Tecnologías Competitivas, AC (2012). Doctor en Ciencia y Tecnología, en Ingeniería Industrial y de Manufactura por Centro de Investigaciones Avanzadas en Tecnologías Competitivas, AC (2018). Tiene la distinción del Sistema Nacional de Investigadores Nivel 1 (2023-2027). \n\nCuenta con publicaciones indexadas SCOPUS, capítulos de libro, diversas publicaciones en congresos internacionales, solicitudes de patente en trámite, líder de 15 proyectos de investigación y desarrollo tecnológico vinculados con la industria financiados por fondos de Conacyt y otros organismos estatales, director de tesis de alumnos de licenciatura y posgrado. Sus líneas de investigación son: Ciencia y Tecnología de Polímeros, Mejora y Optimización de Procesos de Manufactura mediante Ciencia de Datos y Diseño de Experimentos, Diseño y Manufactura de Moldes y equipos para Transformación de Plásticos. El desarrollo de sus investigaciones incide en el bienestar social, la sustentabilidad y el desarrollo productivo de México.   ",
+  },
+  {
+    image: victor,
+    name: "Dr. Víctor Alberto Gómez Pérez",
+    tiempo: "completo",
+    semblanza: "Licenciado en Computación por la Universidad Juárez Autónoma de Tabasco (UJAT, 2007). Maestro en Ciencias en Computación por el Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional (CINVESTAV-IPN, 2009). Doctor en Sistemas Computacionales por la Universidad del Sur (UNISUR, 2016).  Es miembro del Sistema Nacional de Investigadores (2023-2028). Sus líneas de investigación incluyen sistemas distribuidos, computación ubicua, reconocimiento de emociones y el desarrollo de tecnologías para la Industria 4.0.",
+  },
+  {
+    image: angelcustodio,
+    name: "Dr. Ángel Custodio Navarrete Fernández",
+    tiempo: "completo",
+    semblanza: "Ingeniero Industrial, por el Instituto Tecnológico de San Juan del Río (1994).  Maestro en Administración en el área de Mercadotecnia, por la Universidad Autónoma de Querétaro (2005). Maestro en Calidad, por el Centro de Estudios Superiores del Bajío (2021). Doctor en Administración, por la Universidad de    Celaya (2018). Es miembro del Sistema Nacional de Investigadores Nivel I (2023-2027). Sus líneas de investigación son: Calidad y productividad, micro y pequeñas empresas. El desarrollo de sus investigaciones incide en el bienestar social, la sustentabilidad y el desarrollo productivo de México.",
+  },
+  {
+    image: sinfoto,
+    name: "Dra. Luz María García García",
+    tiempo: "parcial",
+    semblanza: "Miembro del Sistema NAcional de Investigadoras e Investigadores (SNII C 2020-2026)",
   },
 ];
 //

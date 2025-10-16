@@ -30,6 +30,7 @@ import jaimenavarrete from "../../assets/nucleoacademico/jaimenavarrete.png";
 import angelcustodio from "../../assets/nucleoacademico/angelcustodio.png";
 import jazael from "../../assets/nucleoacademico/jazael.png";
 import sinfoto from "../../assets/nucleoacademico/sinfoto.png";
+import luzmaria from "../../assets/nucleoacademico/luzmaria.jpg";
 //
 
 const datosPlantilla = [
@@ -176,10 +177,10 @@ const datosPlantilla = [
     semblanza: "Ingeniero Industrial, por el Instituto Tecnológico de San Juan del Río (1994).  Maestro en Administración en el área de Mercadotecnia, por la Universidad Autónoma de Querétaro (2005). Maestro en Calidad, por el Centro de Estudios Superiores del Bajío (2021). Doctor en Administración, por la Universidad de    Celaya (2018). Es miembro del Sistema Nacional de Investigadores Nivel I (2023-2027). Sus líneas de investigación son: Calidad y productividad, micro y pequeñas empresas. El desarrollo de sus investigaciones incide en el bienestar social, la sustentabilidad y el desarrollo productivo de México.",
   },
   {
-    image: sinfoto,
+    image: luzmaria,
     name: "Dra. Luz María García García",
     tiempo: "parcial",
-    semblanza: "Miembro del Sistema NAcional de Investigadoras e Investigadores (SNII C 2020-2026)",
+    semblanza: "Luz María García García es Licenciada en Ciencias Políticas y Administración Pública por la Universidad Autónoma de Querétaro, Maestra en Desarrollo Regional por El Colegio de la Frontera Norte y Doctora en Gobierno Electrónico por la Universidad de la Sierra Sur. Ha realizado estancias en la Universidad de Costa Rica y en la Universidad de California en San Diego. Cuenta con más de 14 años de experiencia como profesora de educación superior, impartiendo asignaturas a nivel licenciatura y posgrado. Su labor docente ha estado acompañada de actividades de investigación y formación de capital humano, especialmente en la dirección de tesis de licenciatura y posgrado. Ha participado como dictaminadora en congresos y revistas internacionales, así como en diversos proyectos de investigación, de los cuales se han derivado publicaciones académicas. Ha tenido la distinción perfil deseable Prodep (2015-2024). Actualmente cuenta con la distinción de Candidata al Sistema Nacional de Investigadoras e Investigadores (SNII) para el periodo 2020-2026.",
   },
 ];
 //

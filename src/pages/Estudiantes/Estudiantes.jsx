@@ -107,13 +107,13 @@ const generaciones = [
         id: 13,
         name: "Isaid Uriel Basilios Segovia",
         image: fondo,
-        // semblanza: "Semblanza de Isaid...",
+        semblanza: "SISTEMA GENERADOR DE ANUARIOS ESTADÍSTICOS DE AGRICULTURA, GANADERÍA, PESCA Y DESARROLLO RURAL DEL ESTADO DE GUERRERO \n\nLa presente investigación propone el desarrollo de un sistema web para la elaboración de un anuario estadístico con ReactJS, Django, y un gestor de base de datos MySQL, además de una metodología Big Data que trabajará en conjunto con la red neuronal Long Short Term-Memory (LSTM) para el análisis de series temporales que con ayuda de los datos y análisis de los mismos realice predicciones.",
       },
       {
         id: 14,
         name: "Diana Dolores Vázquez Martínez",
         image: fondo,
-        // semblanza: "Semblanza de Diana...",
+        semblanza: "Programa Sembrando Vida: mecanismos de focalización en el estado de Guerrero \n\nEn el año 2019 el gobierno de México implementó el Programa Sembrando Vida (PSV) buscando atender problemáticas de la degradación ambiental y rezago social en las zonas rurales del país. Este estudio tuvo como finalidad analizar los mecanismos de focalización del Programa Sembrando Vida para evaluar el cumplimiento de sus objetivos en la región centro del estado de Guerrero, México. El proyecto se realizó con una metodología mixta de seis fases.",
       },
       {
         id: 15,

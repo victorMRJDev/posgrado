@@ -60,6 +60,12 @@ const generaciones = [
     title: "Segunda Generación",
     alumnos: [
       {
+        id: 30,
+        name: "Emily Bibiano Bartolo",
+        image: fondo,
+        semblanza: "DIAGNÓSTICO DE UN SISTEMA DE GESTIÓN AMBIENTAL. CASO: INSTITUTO TECNOLÓGICO DE CHILPANCINGO",
+      },
+      {
         id: 7,
         name: "Víctor Manuel Romero Juárez",
         image: fondo,
@@ -207,7 +213,7 @@ const generaciones = [
         id: 28,
         name: "Joaquín Zueriel Nava Salazar",
         image: fondo,
-        semblanza: titulo ="POLÍTICAS PÚBLICAS PARA LA EFICIENCIA ENERGÉTICA DE EDIFICIOS COMERCIALES EN MÉXICO. \n\nEn un mundo donde la EE se ha convertido en algo de suma importancia y donde las reformas han demostrado ser indispensables, este estudio busca ser un referente a futuras normas del sector construcción; por ello se propone analizar las políticas públicas de EE en edificios comerciales implementadas en México. Utilizando una metodología de 5 fases: 1. Revisión del marco normativo mexicano vigente de EE: método PRISMA; 2.  Investigación de políticas públicas de EE: Revisión documental; 3. Verificación de la regulación de políticas públicas gubernamentales: Análisis Estadístico cualitativo y cuantitativo; 4. Análisis de indicadores de EE: Revisión e identificación: 5. Determinación del impacto ambiental y socio-económico: Estimación de indicadores."
+        semblanza: "POLÍTICAS PÚBLICAS PARA LA EFICIENCIA ENERGÉTICA DE EDIFICIOS COMERCIALES EN MÉXICO. \n\nEn un mundo donde la EE se ha convertido en algo de suma importancia y donde las reformas han demostrado ser indispensables, este estudio busca ser un referente a futuras normas del sector construcción; por ello se propone analizar las políticas públicas de EE en edificios comerciales implementadas en México. Utilizando una metodología de 5 fases: 1. Revisión del marco normativo mexicano vigente de EE: método PRISMA; 2.  Investigación de políticas públicas de EE: Revisión documental; 3. Verificación de la regulación de políticas públicas gubernamentales: Análisis Estadístico cualitativo y cuantitativo; 4. Análisis de indicadores de EE: Revisión e identificación: 5. Determinación del impacto ambiental y socio-económico: Estimación de indicadores."
       },
     ],
   },

@@ -24,10 +24,11 @@ export const Home = () => {
       <Contenido >
         <SeccionParrafo
           titulo="Maestría en Ciencias de la Ingeniería"
-          texto="La Maestría en Ciencias de la Ingeniería es un programa de nueva
-            creación, con orientación profesional incorporado al Sistema
+          texto="La Maestría en Ciencias de la Ingeniería es un programa de reciente
+            creación, con orientación a la investigación incorporado al Sistema
             Nacional de Posgrados (SNP) de la Secretaría de Ciencias, Humanidades, 
-            Tecnología e Innovación (SECIHTI). Nuestro programa educativo tiene como objetivo principal abordar la creciente
+            Tecnología e Innovación (SECIHTI). Nuestro programa educativo tiene 
+            como objetivo principal abordar la creciente
             necesidad de formación de recursos humanos en el ámbito de las
             Ciencias de la Ingeniería. En numerosas regiones del país, así
             como en nuestra entidad, existe una demanda considerable de
@@ -50,23 +51,7 @@ export const Home = () => {
           especialización."
           conMargenSuperior={false}
         ></Parrafo>
-        <Parrafo
-          texto="Además, para fomentar el compromiso y el rendimiento académico,
-            ofrecemos la posibilidad de acceder a becas CONAHCYT, sujetas a la
-            aprobación del comité correspondiente. Aquellos estudiantes que
-            resulten beneficiarios de estas becas se comprometen a dedicarse
-            de manera exclusiva a su formación académica, a cumplir con todas
-            las asignaturas y créditos del programa en el tiempo estipulado, y
-            a graduarse al concluir el período de la beca, de acuerdo con las
-            normativas establecidas por CONAHCYT"
-          conMargenSuperior={false}
-          componente={
-            <EnlaceExterno
-              texto="www.conahcyt.mx"
-              url="https://conahcyt.mx/"
-            ></EnlaceExterno>
-          }
-        ></Parrafo>
+        
         <Parrafo
           texto="Coordinadora: Dra. Mirna Castro Bello"
           conMargenSuperior={false}

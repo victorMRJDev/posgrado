@@ -26,8 +26,8 @@ export const Home = () => {
           titulo="Maestría en Ciencias de la Ingeniería"
           texto="La Maestría en Ciencias de la Ingeniería es un programa de nueva
             creación, con orientación profesional incorporado al Sistema
-            Nacional de Posgrados (SNP) del CONAHCYT. Nuestro programa
-            educativo tiene como objetivo principal abordar la creciente
+            Nacional de Posgrados (SNP) de la Secretaría de Ciencias, Humanidades, 
+            Tecnología e Innovación (SECIHTI). Nuestro programa educativo tiene como objetivo principal abordar la creciente
             necesidad de formación de recursos humanos en el ámbito de las
             Ciencias de la Ingeniería. En numerosas regiones del país, así
             como en nuestra entidad, existe una demanda considerable de

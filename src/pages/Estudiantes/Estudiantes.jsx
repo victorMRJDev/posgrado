@@ -189,23 +189,25 @@ const generaciones = [
         id: 25,
         name: "Jorge Arturo Ocampo Pineda",
         image: fondo,
+        semblanza: "POLÍTICAS PÚBLICAS PARA LA EFICIENCIA ENERGÉTICA DE EDIFICIOS ESCOLARES: CASO TECNOLÓGICO NACIONAL DE MÉXICO. \n\nEl sector de la construcción es responsable del 37% de las emisiones de CO2 y sigue siendo el que más energía demanda con aproximadamente el 55% del consumo total mundial de electricidad. Esta investigación tiene como objetivo analizar las políticas públicas de Eficiencia Energética (EE) en edificios escolares del Tecnológico Nacional de México."
       },
       {
         id: 26,
         name: "Itzel Nizaritani Reyes",
         image: fondo,
+        semblanza: "Normatividad vigente y certificaciones que deben cumplir los miniautos eléctricos: transporte de pasajeros y mercancías.\n\nEl sector automotriz es uno de los principales emisores de gases de efecto invernadero en el mundo debido al uso de combustibles fósiles; para disminuir el 〖CO〗_2 la adopción de vehículos eléctricos ha ido en aumento. Esta investigación tiene como objetivo analizar la normatividad vigente y certificaciones que deben cumplir los miniautos eléctricos: transporte de pasajeros y mercancías para el proyecto Olinia en México.",
       },
       {
         id: 27,
         name: "Alberto Barrera Azoños",
         image: fondo,
-        semblanza: "Semáforo Inteligente para la evaluación del riesgo sísmico en zonas urbanas. \n\nLa evaluación rápida de la exposición sísmica de edificios en zona urbanas es crucial para prevenir el riesgo de colapsos, pérdidas humanas y contaminación ambiental. Este proyecto desarrollará un semáforo inteligente de aplicación móvil que evalúe la vulnerabilidad sísmica en edificios en áreas urbanas con una metodología de seis fases: 1. Revisión documental de semáforos inteligentes con aplicación móvil; 2. Análisis cualitativo de metodologías que evalúen la vulnerabilidad; 3. Conformación del Dataset de edificios; 4. Comparación de algoritmos de Redes Neuronales Convulsiónales (CNN); 5. Desarrollo del modelo CNN; y 6. Elaboración y validación de la aplicación móvil para entornos urbanos reales."
+        semblanza: "Semáforo Inteligente para la evaluación del riesgo sísmico en zonas urbanas. \n\nLa evaluación rápida de la exposición sísmica de edificios en zona urbanas es crucial para prevenir el riesgo de colapsos, pérdidas humanas y contaminación ambiental. Este proyecto desarrollará un semáforo inteligente de aplicación móvil que evalúe la vulnerabilidad sísmica en edificios en áreas urbanas con una metodología de seis fases: 1. Revisión documental de semáforos inteligentes con aplicación móvil; 2. Análisis cualitativo de metodologías que evalúen la vulnerabilidad; 3. Conformación del Dataset de edificios; 4. Comparación de algoritmos de Redes Neuronales Convulsiónales (CNN); 5. Desarrollo del modelo CNN; y 6. Elaboración y validación de la aplicación móvil para entornos urbanos reales.",
       },
       {
         id: 28,
         name: "Joaquín Zueriel Nava Salazar",
         image: fondo,
-        semblanza: "POLÍTICAS PÚBLICAS PARA LA EFICIENCIA ENERGÉTICA DE EDIFICIOS COMERCIALES EN MÉXICO. \n\nEn un mundo donde la EE se ha convertido en algo de suma importancia y donde las reformas han demostrado ser indispensables, este estudio busca ser un referente a futuras normas del sector construcción; por ello se propone analizar las políticas públicas de EE en edificios comerciales implementadas en México. Utilizando una metodología de 5 fases: 1. Revisión del marco normativo mexicano vigente de EE: método PRISMA; 2.  Investigación de políticas públicas de EE: Revisión documental; 3. Verificación de la regulación de políticas públicas gubernamentales: Análisis Estadístico cualitativo y cuantitativo; 4. Análisis de indicadores de EE: Revisión e identificación: 5. Determinación del impacto ambiental y socio-económico: Estimación de indicadores."
+        semblanza: titulo ="POLÍTICAS PÚBLICAS PARA LA EFICIENCIA ENERGÉTICA DE EDIFICIOS COMERCIALES EN MÉXICO. \n\nEn un mundo donde la EE se ha convertido en algo de suma importancia y donde las reformas han demostrado ser indispensables, este estudio busca ser un referente a futuras normas del sector construcción; por ello se propone analizar las políticas públicas de EE en edificios comerciales implementadas en México. Utilizando una metodología de 5 fases: 1. Revisión del marco normativo mexicano vigente de EE: método PRISMA; 2.  Investigación de políticas públicas de EE: Revisión documental; 3. Verificación de la regulación de políticas públicas gubernamentales: Análisis Estadístico cualitativo y cuantitativo; 4. Análisis de indicadores de EE: Revisión e identificación: 5. Determinación del impacto ambiental y socio-económico: Estimación de indicadores."
       },
     ],
   },

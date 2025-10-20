@@ -1,5 +1,5 @@
 import React from "react";
-import CONV_ADM_AGO_DIC from "../../assets/CONV_ADM_AGO-DIC-2025.pdf";
+import CONV_ADM_EJ26 from "../../assets/CONV_ADM_EJ26.pdf";
 import tiempoCompleto from "../../assets/Dedicación de Tiempo completo Ago-Dic 2025.docx";
 import preRegistro from "../../assets/Formato Pre-registro Ago-Dic 2025.docx";
 import ButtonBlue from "../../components/Buttons/ButtonBlue";
@@ -33,7 +33,7 @@ const Estudiantes = () => {
             Tecnologías de Información y Comunicaciones, a participar en el
             PROCESO DE ADMISIÓN para el Programa de MAESTRÍA EN CIENCIAS DE
             LA INGENIERÍA en la MODALIDAD ESCOLARIZADA, para iniciar los
-            estudios en el periodo de Agosto-Diciembre 2025."
+            estudios en el periodo de Enero - Junio 2026."
         ></SeccionParrafo>
         <SeccionLista
           titulo="Requisitos de Ingreso"
@@ -46,7 +46,7 @@ const Estudiantes = () => {
           {/* Añadido py-8 para padding vertical */}
           <div className="w-full sm:w-auto min-w-[260px] max-w-[320px]">
             <a
-              href={CONV_ADM_AGO_DIC}
+              href={CONV_ADM_EJ26}
               target="_blank"
               rel="noopener noreferrer"
               className="block"

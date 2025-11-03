@@ -31,6 +31,7 @@ import angelcustodio from "../../assets/nucleoacademico/angelcustodio.png";
 import jazael from "../../assets/nucleoacademico/jazael.png";
 import sinfoto from "../../assets/nucleoacademico/sinfoto.png";
 import luzmaria from "../../assets/nucleoacademico/luzmaria.jpg";
+import josefa from  "../../assets/nucleoacademico/josefa.png";
 //
 
 const datosPlantilla = [
@@ -58,7 +59,7 @@ const datosPlantilla = [
   {
     image: DrFuentes,
     name: "Dr. Jorge Fuentes Pacheco",
-    tiempo: "parcial",
+    tiempo: "invitado",
     semblanza:
       "Posdoctorado en el Centro de Investigación en Ciencias (CInC) de la Universidad Autónoma del Estado de Morelos en Cuernavaca, México. Doctor y Maestro en Ciencias de la Computación con especialidad en Inteligencia Artificial por el Centro Nacional de Investigación y Desarrollo Tecnológico (CENIDET).\n\nMiembro del Sistema Nacional de Investigadores, Nivel 1 (2024 – 2028).\n\nDurante el periodo de septiembre de 2016 a septiembre 2022 se desempeñó como Profesor-Investigador del CInC a través del programa ”Cátedras CONACYT”. Sus áreas de interés son: Visión por Computadora, Agricultura de Precisión y Aprendizaje profundo.",
   },
@@ -92,7 +93,7 @@ const datosPlantilla = [
   {
     image: DraYanet,
     name: "Dra. Yanet Evangelista Alcocer",
-    tiempo: "completo",
+    tiempo: "parcial",
     semblanza: "Profesora del programa de Ingeniería en Sistemas Computacionales y de la Maestría en Ciencias en Ciencias de la Ingeniería en el Instituto Tecnológico de Chilpancingo, en Guerrero, México, con una maestría en Ciencias de la Computación y un doctorado en Sistemas Computacionales. \nHa trabajado como consultora, desarrolladora y asesora en proyectos vinculados a los sectores público y privado. Entre los proyectos más recientes en los que ha participado se encuentran un sistema de votación remota con urna electrónica, una aplicación móvil para aprender lengua de signos mexicana y un videojuego para enseñar educación ambiental a los niños. Sus áreas de interés son los sistemas distribuidos, los agentes inteligentes y el aprendizaje automático aplicado a la educación superior.",
   },
   {
@@ -131,7 +132,7 @@ const datosPlantilla = [
   {
     image: Areli,
     name: "M.D.I.S. Areli Bárcena Nava",
-    tiempo: "completo",
+    tiempo: "parcial",
     semblanza: "",
   },
    {
@@ -143,11 +144,11 @@ const datosPlantilla = [
   {
     image: Armida,
     name: "Dra. Armida González Lorence",
-    tiempo: "parcial",
+    tiempo: "completo",
     semblanza: "Ingeniera en Sistemas Computacionales por el Instituto Tecnológico y de Estudios Superiores de Monterrey, campus Querétaro (1991).  Maestra en Ciencias Computacionales por el Instituto Tecnológico de Toluca (2001). Doctora en Ciencias, en Ciencias Computacionales por el Instituto tecnológico de Toluca (2005).  Posdoctorado Centro Nacional de Investigación y Desarrollo Tecnológico (CENIDET) (2009).\n\nMiembro del Sistema Nacional de Investigadoras e Investigadores (Nivel I 2025-2029), actualmente es reconocida como Perfil Deseable, pertenece al Cuerpo Académico en consolidación “Innovación Aplicada a la Industria 4.0”. Cuenta con diversas publicaciones nacionales e internacionales, ha sido Líder de proyectos de desarrollo tecnológico financiados por TecNM, revisora de artículos de revistas indizadas, evaluadora de proyectos de investigación CIATEQ, evaluadora programas y planes de estudio COEPES. Sus líneas de investigación son: Innovación aplicada a la Industria 4.0, Internet de las Cosas (IoT), Inteligencia Artificial y Visión computacional. El desarrollo de sus investigaciones incide en el bienestar social, la sustentabilidad y el desarrollo productivo de México.  ",
   },
   {
-    image: sinfoto,
+    image: josefa,
     name: "Dra. Josefa Morales Morales",
     tiempo: "completo",
     semblanza: "Doctora en Ciencias Aplicadas por el Instituto Potosino de Investigación Científica y Tecnológica, A.C. en el año 2015. Miembro del Sistema NAcional de Investigadoras e Investigadores (SNII I 2021-2025). Sus líneas de investigación se enfocan en vehículos eléctricos, modelado, sistemas híbridos y energía renovable.",
@@ -179,7 +180,7 @@ const datosPlantilla = [
   {
     image: luzmaria,
     name: "Dra. Luz María García García",
-    tiempo: "parcial",
+    tiempo: "completo",
     semblanza: "Luz María García García es Licenciada en Ciencias Políticas y Administración Pública por la Universidad Autónoma de Querétaro, Maestra en Desarrollo Regional por El Colegio de la Frontera Norte y Doctora en Gobierno Electrónico por la Universidad de la Sierra Sur. Ha realizado estancias en la Universidad de Costa Rica y en la Universidad de California en San Diego. Cuenta con más de 14 años de experiencia como profesora de educación superior, impartiendo asignaturas a nivel licenciatura y posgrado. Su labor docente ha estado acompañada de actividades de investigación y formación de capital humano, especialmente en la dirección de tesis de licenciatura y posgrado. Ha participado como dictaminadora en congresos y revistas internacionales, así como en diversos proyectos de investigación, de los cuales se han derivado publicaciones académicas. Ha tenido la distinción perfil deseable Prodep (2015-2024). Actualmente cuenta con la distinción de Candidata al Sistema Nacional de Investigadoras e Investigadores (SNII) para el periodo 2020-2026.",
   },
 ];

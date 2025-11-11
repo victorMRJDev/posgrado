@@ -28,7 +28,7 @@ import Armida from "../../assets/nucleoacademico/Armida.png";
 import victor from "../../assets/nucleoacademico/victor.png";
 import jaimenavarrete from "../../assets/nucleoacademico/jaimenavarrete.png";
 import angelcustodio from "../../assets/nucleoacademico/angelcustodio.png";
-import jazael from "../../assets/nucleoacademico/jazael.png";
+import aixa from "../../assets/nucleoacademico/aixa.png";
 import sinfoto from "../../assets/nucleoacademico/sinfoto.png";
 import luzmaria from "../../assets/nucleoacademico/luzmaria.jpg";
 import josefa from  "../../assets/nucleoacademico/josefa.png";
@@ -154,10 +154,10 @@ const datosPlantilla = [
     semblanza: "Doctora en Ciencias Aplicadas por el Instituto Potosino de Investigación Científica y Tecnológica, A.C. en el año 2015. Miembro del Sistema NAcional de Investigadoras e Investigadores (SNII I 2021-2025). Sus líneas de investigación se enfocan en vehículos eléctricos, modelado, sistemas híbridos y energía renovable.",
   },
    {
-    image: jazael,
-    name: "Dr. Jesús Jazael García Gallegos",
+    image: aixa,
+    name: "Dra. Aixa Ibeth Gutiérrez Pérez",
     tiempo: "completo",
-    semblanza: "Ingeniero Electrónico por la Facultad de Ciencias de la Universidad Autónoma de San Luis Potosí, realizó una maestría en Ciencias Aplicadas en el Instituto de Investigación y Comunicación Óptica de la Universidad Autónoma de San Luis Potosí y es Doctor en Ingeniería y Ciencias de Materiales. Miembro del Sistema NAcionbal de Investigadoras e Investigadores (SNII I 2022-2025) ",
+    semblanza: "Ingeniería en Materiales por el Tecnológico Nacional de México (TecNM) de Querétaro (2012). Maestra en ciencias en la especialidad de Materiales por el CINVESTAV Unidad Querétaro (2017). Doctora en ciencias en la especialidad de Materiales, CINVESTAV Unidad Querétaro (2023). \nForma parte del Sistema Nacional de Investigadoras e Investigadores (SNII) y cuenta con el reconocimiento de Nivel 1 (2024-2028). Investigadora postdoctoral en el Laboratorio Nacional de Proyección Térmica (CENAPROT). Ha participado en el desarrollo y gestión de diversos proyectos de investigación y desarrollo tecnológico (CONACYT). Ha dirigido tesis de alumnos de licenciatura en áreas de ingeniería (ambiental, nanotecnología, mecánica). Cuenta con artículos publicados en revistas internacionales (JCR); divulgación y difusión del trabajo de investigación a través de diversos foros y conferencias nacionales e internacionales. Su investigación científica se ha centrado principalmente en la síntesis, procesamiento y caracterización de materiales cerámicos avanzados tipo perovskita base bismuto; Procesamiento de polvos y recubrimientos cerámicos mediante técnicas de proyección térmica. Caracterización de propiedades dieléctricas, piezoeléctricas y ferroeléctricas para aplicaciones en generación de energía verde, dispositivos electrónicos y sensores; semiconductores fotoactivos en luz visible para aplicaciones en remediación ambiental a través de procesos fotocatalíticos para la degradación de contaminantes.",
   },
   {
     image: jaimenavarrete,

@@ -1,36 +1,26 @@
 import React from "react";
 import AccordionArticle from "../../components/AccordionArticle/AccordionArticle";
 import CardPdf from "../../components/Cards/CardPdf";
+import TopBar from "../../components/TopBar/TopBar";
+import Footer from "../../components/Footer/Footer";
+
+//ARTICULOS INDIZADOS
 import LGM from "../../assets/articleIndizados/LGM.pdf";
 import JFP from "../../assets/articleIndizados/JFP.pdf";
 import MCB from "../../assets/articleIndizados/MCB.pdf";
 import DBRP from "../../assets/articleIndizados/DBRP.pdf";
 import VMRJ from "../../assets/articleIndizados/VMRJ.pdf";
+import VMRJ_DC from "../../assets/articleIndizados/VMRJ-DC.pdf";
+import MIRA_DC from "../../assets/articleIndizados/MIRA_DC.pdf";
 
-import TopBar from "../../components/TopBar/TopBar";
-import Footer from "../../components/Footer/Footer";
-
+//PORTADA ARTICULOS INDIZADOS
 import LGM_portada from "../../assets/articleIndizados/LGM_portada.png";
 import JFP_portada from "../../assets/articleIndizados/JFP_portada.png";
 import MCB_portada_article from "../../assets/articleIndizados/MCB.png";
 import DBRP_portada_article from "../../assets/articleIndizados/DBRP.png";
 import VMRJ_portada_article from "../../assets/articleIndizados/VMRJ.png";
-
-import LGM_portCongreso from "../../assets/articleCongreso/LGM_portada.jpg";
-import VMRJ_portCongreso from "../../assets/articleCongreso/VMRJ_portada.jpg";
-import MSA_portCongreso from "../../assets/articleCongreso/MSA_portada.jpg";
-import ACM_portCongreso from "../../assets/articleCongreso/ACM_portada.jpg";
-import ESL_portCongreso from "../../assets/articleCongreso/ESL_portada.png";
-import JFP_portoptica from "../../assets/articleCongreso/Optica_2024.jpg";
-
-import DBRP_portada from "../../assets/posters/DBRP_portada.jpg";
-import IUBS_portada from "../../assets/posters/IUBS_portada.jpg";
-import BAJS_portada from "../../assets/posters/BAJS_portada.jpg";
-import CGJS_portada from "../../assets/posters/CGJS_portada.jpg";
-import DAML_portada from "../../assets/posters/DAML_portada.jpg";
-import DDVM_portada from "../../assets/posters/DDVM_portada.jpg";
-import IMC_portada from "../../assets/posters/IMC_portada.jpg";
-import JARV_portada from "../../assets/posters/JARV_portada.jpg";
+import VMRJ_portada_article_dilemas from "../../assets/articleIndizados/VMRJ-DC.png";
+import MIRA_portada_article_dilemas from "../../assets/articleIndizados/MIRA_DC.png";
 
 //ARTICULOS DE CONGRESO
 import ACM_congreso from "../../assets/articleCongreso/ACM.pdf";
@@ -39,7 +29,15 @@ import LGM_congreso from "../../assets/articleCongreso/LGM.pdf";
 import MSA_congreso from "../../assets/articleCongreso/MSA.pdf";
 import VMRJ_congreso from "../../assets/articleCongreso/VMRJ.pdf";
 import JFP_optica from "../../assets/articleCongreso/Optica_2024.pdf";
-// import ACM_congreso from "../../assets/articleCongreso/ACM.pdf";
+
+//PORTADA ARTICULOS DE CONGRESO
+import LGM_portCongreso from "../../assets/articleCongreso/LGM_portada.jpg";
+import VMRJ_portCongreso from "../../assets/articleCongreso/VMRJ_portada.jpg";
+import MSA_portCongreso from "../../assets/articleCongreso/MSA_portada.jpg";
+import ACM_portCongreso from "../../assets/articleCongreso/ACM_portada.jpg";
+import ESL_portCongreso from "../../assets/articleCongreso/ESL_portada.png";
+import JFP_portoptica from "../../assets/articleCongreso/Optica_2024.jpg";
+import JARV_portcongreso from "../../assets/articleCongreso/JARV_portada.png";
 
 //POSTERS PRESENTADOS EN CONGRESO
 import BAJS_poster from "../../assets/posters/BAJS.pdf";
@@ -52,6 +50,22 @@ import ISB_poster from "../../assets/posters/ISB.pdf";
 import JARV_poster from "../../assets/posters/JARV.pdf";
 import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
+
+//PORTADA POSTER EN CONGRESO
+import DBRP_portada from "../../assets/posters/DBRP_portada.jpg";
+import IUBS_portada from "../../assets/posters/IUBS_portada.jpg";
+import BAJS_portada from "../../assets/posters/BAJS_portada.jpg";
+import CGJS_portada from "../../assets/posters/CGJS_portada.jpg";
+import DAML_portada from "../../assets/posters/DAML_portada.jpg";
+import DDVM_portada from "../../assets/posters/DDVM_portada.jpg";
+import IMC_portada from "../../assets/posters/IMC_portada.jpg";
+import JARV_portada from "../../assets/posters/JARV_portada.jpg";
+
+//CAPITULOS DE LIBRO
+
+
+//PORTADA CAPITULOS DE LIBRO
+import CVMV_portada_book_chapter from "../../assets/bookchapter/CVMV_portada_book_chapter.png";
 
 //TESIS
 import tesisliz from "../../assets/Tesis/TesisLiz.png";
@@ -66,7 +80,19 @@ const Repositorio = () => {
     <CardPdf key={3} pdf={MCB} image={MCB_portada_article} />,
     <CardPdf key={4} pdf={DBRP} image={DBRP_portada_article} />,
     <CardPdf key={5} pdf={VMRJ} image={VMRJ_portada_article} />,
+    <CardPdf key={6} pdf={VMRJ_DC} image={VMRJ_portada_article_dilemas} />,
+    <CardPdf key={7} pdf={MIRA_DC} image={MIRA_portada_article_dilemas} />,
+    <CardPdf key={8} pdf={"https://link.springer.com/chapter/10.1007/978-3-031-77290-0_10"} image={JARV_portcongreso} />,
   ];
+
+  const bookchapter = [
+    <CardPdf
+      // title="Environmental monitoring system between two sensor nodes with 9km link"
+      // content={["Eumir Esteban Salgado Lampart"]}
+      pdf={"https://link.springer.com/chapter/10.1007/978-981-96-5069-9_18"}
+      image={CVMV_portada_book_chapter}
+    />,
+   ];
 
   const cardsCongreso = [
     <CardPdf
@@ -197,6 +223,11 @@ const Repositorio = () => {
             text="Producción científica de los estudiantes de la Maestría en Ciencias de la Ingeniería."
           />
           <AccordionArticle
+            title="Capítulos de Libro"
+            list={bookchapter}
+            //text="Proyectos de investigación de los estudiantes de la Maestría en Ciencias de la Ingeniería."
+          />
+          <AccordionArticle
             title="Articulos de Congreso"
             list={cardsCongreso}
             text="Producción científica de los estudiantes de la Maestría en Ciencias de la Ingeniería."
@@ -211,7 +242,7 @@ const Repositorio = () => {
             list={tesis}
             text="Proyectos de investigación de los estudiantes de la Maestría en Ciencias de la Ingeniería."
           />
-        </Contenido>
+         </Contenido>
       </div>
       <Footer />
     </>

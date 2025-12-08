@@ -9,6 +9,9 @@ import Objetivos from "../pages/Objetivos/Objetivos";
 import Perfiles from "../pages/Perfiles/Perfiles";
 import PlanEstudios from "../pages/PlanEstudios/PlanEstudios";
 import Repositorio from "../pages/Repositorio/Repositorio";
+import CongresosInternacionales from "../pages/Eventos/CongresosInternacionales";
+import CongresosNacionales from "../pages/Eventos/CongesosNacionales";
+import InnovaTecNM from "../pages/Eventos/InnovaTecNM";
 
 
 const AppRouter = () => {
@@ -22,6 +25,9 @@ const AppRouter = () => {
       <Route path="/planestudios" element={<PlanEstudios />} />
       <Route path="/convocatorias" element={<Convocatorias />} />
       <Route path="/repositorio" element={<Repositorio />} />
+      <Route path="/congresosInternacionales" element={<CongresosInternacionales/>} />
+      <Route path="/congresosNacionales" element={<CongresosNacionales/>} />
+      <Route path="/innovatecnm" element={<InnovaTecNM/>} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

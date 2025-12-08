@@ -10,6 +10,8 @@ function Repositorio() {
 
       <ButtonBlue text="Repositorio institucional" className={"mb-6 px-6"} to={"/repositorio"} />
 
+      
+
     </div>
   );
 }

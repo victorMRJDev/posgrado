@@ -1,5 +1,6 @@
 import React from "react";
 import CardEvento from "../Cards/CardEvento";
+import ButtonBlue from "../Buttons/ButtonBlue";
 
 function Eventos() {
   return (
@@ -9,10 +10,15 @@ function Eventos() {
           Eventos
         </h1>
       </div>
-      <CardEvento title={"1er CITCA"} />
-      <CardEvento title={"2do CITCA"} />
-      <CardEvento title={"COLOQUIO INTERNACIONAL ITSJR"} />
-      {/* <CardEvento title={"Evento 4"} /> */}
+      <div className="buttons">
+        <ButtonBlue text="Congresos Internacionales" className={"mb-6 px-6"} to={"/congresosInternacionales"} />
+        <ButtonBlue text="Congresos Nacionales" className={"mb-6 px-6"} to={"/congresosNacionales"} />
+        <ButtonBlue text="InnovaTecNM" className={"mb-6 px-6"} to={"/innovatecnm"} />
+      </div>
+      {/* <CardEvento title={"Congresos Nacionales"} />
+      <CardEvento title={"Congresos Internacionales"} />
+      <CardEvento title={"InnovaTecNM"} />
+      <CardEvento title={"Evento 4"} /> */}
     </div>
   );
 }

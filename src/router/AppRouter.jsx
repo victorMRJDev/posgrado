@@ -10,7 +10,7 @@ import Perfiles from "../pages/Perfiles/Perfiles";
 import PlanEstudios from "../pages/PlanEstudios/PlanEstudios";
 import Repositorio from "../pages/Repositorio/Repositorio";
 import CongresosInternacionales from "../pages/Eventos/CongresosInternacionales";
-import CongresosNacionales from "../pages/Eventos/CongesosNacionales";
+import CongresosNacionales from "../pages/Eventos/CongresosNacionales";
 import InnovaTecNM from "../pages/Eventos/InnovaTecNM";
 
 

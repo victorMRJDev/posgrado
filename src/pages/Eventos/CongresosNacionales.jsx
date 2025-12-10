@@ -4,31 +4,32 @@ import Parrafo from "../../components/Secciones/Parrafo";
 import TopBar from "../../components/TopBar/TopBar";
 import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
+import PortadaCITCA from "../../assets/FOTOS MAESTRIA/congresosNacionales/CITCA/logoCITCA.jpg";
 
 // Imagen genérica de placeholder 
 import sinfoto from "../../assets/nucleoacademico/sinfoto.png";
 
 const datosCongresosNacionales = [
   {
-    image: sinfoto,
+    image: PortadaCITCA,
     name: "1er CITCA",
     semblanza:
       "Primer Congreso Internacional de Tecnologías y Ciencias Aplicadas (CITCA).",
   },
   {
-    image: sinfoto,
+    image: PortadaCITCA,
     name: "2do CITCA",
     semblanza:
       "Segundo Congreso Internacional de Tecnologías y Ciencias Aplicadas (CITCA).",
   },
   {
-    image: sinfoto,
+    image: PortadaCITCA,
     name: "3er CITCA",
     semblanza:
       "Tercer Congreso Internacional de Tecnologías y Ciencias Aplicadas (CITCA).",
   },
   {
-    image: sinfoto,
+    image: PortadaCITCA,
     name: "4to CITCA",
     semblanza:
       "Cuarto Congreso Internacional de Tecnologías y Ciencias Aplicadas (CITCA).",

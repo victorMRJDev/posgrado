@@ -13,7 +13,7 @@ import logoAFICAT2025 from "../../assets/FOTOS MAESTRIA/congresosInternacionales
 import AFICATDiana from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT/AFICATDiana.jpg";
 import AFICATImanol from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT/AFICATImanol.jpg";
 import AFICATIsaid from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT/AFICATIsaid.jpg";
-import portadaCTVRoma from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/portadaCTVRoma.jpg";
+import portadaCTVRoma from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/portadaCTV15Roma.jpg";
 import CTVRoma from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVRoma.jpg";
 import CTVMir from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVMir.jpg";
 import CTVDen from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVDen.jpg";
@@ -28,7 +28,7 @@ import sinfoto from "../../assets/nucleoacademico/sinfoto.png";
 const datosCongresos = [
   {
     image: logoAFICAT2025,
-    name: "AFICAT 2025",
+    name: "IV AFICAT 2025",
     semblanza:
       "Participación de la Maestría en Ciencias de la Ingeniería (MCI) del TecNM Campus Chilpancingo en el IV Congreso Nacional AFICAT (13 y 14 de noviembre de 2025).\n\n" +
       "Maestrantes participantes: Diana D. Vázquez Martínez, Imanol M. Cuahuitic e Isaid Basilio Segovia.",

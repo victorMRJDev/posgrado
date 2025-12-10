@@ -10,6 +10,8 @@ const CardsGrid = ({ data }) => {
           image={item.image}
           name={item.name}
           semblanza={item.semblanza}
+          tiempo={item.tiempo}
+          images={item.images} // <- opcional, solo algunos items lo tendrán
         />
       ))}
     </div>

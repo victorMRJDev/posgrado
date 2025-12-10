@@ -1,9 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import { HiOutlineX } from "react-icons/hi";
 import ButtonBlue from "../Buttons/ButtonBlue";
+import ImageGallery from "../Multimedia/ImageGallery";
 
-const CardModal = ({ image, name, semblanza, closeModal }) => {
+const CardModal = ({ image, name, semblanza, closeModal, images }) => {
   const modalRef = useRef(null);
+
+  // Si nos pasan un arreglo de imágenes válido, lo usamos en la galería
+  const galleryImages =
+    images && Array.isArray(images) && images.length > 0 ? images : null;
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
@@ -44,6 +49,7 @@ const CardModal = ({ image, name, semblanza, closeModal }) => {
           <HiOutlineX size={32} color="#001A5F" />
         </button>
 
+        {/* Columna izquierda: imagen única o galería */}
         <div className="flex flex-col lg:w-1/3 lg:items-center lg:justify-center">
           <p
             id="modal-title"
@@ -51,15 +57,20 @@ const CardModal = ({ image, name, semblanza, closeModal }) => {
           >
             {name}
           </p>
-          <div className="flex justify-center mb-4 lg:mb-0">
-            <img
-              src={image}
-              alt={name}
-              className="rounded-lg object-cover w-72 h-72 max-md:w-48 max-md:h-48 max-lg:w-64 max-lg:h-64"
-            />
+          <div className="flex justify-center mb-4 lg:mb-0 w-full">
+            {galleryImages ? (
+              <ImageGallery images={galleryImages} />
+            ) : (
+              <img
+                src={image}
+                alt={name}
+                className="rounded-lg object-cover w-72 h-72 max-md:w-48 max-md:h-48 max-lg:w-64 max-lg:h-64"
+              />
+            )}
           </div>
         </div>
 
+        {/* Columna derecha: texto */}
         <div className="flex flex-col lg:w-2/3 lg:justify-center">
           <p
             id="modal-title"

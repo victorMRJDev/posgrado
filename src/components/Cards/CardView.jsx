@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "./CardModal";
 
-const CardView = ({ image, name, semblanza, tiempo }) => {
+const CardView = ({ image, name, semblanza, tiempo, images }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -38,6 +38,7 @@ const CardView = ({ image, name, semblanza, tiempo }) => {
           name={name}
           semblanza={semblanza}
           closeModal={closeModal}
+          images={images} // <- opcional, solo se usa si existe
         />
       )}
     </>

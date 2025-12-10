@@ -6,9 +6,17 @@ import ImageGallery from "../Multimedia/ImageGallery";
 const CardModal = ({ image, name, semblanza, closeModal, images }) => {
   const modalRef = useRef(null);
 
-  // Si nos pasan un arreglo de imágenes válido, lo usamos en la galería
   const galleryImages =
     images && Array.isArray(images) && images.length > 0 ? images : null;
+
+  // Clases distintas según haya galería o no
+  const leftColumnClass =
+    "flex flex-col lg:items-center lg:justify-center " +
+    (galleryImages ? "lg:w-1/2" : "lg:w-1/3");
+
+  const rightColumnClass =
+    "flex flex-col lg:justify-center " +
+    (galleryImages ? "lg:w-1/2" : "lg:w-2/3");
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
@@ -49,8 +57,8 @@ const CardModal = ({ image, name, semblanza, closeModal, images }) => {
           <HiOutlineX size={32} color="#001A5F" />
         </button>
 
-        {/* Columna izquierda: imagen única o galería */}
-        <div className="flex flex-col lg:w-1/3 lg:items-center lg:justify-center">
+        {/* Columna izquierda: ahora más ancha cuando hay galería */}
+        <div className={leftColumnClass}>
           <p
             id="modal-title"
             className="text-3xl font-sans font-semibold text-blue-950 text-center mb-4 hidden max-lg:block"
@@ -70,8 +78,8 @@ const CardModal = ({ image, name, semblanza, closeModal, images }) => {
           </div>
         </div>
 
-        {/* Columna derecha: texto */}
-        <div className="flex flex-col lg:w-2/3 lg:justify-center">
+        {/* Columna derecha: un poco más angosta cuando hay galería */}
+        <div className={rightColumnClass}>
           <p
             id="modal-title"
             className="text-3xl font-sans font-semibold text-blue-950 text-center mb-4 block max-lg:hidden"

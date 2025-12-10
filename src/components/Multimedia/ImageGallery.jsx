@@ -1,60 +1,60 @@
+// src/components/Multimedia/ImageGallery.jsx
 import React, { useState } from "react";
 
-function ImageGallery(props) {
-  const images = props.images || [];
+const ImageGallery = ({ images = [] }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Si no hay imágenes, no mostramos nada
   if (!images || images.length === 0) {
     return null;
   }
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const handleThumbnailClick = function (index) {
+  const handleThumbClick = (index) => {
     setCurrentIndex(index);
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full flex flex-col items-center">
       {/* Imagen grande */}
-      <div className="w-full aspect-video rounded-2xl overflow-hidden border border-gray-300">
+      <div className="w-full max-w-xl mb-4">
         <img
           src={images[currentIndex]}
-          alt={"imagen-" + (currentIndex + 1)}
-          className="w-full h-full object-cover"
+          alt={`Imagen ${currentIndex + 1}`}
+          className="
+            w-11/12
+            h-70 md:h-86 lg:h-[20rem]
+            object-cover
+            rounded-xl
+            shadow-md
+          "
         />
       </div>
 
       {/* Miniaturas */}
-      <div className="flex flex-wrap gap-2 mt-3">
-        {images.map(function (img, index) {
-          var isActive = index === currentIndex;
-
-          return (
-            <button
-              key={index}
-              type="button"
-              onClick={function () {
-                handleThumbnailClick(index);
-              }}
-              className={
-                "w-16 h-16 border rounded-md overflow-hidden flex-shrink-0 " +
-                (isActive
-                  ? "ring-2 ring-indigo-500 border-indigo-500"
-                  : "border-gray-300")
-              }
-            >
-              <img
-                src={img}
-                alt={"miniatura-" + (index + 1)}
-                className="w-full h-full object-cover"
-              />
-            </button>
-          );
-        })}
+      <div className="flex flex-wrap gap-3 justify-start">
+        {images.map((imgSrc, index) => (
+          <button
+            key={index}
+            type="button"
+            onClick={() => handleThumbClick(index)}
+            className={`
+              border-2 rounded-lg overflow-hidden
+              ${index === currentIndex ? "border-blue-700" : "border-transparent"}
+            `}
+          >
+            <img
+              src={imgSrc}
+              alt={`Miniatura ${index + 1}`}
+              className="
+                w-10 h-10
+                md:w-15 md:h-15
+                object-cover
+              "
+            />
+          </button>
+        ))}
       </div>
     </div>
   );
-}
+};
 
 export default ImageGallery;

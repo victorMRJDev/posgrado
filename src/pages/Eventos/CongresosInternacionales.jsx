@@ -7,28 +7,38 @@ import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
 
 // Imágenes de congresos internacionales
-import AFICAT202501 from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT202501.jpg";
-import AFICAT202502 from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT202502.jpg";
-import logoAFICAT2025 from "../../assets/FOTOS MAESTRIA/congresosInternacionales/logoAFICAT2025.png";
-import portadaCTVRoma from "../../assets/FOTOS MAESTRIA/congresosInternacionales/portadaCTVRoma.jpg";
+import AFICAT202501 from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT/AFICAT202501.jpg";
+import AFICAT202502 from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT/AFICAT202502.jpg";
+import logoAFICAT2025 from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT/logoAFICAT2025.png";
+import AFICATDiana from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT/AFICATDiana.jpg";
+import AFICATImanol from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT/AFICATImanol.jpg";
+import AFICATIsaid from "../../assets/FOTOS MAESTRIA/congresosInternacionales/AFICAT/AFICATIsaid.jpg";
+import portadaCTVRoma from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/portadaCTVRoma.jpg";
+import CTVRoma from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVRoma.jpg";
+import CTVMir from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVMir.jpg";
+import CTVDen from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVDen.jpg";
+import CTVMar from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVMario.jpg";
+import CTVLiss from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVLiss.jpg";
+
+
 
 // Placeholder genérico
 import sinfoto from "../../assets/nucleoacademico/sinfoto.png";
 
 const datosCongresos = [
   {
-    image: AFICAT202501,
+    image: logoAFICAT2025,
     name: "AFICAT 2025",
     semblanza:
       "Participación de la Maestría en Ciencias de la Ingeniería (MCI) del TecNM Campus Chilpancingo en el IV Congreso Nacional AFICAT (13 y 14 de noviembre de 2025).\n\n" +
       "Maestrantes participantes: Diana D. Vázquez Martínez, Imanol M. Cuahuitic e Isaid Basilio Segovia.",
-    images: [AFICAT202501, AFICAT202502, logoAFICAT2025],
+    images: [AFICAT202502, AFICATDiana, AFICATImanol, AFICATIsaid],
   },
   {
     image: portadaCTVRoma,
-    name: "CTV ROME 2025",
-    semblanza: "Congreso internacional CTV ROME 2025.",
-    images: [portadaCTVRoma],
+    name: "15° CTV Roma 2025",
+    semblanza: "Participación de la Maestría en Ciencias de la Ingeniería (MCI) del TECNM campus Chilpancingo en el 15° CTV Roma 2025 (Tecnm Sapienza Università di Roma). Los maestrantes ponentes fueron Denisse Peralta Rojo, Lisandro Santos Arrieta y Mario Alberto Duque. La Dra. Mirna Castro Bello, Jefa de la División de Estudios de Posgrado e Investigación, también presentó la ponencia: 'Irregularidades y tendencias de series temporales de precipitaciones: caso municipio de Chilpancingo, Gro, México'.",
+    images: [CTVRoma, CTVMir, CTVDen, CTVMar, CTVLiss],
   },
   {
     image: sinfoto,

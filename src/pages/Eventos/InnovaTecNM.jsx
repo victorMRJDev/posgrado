@@ -5,10 +5,15 @@ import Parrafo from "../../components/Secciones/Parrafo";
 import TopBar from "../../components/TopBar/TopBar";
 import Contenido from "../../components/Secciones/Contenido";
 import NavBarGob from "../../components/TopBar/NavBarGob";
-import LogoInnova25 from "../../assets/FOTOS MAESTRIA/congresosNacionales/InnovaTecNM/logoInnovaTecNM.jpg";
+import LogoInnova25 from "../../assets/FOTOS MAESTRIA/congresosNacionales/InnovaTecNM/Cumbre2025/logoInnovaTecNM25.jpg";
+import LogoInnova24 from "../../assets/FOTOS MAESTRIA/congresosNacionales/InnovaTecNM/Cumbre2024/logoInnovaTecNM24.jpg";
 import AgroSensIA from "../../assets/FOTOS MAESTRIA/congresosNacionales/InnovaTecNM/Cumbre2025/agrosensia.jpeg";
 import DiabeticScan from "../../assets/FOTOS MAESTRIA/congresosNacionales/InnovaTecNM/Cumbre2025/diabeticscan.jpeg";
 import SmartBinCollector from "../../assets/FOTOS MAESTRIA/congresosNacionales/InnovaTecNM/Cumbre2025/smartbin.jpeg";
+import innova2401 from "../../assets/FOTOS MAESTRIA/congresosNacionales/InnovaTecNM/Cumbre2024/innova2401.jpg";
+import innova2402 from "../../assets/FOTOS MAESTRIA/congresosNacionales/InnovaTecNM/Cumbre2024/innova2402.jpg";
+import innova2403 from "../../assets/FOTOS MAESTRIA/congresosNacionales/InnovaTecNM/Cumbre2024/innova2403.jpg";
+
 
 // Imagen genérica de placeholder
 import sinfoto from "../../assets/nucleoacademico/sinfoto.png";
@@ -22,10 +27,11 @@ const datosInnovaTec = [
     images: [AgroSensIA, DiabeticScan, SmartBinCollector],
   },
   {
-    image: LogoInnova25,
+    image: LogoInnova24,
     name: "InnovaTecNM 2024",
     semblanza:
-      "Proyectos y materiales presentados en InnovaTecNM 2024.",
+      "Participación del equipo de la Maestría en Ciencias de la Ingeniería (MCI) del TECNM campus Chilpancingo en la Cumbre Nacional de Desarrollo Tecnológico e Innovación, celebrada en el Instituto Tecnológico de Colima del 19 al 22 de noviembre.",
+    images: [innova2401, innova2402, innova2403],
   },
 ];
 

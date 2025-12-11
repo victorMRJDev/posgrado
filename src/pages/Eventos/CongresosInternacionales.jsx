@@ -19,9 +19,11 @@ import CTVMir from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTV
 import CTVDen from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVDen.jpg";
 import CTVMar from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVMario.jpg";
 import CTVLiss from "../../assets/FOTOS MAESTRIA/congresosInternacionales/CTV/CTVLiss.jpg";
-
-
-
+import COLCAMir from "../../assets/FOTOS MAESTRIA/congresosInternacionales/COLCA/colca2401.jpg";
+import COLCADon from "../../assets/FOTOS MAESTRIA/congresosInternacionales/COLCA/colca2402.jpg";
+import COLCALis from "../../assets/FOTOS MAESTRIA/congresosInternacionales/COLCA/colca2403.jpg";
+import COLCAVic from "../../assets/FOTOS MAESTRIA/congresosInternacionales/COLCA/colca2404.jpg";
+import COLCALogo from "../../assets/FOTOS MAESTRIA/congresosInternacionales/COLCA/logoColca.jpg";
 // Placeholder genérico
 import sinfoto from "../../assets/nucleoacademico/sinfoto.png";
 
@@ -41,11 +43,11 @@ const datosCongresos = [
     images: [CTVRoma, CTVMir, CTVDen, CTVMar, CTVLiss],
   },
   {
-    image: sinfoto,
-    name: "RedCoLCA 2024",
-    semblanza: "Encuentro internacional RedCoLCA 2024.",
+    image: COLCALogo,
+    name: "V COLCA 2024",
+    semblanza: "Participación de la Maestría en Ciencias de la Ingeniería (MCI) del TECNM campus Chilpancingo en el Congreso Latinoamericano de Conflictos Ambientales, celebrado en Manaus, Brasil, del 21 al 25 de octubre. La delegación estuvo encabezada por la Dra. Mirna Castro Bello, junto a los maestrantes Lizbeth Gómez Muñoz, Víctor Romero Juárez y Dominic Román Padillan.",
     // aquí podrías agregar más imágenes si las tienes:
-    // images: [img1, img2, ...]
+    images: [COLCAMir, COLCADon, COLCALis, COLCAVic],
   },
 ];
 

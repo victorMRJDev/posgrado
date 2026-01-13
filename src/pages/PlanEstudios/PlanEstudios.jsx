@@ -50,7 +50,7 @@ const semestreCuatro = [
 const optativasL1 = [
   {
     id: 1,
-    title: "LIES 1: Nuevas Tecnologías para el Desarrollo Sustentable",
+    title: "Línea de Investigación e Incidencia Social I: Nuevas Tecnologías para el Desarrollo Sustentable",
     materias: [
       "Estrategias para la competitividad",
       "Análisis y Diseño de Producto",
@@ -71,7 +71,7 @@ const optativasL2 = [
   {
     id: 2,
     title:
-      "LIES 2: Investigación, Desarrollo y Aplicaciones de Tecnologías Inteligentes",
+      "Línea de Investigación e Incidencia Social II: Investigación, Desarrollo y Aplicaciones de Tecnologías Inteligentes",
     materias: [
       "Minería de datos",
       "Control inteligente",
@@ -136,12 +136,12 @@ const PlanEstudios = () => {
           conMargenSuperior={false}
         ></SeccionParrafo>
         <PlanesAccordion
-          title={"LIES 1: Nuevas Tecnologías para el Desarrollo Sustentable"}
+          title={"Línea de Investigación e Incidencia Social I: Nuevas Tecnologías para el Desarrollo Sustentable"}
           list={optativasL1}
         />
         <PlanesAccordion
           title={
-            "LIES 2: Investigación, Desarrollo y Aplicaciones de Tecnologías Inteligentes"
+            "Línea de Investigación e Incidencia Social II: Investigación, Desarrollo y Aplicaciones de Tecnologías Inteligentes"
           }
           list={optativasL2}
         />

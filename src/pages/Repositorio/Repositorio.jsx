@@ -12,6 +12,7 @@ import DBRP from "../../assets/articleIndizados/DBRP.pdf";
 import VMRJ from "../../assets/articleIndizados/VMRJ.pdf";
 import VMRJ_DC from "../../assets/articleIndizados/VMRJ-DC.pdf";
 import MIRA_DC from "../../assets/articleIndizados/MIRA_DC.pdf";
+import DDVM from "../../assets/articleIndizados/DDVM.pdf";
 
 //PORTADA ARTICULOS INDIZADOS
 import LGM_portada from "../../assets/articleIndizados/LGM_portada.png";
@@ -21,6 +22,7 @@ import DBRP_portada_article from "../../assets/articleIndizados/DBRP.png";
 import VMRJ_portada_article from "../../assets/articleIndizados/VMRJ.png";
 import VMRJ_portada_article_dilemas from "../../assets/articleIndizados/VMRJ-DC.png";
 import MIRA_portada_article_dilemas from "../../assets/articleIndizados/MIRA_DC.png";
+import DDVM_portada_article from "../../assets/articleIndizados/DDVM.png";
 
 //ARTICULOS DE CONGRESO
 import ACM_congreso from "../../assets/articleCongreso/ACM.pdf";
@@ -83,6 +85,7 @@ const Repositorio = () => {
     <CardPdf key={6} pdf={VMRJ_DC} image={VMRJ_portada_article_dilemas} />,
     <CardPdf key={7} pdf={MIRA_DC} image={MIRA_portada_article_dilemas} />,
     <CardPdf key={8} pdf={"https://link.springer.com/chapter/10.1007/978-3-031-77290-0_10"} image={JARV_portcongreso} />,
+    <CardPdf key={9} pdf={"https://doi.org/10.3390/conservation6010008"} image={DDVM_portada_article} />,
   ];
 
   const bookchapter = [

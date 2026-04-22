@@ -74,6 +74,7 @@ import tesisliz from "../../assets/Tesis/TesisLiz.png";
 import tesisvictor from "../../assets/Tesis/TesisVictor.png";
 import tesisdominic from "../../assets/Tesis/TesisDominic.png";
 import tesisisabel from "../../assets/Tesis/TesisIsabel.png";
+import tesisdiana from "../../assets/Tesis/TesisDiana.png";
 
 const Repositorio = () => {
   const cardsJCR = [
@@ -212,6 +213,12 @@ const Repositorio = () => {
       pdf={"https://rinacional.tecnm.mx/jspui/handle/TecNM/10923"}
       image={tesisisabel}
     />,
+    <CardPdf
+      // title="Environmental monitoring system between two sensor nodes with 9km link"
+      // content={["Eumir Esteban Salgado Lampart"]}
+      pdf={"https://rinacional.tecnm.mx/handle/TecNM/12389"}
+      image={tesisdiana}
+      />,
   ];
 
   return (

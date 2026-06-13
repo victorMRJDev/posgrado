@@ -23,6 +23,7 @@ import VMRJ_portada_article from "../../assets/articleIndizados/VMRJ.png";
 import VMRJ_portada_article_dilemas from "../../assets/articleIndizados/VMRJ-DC.png";
 import MIRA_portada_article_dilemas from "../../assets/articleIndizados/MIRA_DC.png";
 import DDVM_portada_article from "../../assets/articleIndizados/DDVM.png";
+import DPR_portada_article from "../../assets/articleIndizados/DPR_portada.png";
 
 //ARTICULOS DE CONGRESO
 import ACM_congreso from "../../assets/articleCongreso/ACM.pdf";
@@ -87,6 +88,7 @@ const Repositorio = () => {
     <CardPdf key={7} pdf={MIRA_DC} image={MIRA_portada_article_dilemas} />,
     <CardPdf key={8} pdf={"https://link.springer.com/chapter/10.1007/978-3-031-77290-0_10"} image={JARV_portcongreso} />,
     <CardPdf key={9} pdf={"https://doi.org/10.3390/conservation6010008"} image={DDVM_portada_article} />,
+    <CardPdf key={10} pdf={"https://www.mdpi.com/2076-3298/13/4/222"} image={DPR_portada_article} />,
   ];
 
   const bookchapter = [
